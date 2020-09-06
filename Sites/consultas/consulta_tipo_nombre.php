@@ -9,7 +9,7 @@
 	$tipo = $_POST["tipo_elegido"];
 	$nombre = $_POST["nombre_pokemon"];
 
- 	$query = "SELECT pid,nombre, tipo FROM pokemones WHERE tipo LIKE '%$tipo%' AND nombre LIKE '%$nombre%';";
+ 	$query = "SELECT id,nombre, tipo FROM pokemones WHERE tipo LIKE '%$tipo%' AND nombre LIKE '%$nombre%';";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$pokemones = $result -> fetchAll();
