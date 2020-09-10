@@ -7,23 +7,22 @@
   require("../config/conexion.php");
 
 	$tipo = $_POST["tipo_elegido"];
-	$nombre = $_POST["nombre_pokemon"];
+	$nombre = $_POST["nombre_naviera"];
 
  	$query = "SELECT nombre, pais FROM navieras WHERE pais LIKE '%$pais%' AND nombre LIKE '%$nombre%';";
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$pokemones = $result -> fetchAll();
+	$navieras = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Tipo</th>
+      <th>NOMBRE</th>
+      <th>PAIS</th>
     </tr>
   <?php
-	foreach ($pokemones as $pokemon) {
-  		echo "<tr> <td>$pokemon[0]</td> <td>$pokemon[1]</td> <td>$pokemon[2]</td> </tr>";
+	foreach ($navieras as $naviera) {
+  		echo "<tr> <td>$naviera[0]</td> <td>$naviera[1]</td> </tr>";
 	}
   ?>
 	</table>
