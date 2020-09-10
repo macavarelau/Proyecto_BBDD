@@ -6,10 +6,10 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-	$tipo = $_POST["tipo_elegido"];
+	$país = $_POST["tipo_elegido"];
 	$nombre = $_POST["nombre_naviera"];
 
- 	$query = "SELECT nombre, pais FROM navieras WHERE pais LIKE '%$pais%' AND nombre LIKE '%$nombre%';";
+ 	$query = "SELECT nombre, país FROM navieras WHERE país LIKE '%$país%' AND nombre LIKE '%$nombre%';";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$navieras = $result -> fetchAll();
@@ -18,7 +18,7 @@
 	<table>
     <tr>
       <th>NOMBRE</th>
-      <th>PAIS</th>
+      <th>PAÍS</th>
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
