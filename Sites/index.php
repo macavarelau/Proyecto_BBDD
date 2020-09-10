@@ -13,7 +13,7 @@
     <input type="text" name="tipo_elegido">
     <br/>
     Nombre:
-    <input type="text" name="nombre_pokemon">
+    <input type="text" name="nombre_naviera">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
