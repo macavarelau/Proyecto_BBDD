@@ -1,6 +1,6 @@
-with open('buques.csv','r') as buques_file:
+with open('buques.csv', 'r', encoding='utf-8') as buques_file:
     lista_buques = buques_file.readlines()
-    #print(lista_buques)
+    print(lista_buques)
 
 nueva_lisat_buques = []
 
@@ -8,8 +8,53 @@ for linea in lista_buques:
     linea = linea.strip('\n')
     campos = linea.split(',')
     nueva_lisat_buques.append(campos)
+    
+# hacemos la lista de personal priomero
+lista_capitanes = []
 
-with open('solo_buques.csv', 'w') as nbf:
+for instanica in nueva_lisat_buques:
+    lista_capitanes.append(instanica[9])
+
+
+with open('personal_buque.csv', 'r', encoding='utf-8') as pb_file:
+    lista_personal = pb_file.readlines()
+
+nueva_lisat_personal = []
+
+for linea in lista_personal:
+    linea = linea.strip('\n')
+    campos = linea.split(',')
+    nueva_lisat_personal.append(campos)
+
+dict_n_personal = {}
+
+with open('nuevo_personal.csv', 'w', encoding='utf-8') as np:
+    for instanica in nueva_lisat_personal:
+        np.write(instanica[0])
+        np.write(',')
+        np.write(instanica[1])
+        np.write(',')
+        np.write(instanica[4])
+        np.write(',')
+        if instanica[0] in lista_capitanes:
+            np.write('capitan')
+        else:
+            np.write('marinero')
+        np.write(',')
+        np.write(instanica[5])
+        np.write(',')
+        np.write(instanica[2])
+        np.write(',')
+        np.write(instanica[3])
+        np.write('\n')
+
+        if instanica[6] in dict_n_personal.keys():
+            dict_n_personal[instanica[6]] += 1
+        else:
+            dict_n_personal[instanica[6]] = 1
+
+
+with open('solo_buques.csv', 'w', encoding='utf-8') as nbf:
     for instanica in nueva_lisat_buques:
         nbf.write(instanica[0])
         nbf.write(',')
@@ -20,14 +65,17 @@ with open('solo_buques.csv', 'w') as nbf:
         nbf.write(instanica[3])
         nbf.write(',')
         nbf.write(instanica[4])
+        nbf.write(',')
+        nbf.write(str(dict_n_personal[instanica[6]]))
         nbf.write('\n')
+
 
 lista_nombres = []
 dict_nombres = {}
 
 contador = -1
 
-with open('solo_navieras.csv', 'w') as sn:
+with open('solo_navieras.csv', 'w', encoding='utf-8') as sn:
     for instanica in nueva_lisat_buques:
         #if not nueva_lisat_buques.index(instanica) == 0:
         if not instanica[10] in lista_nombres:
@@ -43,14 +91,14 @@ with open('solo_navieras.csv', 'w') as sn:
             sn.write(instanica[12])
             sn.write('\n')
 
-with open('posee.csv', 'w') as posee:
+with open('posee.csv', 'w', encoding='utf-8') as posee:
     for instanica in nueva_lisat_buques:
         posee.write(instanica[0])
         posee.write(',')
         posee.write(dict_nombres[instanica[10]])
         posee.write('\n')
     
-with open ('pesqueros.csv', 'w') as psq:
+with open ('pesqueros.csv', 'w', encoding='utf-8') as psq:
     for instanica in nueva_lisat_buques:
         if instanica[4] == 'pesquero' or instanica[4] == 'tipo':
             psq.write(instanica[0])
@@ -59,7 +107,7 @@ with open ('pesqueros.csv', 'w') as psq:
             psq.write('\n')
 
 
-with open ('petroleros.csv', 'w') as pet:
+with open ('petroleros.csv', 'w', encoding='utf-8') as pet:
     for instanica in nueva_lisat_buques:
         if instanica[4] == 'petrolero' or instanica[4] == 'tipo':
             pet.write(instanica[0])
@@ -67,7 +115,7 @@ with open ('petroleros.csv', 'w') as pet:
             pet.write(instanica[8])
             pet.write('\n')
 
-with open ('cargueros.csv', 'w') as car:
+with open ('cargueros.csv', 'w', encoding='utf-8') as car:
     for instanica in nueva_lisat_buques:
         if instanica[4] == 'carga' or instanica[4] == 'tipo':
             car.write(instanica[0])
@@ -77,43 +125,8 @@ with open ('cargueros.csv', 'w') as car:
             car.write(instanica[7])
             car.write('\n')
 
-lista_capitanes = []
 
-for instanica in nueva_lisat_buques:
-    lista_capitanes.append(instanica[9])
-
-
-with open('personal_buque.csv', 'r') as pb_file:
-    lista_personal = pb_file.readlines()
-
-nueva_lisat_personal = []
-
-for linea in lista_personal:
-    linea = linea.strip('\n')
-    campos = linea.split(',')
-    nueva_lisat_personal.append(campos)
-
-with open('nuevo_personal.csv', 'w') as np:
-    for instanica in nueva_lisat_personal:
-        np.write(instanica[0])
-        np.write(',')
-        np.write(instanica[1])
-        np.write(',')
-        np.write(instanica[4])
-        np.write(',')
-        if instanica[0] in lista_capitanes:
-            np.write('capitán')
-        else:
-            np.write('marinero')
-        np.write(',')
-        np.write(instanica[5])
-        np.write(',')
-        np.write(instanica[2])
-        np.write(',')
-        np.write(instanica[3])
-        np.write('\n')
-
-with open('tiene.csv', 'w') as tiene:
+with open('tiene.csv', 'w', encoding='utf-8') as tiene:
     for instanica in nueva_lisat_personal:
         tiene.write(instanica[6])
         tiene.write(',')
@@ -121,8 +134,7 @@ with open('tiene.csv', 'w') as tiene:
         tiene.write('\n')
 
 
-
-with open('itinerarios.csv', 'r') as it_file:
+with open('itinerarios.csv', 'r', encoding='utf-8') as it_file:
     lit = it_file.readlines()
 
 nlit = []
@@ -137,7 +149,7 @@ dict_puertos = {}
 
 contador = -1
 
-with open('puertos.csv', 'w') as pts:
+with open('puertos.csv', 'w', encoding='utf-8') as pts:
     for instanica in nlit:
         if not instanica[3] in dict_puertos.keys():
             dict_puertos[instanica[3]] = str(contador)
@@ -148,7 +160,7 @@ with open('puertos.csv', 'w') as pts:
             pts.write('\n')
 
 
-with open('atraques.csv', 'w') as atr:
+with open('atraques.csv', 'w', encoding='utf-8') as atr:
     for instanica in nlit:
         if instanica[1]:
             atr.write(instanica[2])
@@ -161,7 +173,7 @@ with open('atraques.csv', 'w') as atr:
             atr.write('\n')
 
 
-with open('prox_itinerario.csv', 'w') as prx:
+with open('prox_itinerario.csv', 'w', encoding='utf-8') as prx:
     for instanica in nlit:
         if not instanica[1] or instanica[1] == 'fecha_salida':
             prx.write(instanica[2])
