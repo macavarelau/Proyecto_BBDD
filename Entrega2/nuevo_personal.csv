@@ -6,10 +6,10 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 4,Alicia Cristal Ocasio Ramirez,42,marinero,mujer,SALVADOREÑA,L37265580
 5,Rosario Arce Montaño,34,marinero,hombre,GUYANESA,F96333768
 6,Flavio Aguirre,44,marinero,mujer,YUGOSLAVA,G86572171
-7,Cristal Gaona Vazquez,60,capitán,hombre,LIBIA,E99654323
-8,Itzel Madrid Tello,89,capitán,mujer,BIRMANA,O26876875
+7,Cristal Gaona Vazquez,60,capitan,hombre,LIBIA,E99654323
+8,Itzel Madrid Tello,89,capitan,mujer,BIRMANA,O26876875
 9,Nancy Perales,19,marinero,hombre,GUINEA,E21346302
-10,Eugenio Villanueva,23,capitán,mujer,TURCA,I59647599
+10,Eugenio Villanueva,23,capitan,mujer,TURCA,I59647599
 11,Jose Maria Varela,46,marinero,hombre,GAMBIANA,S86623127
 12,Ignacio Almanza Velasquez,22,marinero,mujer,SINGAPORENSE,W43342581
 13,Lourdes Mendez,87,marinero,mujer,TANZANIANA,O49324787
@@ -18,19 +18,19 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 16,Horacio Graciela Quesada,70,marinero,mujer,ZAMBIANA,H93386941
 17,Sofia Monica Mayorga,69,marinero,hombre,SOVIETICA UCRANIANA,W70014015
 18,Carla Jaramillo Garibay,68,marinero,hombre,SUDAFRICANA,U56669457
-19,Estela Marroquin Ortiz,98,capitán,mujer,ALEMANA,F44457948
+19,Estela Marroquin Ortiz,98,capitan,mujer,ALEMANA,F44457948
 20,Ilse Alejandra Bustos,54,marinero,mujer,NIGERINA,O42187583
 21,Minerva Barrios Concepcion,68,marinero,mujer,AUSTRALIANA,E20392152
 22,Elisa Cortez,73,marinero,mujer,ISRAELI,G85401525
-23,Juan Carlos Uriel Romero,38,capitán,hombre,BURKINA FASO,F54286063
+23,Juan Carlos Uriel Romero,38,capitan,hombre,BURKINA FASO,F54286063
 24,Ariadna Gaona Ledesma,93,marinero,hombre,TUNECINA,L20402492
 25,Susana Caldera,74,marinero,mujer,GUINEA,Y67957951
 26,Estefania Ocampo Raya,41,marinero,mujer,ZAMBIANA,T64786536
 27,Augusto Carlos Gallardo,31,marinero,mujer,INDONESA,L16315884
 28,Jose Luis Karla Valverde,26,marinero,hombre,KIRGUISTAN,A41577310
 29,Maria Jose Perales,96,marinero,mujer,ISRAELI,I91362274
-30,Ofelia Navarro Davila,68,capitán,hombre,BHUTANESA,Z44372972
-31,Lucia Palomo Olivera,35,capitán,hombre,NAMIBIANA,J50508589
+30,Ofelia Navarro Davila,68,capitan,hombre,BHUTANESA,Z44372972
+31,Lucia Palomo Olivera,35,capitan,hombre,NAMIBIANA,J50508589
 32,Emilio Asuncion Luevano,91,marinero,mujer,LIBANESA,K52943396
 33,Soledad Beltran,47,marinero,hombre,PORTUGUESA,L81362177
 34,Dulce Omar Rivas,67,marinero,mujer,GUINEA,O65003049
@@ -46,7 +46,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 44,Victoria Jorge Arredondo Madrigal,28,marinero,mujer,AUSTRIACA,N34722023
 45,Irene Villagomez Velazquez,76,marinero,hombre,CHIPRIOTA,B33581793
 46,Sessa Ordoñez,61,marinero,hombre,COLOMBIANA,I26539190
-47,Ana Noelia Barrios,20,capitán,mujer,KENIANA,Y82472204
+47,Ana Noelia Barrios,20,capitan,mujer,KENIANA,Y82472204
 48,Jesus Henriquez,65,marinero,mujer,SURINAMENSE,W96255468
 49,Sergio Gil,65,marinero,hombre,HAITIANA,Q28903565
 50,Augusto Cordero Jasso,64,marinero,hombre,SWAZI,D12747000
@@ -55,7 +55,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 53,Rosalia Rocio Vazquez Granados,55,marinero,hombre,GUYANESA,Q42575194
 54,Santiago Guillen Esquibel,21,marinero,mujer,BURUNDESA,D26597294
 55,Augusto Margarita Crespo,18,marinero,hombre,SUIZA,S70684322
-56,Modesto Lucero Luna,28,capitán,mujer,ESTONIA,Z12327276
+56,Modesto Lucero Luna,28,capitan,mujer,ESTONIA,Z12327276
 57,Maria del Carmen Rodolfo Blanco Romo,71,marinero,hombre,BOLIVIANA,T55227978
 58,Adan Gilberto Lomeli Escobar,54,marinero,mujer,DE SANTO TOME,Z25809531
 59,Juan Carlos Carvajal Zamora,51,marinero,mujer,TUNECINA,Q79731575
@@ -63,10 +63,10 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 61,Ruben Mora,73,marinero,mujer,PAPUENSE,B52410712
 62,Ana Acevedo Munguia,29,marinero,hombre,MALDIVA,Q17998243
 63,Zeferino Sofia Ortega,60,marinero,mujer,AMERICANA,G70427042
-64,Mateo Claudio Leiva Valle,14,capitán,hombre,ZAMBIANA,P21702655
+64,Mateo Claudio Leiva Valle,14,capitan,hombre,ZAMBIANA,P21702655
 65,Maria Eugenia Robledo Arteaga,56,marinero,mujer,GRANADINA,Z57372798
 66,Jose Manuel Olga Perales,13,marinero,mujer,PAPUENSE,E67387779
-67,Yolanda Blanco,30,capitán,mujer,TRINITARIA,B95281165
+67,Yolanda Blanco,30,capitan,mujer,TRINITARIA,B95281165
 68,Dulce Maria Salvador Escamilla,54,marinero,hombre,PARAGUAYA,H65186003
 69,Ana Mesa,22,marinero,hombre,DE SANTO TOME,S99817979
 70,Genaro Valentin,30,marinero,hombre,SUIZA,Q77360488
@@ -86,11 +86,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 84,Octavio Caballero,94,marinero,mujer,CHILENA,Y28920946
 85,Humberto Carreón,65,marinero,mujer,SIERRA LEONESA,S11772990
 86,Hugo Jose Manuel Aguilera Olvera,21,marinero,hombre,PORTUGUESA,G24272216
-87,Ivonne Montenegro,85,capitán,hombre,NIGERINA,J64594612
+87,Ivonne Montenegro,85,capitan,hombre,NIGERINA,J64594612
 88,Nadia Cedillo,57,marinero,mujer,NAURUANA,D29290177
 89,Elena Estrada,92,marinero,mujer,JORDANA,Y97685445
-90,Laura Ramon,65,capitán,hombre,MALDIVA,M29889337
-91,Rosario Gregorio Godoy Jaimes,77,capitán,mujer,HINDU,V37562483
+90,Laura Ramon,65,capitan,hombre,MALDIVA,M29889337
+91,Rosario Gregorio Godoy Jaimes,77,capitan,mujer,HINDU,V37562483
 92,Susana Miramontes,94,marinero,hombre,AMERICANA,K71932185
 93,Ana Luisa Delgado,33,marinero,hombre,SWAZI,U52204644
 94,Enrique Tamez,78,marinero,mujer,SAN MARINENSE,J23831554
@@ -111,17 +111,17 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 109,Alfredo Salcedo,51,marinero,mujer,LITUANIA ,R33059713
 110,Jaime Vega Colon,53,marinero,mujer,NEPALESA,P91007805
 111,Karla Casares,52,marinero,hombre,AFGANA,B91603747
-112,Liliana Quintero,60,capitán,hombre,DE BAHREIN,W71697646
+112,Liliana Quintero,60,capitan,hombre,DE BAHREIN,W71697646
 113,Natalia Patiño,69,marinero,hombre,LIECHTENSTENSE,M17950737
 114,Wendolin Feliciano,96,marinero,mujer,BIRMANA,N49963802
 115,Pedro Caballero,86,marinero,hombre,URUGUAYA,D12995815
 116,Gustavo Hernandez,37,marinero,mujer,KIRGUISTAN,H72481896
-117,Juan Carlos Abigail Anguiano Adame,44,capitán,mujer,SWAZI,G52881568
+117,Juan Carlos Abigail Anguiano Adame,44,capitan,mujer,SWAZI,G52881568
 118,Ricardo Rocio Acuña,48,marinero,mujer,BRITANICA,Q47868245
 119,Linda Cortes,63,marinero,hombre,LIECHTENSTENSE,Z24413077
 120,Sessa Esther Correa Godonez,83,marinero,mujer,SIRIA,C62873808
 121,Abraham Leiva,63,marinero,hombre,ALEMANA,B35171331
-122,Tomas Solis,31,capitán,mujer,ZAMBIANA,L18340568
+122,Tomas Solis,31,capitan,mujer,ZAMBIANA,L18340568
 123,Maria Eugenia Centeno,61,marinero,mujer,RUMANA,G38342014
 124,Magdalena Corona,12,marinero,mujer,SUDANESA,M98860158
 125,Rufino Aguilera,13,marinero,hombre,BOLIVIANA,Q57744567
@@ -132,7 +132,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 130,Aldonza Irizarry Barragan,37,marinero,mujer,ZAIRANA,C42942785
 131,Amalia Teodoro Cano Almaraz,43,marinero,mujer,HOLANDESA,K14707299
 132,Victor Castro,86,marinero,mujer,URUGUAYA,M85459209
-133,Rosario Rojas Guardado,79,capitán,mujer,IRLANDESA,L72554373
+133,Rosario Rojas Guardado,79,capitan,mujer,IRLANDESA,L72554373
 134,Carlota Evelio Rocha Alfaro,71,marinero,hombre,LIECHTENSTENSE,D69263703
 135,Leonardo Antonia Coronado Quintero,37,marinero,mujer,GABONESA,F62163147
 136,Pascual Cornejo,25,marinero,mujer,SINGAPORENSE,K63693615
@@ -141,12 +141,12 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 139,Noemi Luna,78,marinero,hombre,MONEGASCA,G92774554
 140,Jose Carlos Rocio Delgado,94,marinero,mujer,CANADIENSE,F17391225
 141,Maria Elena Olivo,84,marinero,hombre,LIBANESA,T89668993
-142,Guillermo Figueroa Casanova,98,capitán,mujer,NAURUANA,J29686165
-143,Caridad Alejandro Collado Esquivel,10,capitán,mujer,SUIZA,B41943528
+142,Guillermo Figueroa Casanova,98,capitan,mujer,NAURUANA,J29686165
+143,Caridad Alejandro Collado Esquivel,10,capitan,mujer,SUIZA,B41943528
 144,Federico Zacarias Mejia Burgos,75,marinero,hombre,GUINEA ECUATORIANA,P88267883
 145,Jeronimo Grijalva Garrido,48,marinero,hombre,ETIOPE,G60384149
 146,Amelia Israel del Rio Dominguez,21,marinero,hombre,URUGUAYA,D42345801
-147,Jaime Marisol Madrid,27,capitán,hombre,BRITANICA,U71661520
+147,Jaime Marisol Madrid,27,capitan,hombre,BRITANICA,U71661520
 148,Eloy Valadez Lemus,62,marinero,hombre,MEXICANA,R87923672
 149,Aldo Ulloa Vera,74,marinero,mujer,FINLANDESA,X40670359
 150,Javier Matias,18,marinero,mujer,DOMINICA,Q25618342
@@ -160,14 +160,14 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 158,Ricardo Garay,51,marinero,mujer,MALDIVA,W24746378
 159,Abel Alfredo Vargas,49,marinero,mujer,NORVIETNAMITA,R19808865
 160,Cristian Teodoro Oquendo,94,marinero,hombre,SINGAPORENSE,Z95831595
-161,Sofia Orellana Rosas,70,capitán,mujer,SUECA,V42528064
-162,Leticia Ureña,70,capitán,hombre,SIRIA,T19743718
+161,Sofia Orellana Rosas,70,capitan,mujer,SUECA,V42528064
+162,Leticia Ureña,70,capitan,hombre,SIRIA,T19743718
 163,Isabel Alvarez,84,marinero,mujer,BOTSWANESA,P36703267
 164,Marisol Oquendo,22,marinero,mujer,NIGERIANA,J81992311
 165,Antonia Pacheco,50,marinero,hombre,NICARAGUENSE,C83712317
 166,Jorge Muñiz,48,marinero,mujer,MALDIVA,J86186594
 167,Jose Jose Eduardo Barraza Covarrubias,61,marinero,mujer,MEXICANA,H92061576
-168,Caridad Ceja,12,capitán,hombre,REINO UNIDO,G10013637
+168,Caridad Ceja,12,capitan,hombre,REINO UNIDO,G10013637
 169,Abraham Gurule Menchaca,86,marinero,mujer,MALIENSE,I75861226
 170,Berta Malave Zepeda,53,marinero,hombre,MALASIA,S92011051
 171,Dario Tomas Longoria Linares,65,marinero,hombre,GAMBIANA,X48431659
@@ -176,24 +176,24 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 174,Angela Esperanza Cortez Rosas,67,marinero,hombre,SUECA,T84921359
 175,Julio Cesar Quiñonez Pantoja,52,marinero,hombre,ZAIRANA,M23752681
 176,Alejandro Maria Cristina Esquivel Martinez,58,marinero,mujer,AFGANA,W93531470
-177,Sara Villareal,93,capitán,mujer,TAILANDESA,I45816186
+177,Sara Villareal,93,capitan,mujer,TAILANDESA,I45816186
 178,Hugo Castro,90,marinero,hombre,CUBANA,M45487491
 179,Pablo Gallardo,82,marinero,mujer,MONEGASCA,Z47651097
 180,Marcos Martin Valadez Zambrano,60,marinero,mujer,NORCOREANA,D68973471
 181,Karla Bonilla Otero,63,marinero,hombre,SURINAMENSE,U20635282
 182,Jacobo Indira Mares,19,marinero,mujer,ESTONIA,U44458462
 183,Irene Mora,67,marinero,hombre,ISRAELI,L83116169
-184,Bernardo Raul Niño,78,capitán,mujer,BHUTANESA,G28581662
-185,Minerva Israel Santacruz Sierra,80,capitán,mujer,REINO UNIDO,F36197968
-186,Dolores Hector Mata,66,capitán,mujer,MONGOLESA,F46237407
+184,Bernardo Raul Niño,78,capitan,mujer,BHUTANESA,G28581662
+185,Minerva Israel Santacruz Sierra,80,capitan,mujer,REINO UNIDO,F36197968
+186,Dolores Hector Mata,66,capitan,mujer,MONGOLESA,F46237407
 187,Alicia Espinosa,28,marinero,hombre,ESPAÑOLA,J84936916
 188,Berta Vega,56,marinero,hombre,RUMANA,D98657401
 189,Caridad Sergio Vargas,49,marinero,mujer,MOZAMBIQUEÑA,G80440045
 190,Carlota Archuleta,34,marinero,hombre,SIERRA LEONESA,X74214731
 191,Marisol Montaño Hinojosa,26,marinero,hombre,SOVIETICA UCRANIANA,X55907580
 192,Karla Cotto Reyes,69,marinero,mujer,HINDU,M32819818
-193,Graciela Gilberto Tamayo,12,capitán,mujer,ZAMBIANA,P63907762
-194,Noelia Trujillo,68,capitán,mujer,TANZANIANA,G20824518
+193,Graciela Gilberto Tamayo,12,capitan,mujer,ZAMBIANA,P63907762
+194,Noelia Trujillo,68,capitan,mujer,TANZANIANA,G20824518
 195,Beatriz Montañez Mena,58,marinero,mujer,DOMINICA,Z62341623
 196,Mariano Hinojosa,75,marinero,mujer,BRITANICA,G97447072
 197,Mauricio Ochoa,64,marinero,mujer,PAKISTANI,P41251204
@@ -205,11 +205,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 203,Ursula Terrazas Viera,47,marinero,mujer,BRASILEÑA,Q82427980
 204,Amelia Mayorga,81,marinero,hombre,REINO UNIDO,L95395813
 205,Amanda Pulido,88,marinero,mujer,MALDIVA,M78912406
-206,Reina Adan Baeza Paez,95,capitán,hombre,YEMENI,P61007335
+206,Reina Adan Baeza Paez,95,capitan,hombre,YEMENI,P61007335
 207,Estefania Naranjo Nevarez,68,marinero,hombre,TAIWANESA,F35177147
 208,Ariadna Ferrer,59,marinero,mujer,ARGENTINA,Z73890508
 209,Alejandro Rosario,47,marinero,mujer,NICARAGUENSE,X28190900
-210,Maria Jose Berrios,16,capitán,mujer,VATICANA,A99075356
+210,Maria Jose Berrios,16,capitan,mujer,VATICANA,A99075356
 211,Ignacio Gamboa,58,marinero,mujer,DE CABO VERDE,Y33621652
 212,Elena Octavio Longoria,57,marinero,hombre,CHADIANA,C75435134
 213,Dulce Samuel Altamirano,73,marinero,hombre,DE BAHREIN,H51404851
@@ -220,9 +220,9 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 218,Alvaro Amanda Soto Jaimes,66,marinero,hombre,CANADIENSE,D17470993
 219,Gregorio Aurelio Olivas Solorzano,28,marinero,mujer,PAKISTANI,Y95422526
 220,Norma Calderon,69,marinero,mujer,GRIEGA,G89138616
-221,Cristian Frias,10,capitán,mujer,DE BAHREIN,L53367487
+221,Cristian Frias,10,capitan,mujer,DE BAHREIN,L53367487
 222,Gonzalo Arcelia Vanegas Centeno,72,marinero,hombre,BELICEÑA,I71035953
-223,Maria Eugenia Arroyo,23,capitán,hombre,BELGA,G62088265
+223,Maria Eugenia Arroyo,23,capitan,hombre,BELGA,G62088265
 224,Hector Nadia Concepcion,16,marinero,hombre,LAOSIANA,U50167995
 225,Cornelio Ramos de la Rosa,12,marinero,hombre,GUINEA,G59557597
 226,Silvano Julio Cesar Tamayo,52,marinero,hombre,MALASIA,W86901126
@@ -246,7 +246,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 244,Flavio Becerra,85,marinero,hombre,LIBANESA,N82236050
 245,Reynaldo Porfirio Galvon,59,marinero,mujer,GABONESA,Q62049713
 246,Juan Carlos Bañuelos,18,marinero,mujer,REINO UNIDO(BRIT. DEL EXT.),I39150171
-247,Rocio Itzel Matias,50,capitán,hombre,RUMANA,Z73076598
+247,Rocio Itzel Matias,50,capitan,hombre,RUMANA,Z73076598
 248,Rafael Brito,15,marinero,hombre,BURUNDESA,K98431752
 249,Violeta Eugenia Quiroz Sisneros,20,marinero,hombre,GHANATA,T37699639
 250,Sergio Escamilla Oquendo,87,marinero,hombre,SANTA LUCIENSE,Q99626196
@@ -259,7 +259,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 257,Clara Leticia Orosco,91,marinero,hombre,REINO UNIDO,X82897919
 258,Frida Soria,62,marinero,hombre,NIGERINA,G76754322
 259,Esteban Ruby Calvillo Arroyo,27,marinero,hombre,YEMENI,D20635647
-260,Rufino Velasco,37,capitán,mujer,GUINEA,D41778711
+260,Rufino Velasco,37,capitan,mujer,GUINEA,D41778711
 261,Uriel Concepcion,72,marinero,mujer,JAMAIQUINA,J60837705
 262,Gonzalo Jorge Suarez Caldera,66,marinero,mujer,MOZAMBIQUEÑA,F10864707
 263,Mario Estefania Ybarra Rojo,74,marinero,mujer,TURCA,H28771080
@@ -271,18 +271,18 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 269,Jose Manuel Arturo Caldera,22,marinero,mujer,IRLANDESA,D43567081
 270,German Galvon,57,marinero,hombre,SAMOANA,S67426526
 271,Noemi Ariadna Padron,45,marinero,mujer,GUINEA,T39541124
-272,Ignacio Muñiz,43,capitán,mujer,SAN MARINENSE,F24904237
+272,Ignacio Muñiz,43,capitan,mujer,SAN MARINENSE,F24904237
 273,Nelly Julio Pichardo Jaramillo,16,marinero,mujer,SUDANESA,Y18632801
-274,Julia Valdivia Florez,51,capitán,mujer,PUERTORRIQUEÑA,Q96850129
+274,Julia Valdivia Florez,51,capitan,mujer,PUERTORRIQUEÑA,Q96850129
 275,German Otero Pichardo,53,marinero,hombre,AUSTRIACA,G46186009
 276,Teodoro Zepeda Chavarria,23,marinero,mujer,HUNGARA,N29503541
 277,Eva Cervantes,33,marinero,hombre,HUNGARA,H22271475
 278,Indira Karina de Anda Verduzco,75,marinero,mujer,MALASIA,F33523355
-279,Julio Carrero Esparza,71,capitán,mujer,KUWAITI,M38215478
-280,Angelica Mesa,21,capitán,mujer,DE ZIMBAWI,C86355149
+279,Julio Carrero Esparza,71,capitan,mujer,KUWAITI,M38215478
+280,Angelica Mesa,21,capitan,mujer,DE ZIMBAWI,C86355149
 281,Emilia Delgado,49,marinero,mujer,JAPONESA,Y43005194
 282,Alma Zacarias Sauceda,40,marinero,hombre,SWAZI,Z52180289
-283,Augusto Irene Ceballos,15,capitán,hombre,AUSTRIACA,J15119141
+283,Augusto Irene Ceballos,15,capitan,hombre,AUSTRIACA,J15119141
 284,Nelly Prado Calderon,69,marinero,mujer,ARGELIANA,T94155425
 285,Ricardo Ernesto Salcido Chacan,92,marinero,mujer,SAN MARINENSE,N66626290
 286,Hilda Burgos Rascon,74,marinero,hombre,LAOSIANA,R53180852
@@ -292,11 +292,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 290,Jose Rios Rincon,17,marinero,hombre,MOLDOVIA,L68289534
 291,Paulina Chavez,93,marinero,hombre,MONEGASCA,C42363592
 292,Tomas Olvera,16,marinero,hombre,MOLDOVIA,N20315368
-293,Aida Espinoza,33,capitán,mujer,SALOMONESA,U44621636
+293,Aida Espinoza,33,capitan,mujer,SALOMONESA,U44621636
 294,Florencia Cynthia Lugo Laboy,37,marinero,mujer,CHECOSLOVACA,M66215755
 295,Delia Riojas Lozada,27,marinero,hombre,RUMANA,R31033516
 296,Indira Armenderiz,46,marinero,mujer,TAIWANESA,C17933389
-297,Maximiliano Malave Serrano,41,capitán,hombre,MALAWIANA,F26110704
+297,Maximiliano Malave Serrano,41,capitan,hombre,MALAWIANA,F26110704
 298,Concepcion Jorge Luis Zuñiga,14,marinero,hombre,LAOSIANA,G56771209
 299,Jesus Teron,36,marinero,hombre,MALIENSE,X40190083
 300,Teresa Pedro Arce,39,marinero,hombre,LIBIA,H60880738
@@ -315,10 +315,10 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 313,Cornelio Sessa Lucero Suenz,25,marinero,hombre,NAMIBIANA,N79457372
 314,Karla Garibay Niño,44,marinero,hombre,GUINEA,N53152943
 315,Anel Rios,32,marinero,mujer,SALVADOREÑA,C63337324
-316,Fidel Emiliano Molina,62,capitán,hombre,TOGOLESA,W47775182
-317,Leonor Emilio Sosa,59,capitán,hombre,PARAGUAYA,N95498824
-318,Eduardo Pulido,28,capitán,hombre,FILIPINA,Z62349473
-319,Irma Casillas,73,capitán,hombre,MALAWIANA,U43273299
+316,Fidel Emiliano Molina,62,capitan,hombre,TOGOLESA,W47775182
+317,Leonor Emilio Sosa,59,capitan,hombre,PARAGUAYA,N95498824
+318,Eduardo Pulido,28,capitan,hombre,FILIPINA,Z62349473
+319,Irma Casillas,73,capitan,hombre,MALAWIANA,U43273299
 320,Pascual Miranda,76,marinero,hombre,PAKISTANI,P44811148
 321,Nicolas Camacho,27,marinero,mujer,OMANESA,J47240810
 322,Elena Garrido Juarez,67,marinero,hombre,GRIEGA,P92686343
@@ -329,7 +329,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 327,Mitzy Quiroz Valenzuela,22,marinero,mujer,CUBANA,G82290652
 328,Norma Figueroa Arias,31,marinero,hombre,DE CABO VERDE,A74939030
 329,Bernabe Eugenio Ferrer Reyna,18,marinero,mujer,BURUNDESA,L98220210
-330,Camilo Camilo Bañuelos,17,capitán,mujer,IRANI,C92774826
+330,Camilo Camilo Bañuelos,17,capitan,mujer,IRANI,C92774826
 331,Lorenzo Marcela Maldonado,97,marinero,mujer,RUMANA,N94602558
 332,Mauro Nazario,45,marinero,mujer,KUWAITI,N76835766
 333,Renato Dueñas,68,marinero,hombre,MOZAMBIQUEÑA,J94770262
@@ -339,7 +339,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 337,Maria Luisa Horacio Pelayo Rios,72,marinero,hombre,EGIPCIA,R31518645
 338,Lucas Rolando Rico,37,marinero,hombre,MALTESA,F15670255
 339,Gustavo Jonas Baca,94,marinero,mujer,SIERRA LEONESA,L35747887
-340,Martha Ceja,83,capitán,hombre,YUGOSLAVA,R73647682
+340,Martha Ceja,83,capitan,hombre,YUGOSLAVA,R73647682
 341,Margarita Aldo Ramos,85,marinero,mujer,PAKISTANI,R92652060
 342,Modesto Lozada,68,marinero,mujer,SUDCOREANA,W60431450
 343,Laura Jeronimo Ferrer Salcido,93,marinero,hombre,GRIEGA,H62015947
@@ -352,7 +352,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 350,Amador Eric avalos,58,marinero,hombre,ESLOVAQUIA,C34769382
 351,Juan Rosales,41,marinero,hombre,MOZAMBIQUEÑA,Q11437339
 352,Ofelia Marcela Valles,23,marinero,mujer,ESTADOUNIDENSE,M37790779
-353,Uriel Melgar González,74,capitán,mujer,BIRMANA,I70460685
+353,Uriel Melgar González,74,capitan,mujer,BIRMANA,I70460685
 354,Pedro Irma Marroquin,71,marinero,hombre,SENEGALESA,Z18059834
 355,Anel Ursula Laureano,48,marinero,mujer,BULGARA,S57345242
 356,Aurora Aragon,67,marinero,mujer,BOTSWANESA,R34605865
@@ -364,7 +364,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 362,Martin Muro Escobar,21,marinero,mujer,SURINAMENSE,R90570268
 363,Cynthia Isaac Acuña Almonte,22,marinero,mujer,REINO UNIDO,C98783766
 364,Pedro Casares,40,marinero,hombre,AUSTRIACA,O33503031
-365,Nelly Rosa Quintero,64,capitán,mujer,NIGERINA,U28796448
+365,Nelly Rosa Quintero,64,capitan,mujer,NIGERINA,U28796448
 366,Minerva Casares,16,marinero,mujer,MALASIA,W28672552
 367,Rosa Tello,40,marinero,mujer,KUWAITI,E28434775
 368,Caridad Galindo,83,marinero,hombre,BHUTANESA,M13673150
@@ -373,13 +373,13 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 371,Joaquin Almonte,75,marinero,hombre,ARABE,D74455336
 372,Frida Santiago Valles,79,marinero,mujer,SALOMONESA,Y72017716
 373,Ana Luisa Benitez,61,marinero,mujer,MAURICIANA,N94594644
-374,Mercedes Reyes,94,capitán,hombre,EGIPCIA,H12328752
+374,Mercedes Reyes,94,capitan,hombre,EGIPCIA,H12328752
 375,Renato Giron Valles,80,marinero,mujer,ANGOLESA,J73774918
 376,Alicia Morales,63,marinero,mujer,ISRAELI,O77790451
 377,Marco Antonio Robles,15,marinero,mujer,GHANATA,Q71451810
 378,Nancy Esteban Salgado Ybarra,27,marinero,hombre,DE CABO VERDE,O11517948
-379,Raquel Carreon,23,capitán,mujer,PARAGUAYA,P90466792
-380,Eugenia Esperanza Galarza Mendez,73,capitán,hombre,ETIOPE,O93555640
+379,Raquel Carreon,23,capitan,mujer,PARAGUAYA,P90466792
+380,Eugenia Esperanza Galarza Mendez,73,capitan,hombre,ETIOPE,O93555640
 381,Israel Melendez,48,marinero,hombre,NAMIBIANA,C22706964
 382,Estefania Bermudez,89,marinero,hombre,HUNGARA,P68794723
 383,Daniel Velez Ferrer,79,marinero,hombre,SOVIETICA UCRANIANA,O65264338
@@ -387,27 +387,27 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 385,Josefina Vega,34,marinero,hombre,SURINAMENSE,M30180966
 386,Anel Caballero Ceballos,32,marinero,hombre,NAMIBIANA,J76155106
 387,Angela Karina Mares,90,marinero,hombre,SWAZI,M42318695
-388,Alejandro Montoya,27,capitán,hombre,MALASIA,F50197319
+388,Alejandro Montoya,27,capitan,hombre,MALASIA,F50197319
 389,Elisa Varela,21,marinero,mujer,BOTSWANESA,A58142990
-390,Lorenzo Camilo Quintanilla,10,capitán,mujer,HONDUREÑA,U58822965
+390,Lorenzo Camilo Quintanilla,10,capitan,mujer,HONDUREÑA,U58822965
 391,Gerardo Pulido,51,marinero,hombre,KIRGUISTAN,J56679008
 392,Frida Marrero,12,marinero,hombre,SURINAMENSE,X82993719
 393,Maria Cristina Zavala Rivera,61,marinero,hombre,MOLDOVIA,R18774549
 394,Rosa Barrios,10,marinero,hombre,ISRAELI,Y62780558
 395,Dalia Jeronimo Arevalo Cordova,20,marinero,mujer,COMORENSE,C50709947
 396,Dolores Manuel Castillo Leiva,81,marinero,hombre,AUSTRALIANA,A28842541
-397,Minerva Raya,67,capitán,mujer,DEL QATAR,D18853282
-398,Horacio Alfredo Valle,98,capitán,mujer,MARFILEÑA,O78837046
+397,Minerva Raya,67,capitan,mujer,DEL QATAR,D18853282
+398,Horacio Alfredo Valle,98,capitan,mujer,MARFILEÑA,O78837046
 399,Angela Resendez Castro,76,marinero,hombre,BELGA,C97424828
-400,Karla Nevarez Delgado,91,capitán,hombre,DE BENNIN,P99525371
+400,Karla Nevarez Delgado,91,capitan,hombre,DE BENNIN,P99525371
 401,Aldonza Zoe Terrazas Alonso,13,marinero,mujer,GRANADINA,G72662280
 402,Julio Tallez,22,marinero,mujer,HUNGARA,A51716020
-403,Daniela Trinidad Alvarez Menchaca,31,capitán,hombre,YUGOSLAVA,X64476508
+403,Daniela Trinidad Alvarez Menchaca,31,capitan,hombre,YUGOSLAVA,X64476508
 404,Aurelio Pablo Sanches,72,marinero,mujer,VENEZOLANA,A67760948
 405,Fabiola Luis Manuel Morales Davila,39,marinero,hombre,COMORENSE,R76796869
 406,Natividad Roybal,66,marinero,mujer,SUDANESA,X20175196
 407,Gabino Concepcion,37,marinero,mujer,ITALIANA,Z37139094
-408,Agustin Patricia Pacheco Treviño,81,capitán,hombre,ALEMANA,U15692667
+408,Agustin Patricia Pacheco Treviño,81,capitan,hombre,ALEMANA,U15692667
 409,Antonio Alma Lopez Tapia,94,marinero,hombre,CHINA,R98871472
 410,Georgina Nieto Nuñez,69,marinero,hombre,KUWAITI,F65910198
 411,Monica Sotelo,34,marinero,mujer,BELICEÑA,R91225327
@@ -421,7 +421,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 419,Jeronimo Barreto,98,marinero,mujer,NEPALESA,X50419209
 420,Alejandra Murillo,33,marinero,hombre,HINDU,S31191826
 421,Rafael Arturo Guardado Barreto,63,marinero,mujer,ESPAÑOLA,E73622992
-422,Reina Burgos,93,capitán,mujer,UGANDESA,L23344989
+422,Reina Burgos,93,capitan,mujer,UGANDESA,L23344989
 423,Susana Mateo,74,marinero,hombre,BRASILEÑA,R87131401
 424,Abraham Uriel Gastulum Nieto,29,marinero,hombre,TAILANDESA,J73971982
 425,Martha Santillon,30,marinero,hombre,ESLOVACA,H84704086
@@ -439,8 +439,8 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 437,Esteban Navarrete,61,marinero,hombre,IRAQUI,V32648303
 438,Judith Abril Puga,35,marinero,mujer,ISLANDESA,N83602904
 439,Aldo Sessa Zavala,85,marinero,hombre,DOMINICA,D96891559
-440,Esparta Cornejo,51,capitán,hombre,NICARAGUENSE,D46521640
-441,Jose Eduardo Toro,19,capitán,mujer,DE BAHREIN,X53390512
+440,Esparta Cornejo,51,capitan,hombre,NICARAGUENSE,D46521640
+441,Jose Eduardo Toro,19,capitan,mujer,DE BAHREIN,X53390512
 442,Alejandro Patiño,81,marinero,hombre,SURINAMENSE,E45040981
 443,Rudra Calvert,28,marinero,mujer,ITALIANA,I71137391
 444,Hawa Escobar,19,marinero,mujer,SALVADOREÑA,F79421617
@@ -448,23 +448,23 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 446,Janelle Fields,52,marinero,hombre,ITALIANA,G23407603
 447,Alfie-James Valenzuela,38,marinero,mujer,ARGENTINA,L21091304
 448,Faiza Lynch,48,marinero,mujer,SALVADOREÑA,T33479289
-449,Faris Cole,44,capitán,mujer,GUYANESA,N90362432
+449,Faris Cole,44,capitan,mujer,GUYANESA,N90362432
 450,Cassia Ferreira,23,marinero,hombre,YUGOSLAVA,C86933224
-451,Leon Benson,57,capitán,mujer,LIBIA,B80802581
+451,Leon Benson,57,capitan,mujer,LIBIA,B80802581
 452,Niall Skinner,24,marinero,hombre,BIRMANA,D17825001
 453,Mira Mora,49,marinero,hombre,GUINEA,H63679978
 454,Farhan Wood,57,marinero,hombre,TURCA,Q93659608
 455,Cairo Durham,45,marinero,mujer,GAMBIANA,X23482448
-456,Aqsa Broadhurst,18,capitán,mujer,SINGAPORENSE,Q98196295
+456,Aqsa Broadhurst,18,capitan,mujer,SINGAPORENSE,Q98196295
 457,Rida Berg,20,marinero,mujer,TANZANIANA,X57464681
 458,Sonya Bray,18,marinero,hombre,ESTADOUNIDENSE,I43495548
 459,Genevieve Yang,18,marinero,hombre,AUSTRALIANA,O85536062
-460,Prince Knights,50,capitán,mujer,ZAMBIANA,P91468410
+460,Prince Knights,50,capitan,mujer,ZAMBIANA,P91468410
 461,Peter Buxton,25,marinero,hombre,SOVIETICA UCRANIANA,Z79078750
 462,Brogan Parra,25,marinero,hombre,SUDAFRICANA,A32409894
 463,Kyron Bell,58,marinero,hombre,ALEMANA,K85877488
 464,Om Bull,48,marinero,hombre,NIGERINA,S97519473
-465,Monty Munoz,44,capitán,hombre,AUSTRALIANA,R40960037
+465,Monty Munoz,44,capitan,hombre,AUSTRALIANA,R40960037
 466,Caitlin Craft,60,marinero,mujer,ISRAELI,N78261760
 467,Chardonnay Moody,35,marinero,hombre,BURKINA FASO,F26681893
 468,Ruairidh Li,41,marinero,mujer,TUNECINA,P69949707
@@ -472,7 +472,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 470,Braden Edge,53,marinero,mujer,ZAMBIANA,K70923085
 471,Javan Bowers,18,marinero,mujer,INDONESA,D16043388
 472,Alanah Harris,60,marinero,hombre,KIRGUISTAN,Q63627088
-473,Vivaan Small,24,capitán,mujer,ISRAELI,X88118097
+473,Vivaan Small,24,capitan,mujer,ISRAELI,X88118097
 474,Elara Christie,24,marinero,hombre,BHUTANESA,L50523027
 475,Jasmin Hobbs,23,marinero,hombre,NAMIBIANA,U62431078
 476,Alexandre Kenny,60,marinero,hombre,LIBANESA,G13942335
@@ -487,16 +487,16 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 485,Inayah Ferrell,50,marinero,hombre,OMANESA,J21765949
 486,Kendall Compton,19,marinero,mujer,ITALIANA,C66390103
 487,Danial Raymond,30,marinero,hombre,LITUANIA ,K51726577
-488,Abid Cash,20,capitán,hombre,AUSTRIACA,V63848808
+488,Abid Cash,20,capitan,hombre,AUSTRIACA,V63848808
 489,Karishma Arnold,30,marinero,hombre,CHIPRIOTA,F47106596
 490,Ikra Bradford,50,marinero,hombre,COLOMBIANA,D33421386
-491,Jozef Hicks,23,capitán,mujer,KENIANA,V56635732
+491,Jozef Hicks,23,capitan,mujer,KENIANA,V56635732
 492,Conan Dowling,24,marinero,mujer,SURINAMENSE,H14114782
 493,Aaryan Duncan,56,marinero,hombre,HAITIANA,W32876342
 494,Rex Lane,29,marinero,hombre,SWAZI,Q85813779
 495,Carolina Collier,53,marinero,hombre,REINO UNIDO,K68798616
-496,Sanaya Sheppard,28,capitán,mujer,NAMIBIANA,D51550937
-497,Kole Sims,29,capitán,hombre,GUYANESA,A58880299
+496,Sanaya Sheppard,28,capitan,mujer,NAMIBIANA,D51550937
+497,Kole Sims,29,capitan,hombre,GUYANESA,A58880299
 498,Gianluca Joseph,29,marinero,hombre,BURUNDESA,B46132611
 499,Yu Mckee,20,marinero,hombre,SUIZA,A65384053
 500,Nevaeh Mclaughlin,47,marinero,mujer,ESTONIA,G80363129
@@ -510,10 +510,10 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 508,Tasnim Tillman,33,marinero,mujer,ZAMBIANA,Y74571096
 509,Aeryn Salinas,53,marinero,mujer,GRANADINA,A48349897
 510,Arjan Emerson,46,marinero,mujer,PAPUENSE,H34682218
-511,Arman Spooner,49,capitán,mujer,TRINITARIA,L91040317
+511,Arman Spooner,49,capitan,mujer,TRINITARIA,L91040317
 512,Macaulay Lucas,32,marinero,hombre,PARAGUAYA,K33835641
 513,Blane Webber,47,marinero,hombre,DE SANTO TOME,Q65697920
-514,Konrad Morales,50,capitán,mujer,SUIZA,C26918071
+514,Konrad Morales,50,capitan,mujer,SUIZA,C26918071
 515,Cormac Walton,54,marinero,mujer,TUNECINA,A62437482
 516,Gracey Moyer,45,marinero,mujer,SINGAPORENSE,I20962160
 517,Mahir Bass,48,marinero,mujer,SIRIA,B42680044
@@ -521,22 +521,22 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 519,Lamar Mahoney,59,marinero,hombre,PARAGUAYA,L45624818
 520,Sulayman Copeland,38,marinero,hombre,MOZAMBIQUEÑA,A18178675
 521,Katelin Rogers,22,marinero,hombre,PANAMEÑA,Q13393131
-522,Shani Tang,24,capitán,hombre,NICARAGUENSE,X36668136
+522,Shani Tang,24,capitan,hombre,NICARAGUENSE,X36668136
 523,Kyran Medina,34,marinero,hombre,ZAIRANA,V14610605
 524,Ishaan Shannon,36,marinero,hombre,ZAIRANA,X96959151
 525,Rhys Cartwright,47,marinero,hombre,BURKINA FASO,W38466179
 526,Manveer Morin,33,marinero,hombre,SIERRA LEONESA,S27836168
 527,Kelan Alcock,43,marinero,hombre,REINO UNIDO,N30210482
 528,Corban Banks,20,marinero,hombre,CHILENA,O32022190
-529,Eden Bullock,50,capitán,mujer,SIERRA LEONESA,D81305901
+529,Eden Bullock,50,capitan,mujer,SIERRA LEONESA,D81305901
 530,Ehsan Khan,30,marinero,mujer,PORTUGUESA,F48147569
 531,Adam Lowe,47,marinero,mujer,NIGERINA,E64066757
 532,Jaden O'Moore,59,marinero,hombre,NAURUANA,T51938312
 533,Ferne Taylor,22,marinero,hombre,JORDANA,E79403161
 534,Niko Clark,56,marinero,mujer,MALDIVA,F30439227
 535,Thelma Hinton,18,marinero,hombre,HINDU,L24990708
-536,Gideon Odling,54,capitán,mujer,AMERICANA,I69082391
-537,Menna Kennedy,29,capitán,hombre,SWAZI,M96988182
+536,Gideon Odling,54,capitan,mujer,AMERICANA,I69082391
+537,Menna Kennedy,29,capitan,hombre,SWAZI,M96988182
 538,Audrey Lugo,58,marinero,hombre,SAN MARINENSE,J53941814
 539,Stewart Hogg,57,marinero,hombre,TOGOLESA,Z62544841
 540,Lester Horne,53,marinero,mujer,BELICEÑA,O11035736
@@ -546,20 +546,20 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 544,Ellouise Kumar,48,marinero,mujer,ZAMBIANA,N21135692
 545,Annabella Feeney,48,marinero,hombre,CHECOSLOVACA,Q76501795
 546,Chyna Oakley,38,marinero,hombre,BAHAMEÑA,H82954679
-547,Ffion Foreman,53,capitán,hombre,LIBANESA,L58021595
+547,Ffion Foreman,53,capitan,hombre,LIBANESA,L58021595
 548,Zakariah Rudd,47,marinero,hombre,GRIEGA,I76454232
 549,Mateo Suarez,28,marinero,hombre,MICRONECIA,V86328246
 550,Jaxx Howell,21,marinero,hombre,PAPUENSE,Q46352405
 551,Lynda Boone,44,marinero,mujer,MARFILEÑA,S83257879
 552,Anam Archer,25,marinero,mujer,CANADIENSE,C18313949
 553,Jakub Rogers,27,marinero,hombre,LITUANIA ,I68520250
-554,Mohamad Frye,23,capitán,hombre,NEPALESA,V33539473
+554,Mohamad Frye,23,capitan,hombre,NEPALESA,V33539473
 555,Morris Burn,34,marinero,mujer,AFGANA,P99072944
 556,Seb Kline,19,marinero,hombre,DE BAHREIN,X30500718
-557,Tarik Underwood,34,capitán,hombre,LIECHTENSTENSE,Q86390973
+557,Tarik Underwood,34,capitan,hombre,LIECHTENSTENSE,Q86390973
 558,Faye Lancaster,35,marinero,mujer,BIRMANA,O73308422
 559,Leonie Camacho,44,marinero,mujer,URUGUAYA,V93679476
-560,Vinny Simon,25,capitán,mujer,KIRGUISTAN,V52367061
+560,Vinny Simon,25,capitan,mujer,KIRGUISTAN,V52367061
 561,John-Paul Donnelly,39,marinero,mujer,SWAZI,K97020636
 562,Mikail Russo,23,marinero,hombre,BRITANICA,I12411703
 563,Rubie Nicholls,28,marinero,hombre,LIECHTENSTENSE,B56479004
@@ -570,13 +570,13 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 568,Aaliyah Weir,40,marinero,hombre,SUDANESA,Z35633074
 569,Lexi-Mae Hodgson,59,marinero,hombre,BOLIVIANA,Z82216665
 570,Oriana Connelly,29,marinero,mujer,FRANCESA,L48871263
-571,Amari Mccarthy,18,capitán,hombre,REINO UNIDO,M54013650
+571,Amari Mccarthy,18,capitan,hombre,REINO UNIDO,M54013650
 572,Geraldine Richard,36,marinero,mujer,MARROQUI,K61351886
 573,Ashwin Whiteley,41,marinero,mujer,MAURITANA,L16160620
 574,Mathilde Winter,28,marinero,mujer,ZAIRANA,Y32862609
 575,Phillippa Deleon,21,marinero,mujer,HOLANDESA,A64832941
 576,Kadeem Sanderson,37,marinero,hombre,URUGUAYA,W45620852
-577,Manon Coffey,42,capitán,hombre,IRLANDESA,C28372030
+577,Manon Coffey,42,capitan,hombre,IRLANDESA,C28372030
 578,Francis Olson,50,marinero,mujer,LIECHTENSTENSE,A60998883
 579,Sameera Owens,38,marinero,hombre,GABONESA,I81031745
 580,Shanaya Holmes,52,marinero,hombre,SINGAPORENSE,W14792062
@@ -584,7 +584,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 582,Denise Fleming,35,marinero,mujer,PARAGUAYA,K18727103
 583,Chanice Mill,56,marinero,mujer,MONEGASCA,T28185187
 584,Arman Lynch,27,marinero,hombre,CANADIENSE,U44749976
-585,Brody Derrick,49,capitán,hombre,LIBANESA,R83861025
+585,Brody Derrick,49,capitan,hombre,LIBANESA,R83861025
 586,Leslie Clements,48,marinero,mujer,NAURUANA,V77041067
 587,Clare Corbett,21,marinero,mujer,SUIZA,S44521362
 588,Sam Pritchard,26,marinero,hombre,GUINEA ECUATORIANA,Y41672518
@@ -592,8 +592,8 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 590,Axel Bouvet,55,marinero,mujer,URUGUAYA,R60771433
 591,Haroon Adams,22,marinero,hombre,BRITANICA,G47760865
 592,Carolyn Huffman,46,marinero,hombre,MEXICANA,D17614969
-593,Willow Mcarthur,38,capitán,hombre,FINLANDESA,S88342155
-594,Rickie Dowling,35,capitán,mujer,DOMINICA,M58022489
+593,Willow Mcarthur,38,capitan,hombre,FINLANDESA,S88342155
+594,Rickie Dowling,35,capitan,mujer,DOMINICA,M58022489
 595,Nial Hansen,44,marinero,mujer,DANESA,Q99206484
 596,Yasmine Ireland,20,marinero,mujer,CHINA,S28706627
 597,Oliver Dalton,59,marinero,mujer,AFGANA,W40357500
@@ -603,7 +603,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 601,Tashan Fox,42,marinero,mujer,GUINEA,P47747927
 602,Emmanuella Ellison,23,marinero,mujer,MALDIVA,F37567930
 603,Leonard Mcnally,48,marinero,mujer,NORVIETNAMITA,U82113441
-604,Quinn Novak,49,capitán,hombre,SINGAPORENSE,D94008374
+604,Quinn Novak,49,capitan,hombre,SINGAPORENSE,D94008374
 605,Raphael Mcdowell,32,marinero,mujer,SUECA,Z15182407
 606,Adnaan Bateman,18,marinero,mujer,SIRIA,D31735637
 607,Ingrid Barlow,43,marinero,hombre,BOTSWANESA,M17626975
@@ -614,7 +614,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 612,Frank Brennan,18,marinero,mujer,REINO UNIDO,E91188282
 613,Carina Emerson,41,marinero,mujer,MALIENSE,K54292700
 614,Dawood Neal,23,marinero,hombre,MALASIA,J78675367
-615,Katharine Kent,31,capitán,mujer,GAMBIANA,Z90514972
+615,Katharine Kent,31,capitan,mujer,GAMBIANA,Z90514972
 616,Sumayyah Whitley,43,marinero,hombre,LIBIA,M25319500
 617,Nida Blackmore,40,marinero,hombre,ETIOPE,D47993586
 618,Fearne Truong,26,marinero,hombre,SUECA,W59997661
@@ -626,26 +626,26 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 624,Abdullah Mahoney,38,marinero,hombre,NORCOREANA,B98135751
 625,Shanelle Stark,36,marinero,hombre,SURINAMENSE,J77542518
 626,Arianna Potts,53,marinero,hombre,ESTONIA,J85522033
-627,Tate Wilder,39,capitán,hombre,ISRAELI,F20918635
+627,Tate Wilder,39,capitan,hombre,ISRAELI,F20918635
 628,Caleb Lindsey,53,marinero,hombre,BHUTANESA,P24887858
 629,Naveed Bean,60,marinero,mujer,REINO UNIDO,S92299080
 630,Che Carr,23,marinero,mujer,MONGOLESA,I95587135
 631,Holly Sharpe,19,marinero,mujer,ESPAÑOLA,S73768257
 632,Cecilia Sparks,50,marinero,mujer,RUMANA,N22206250
 633,Faith Williamson,51,marinero,hombre,MOZAMBIQUEÑA,T26344182
-634,Sid Rayner,55,capitán,mujer,SIERRA LEONESA,O24070749
+634,Sid Rayner,55,capitan,mujer,SIERRA LEONESA,O24070749
 635,Faizan Mueller,41,marinero,hombre,SOVIETICA UCRANIANA,X57831524
-636,Karol Curtis,44,capitán,hombre,HINDU,F63424480
+636,Karol Curtis,44,capitan,hombre,HINDU,F63424480
 637,Dione Britton,26,marinero,mujer,ZAMBIANA,P46096512
 638,Humza O'Gallagher,52,marinero,hombre,TANZANIANA,K79125351
 639,Ceara Holloway,57,marinero,mujer,DOMINICA,Z33119712
 640,Jimmy Cook,42,marinero,mujer,BRITANICA,D72943469
-641,Susannah Dominguez,44,capitán,hombre,PAKISTANI,E94910524
+641,Susannah Dominguez,44,capitan,hombre,PAKISTANI,E94910524
 642,Mehak Savage,39,marinero,hombre,ARGELIANA,M99657407
-643,Pascal Burrows,60,capitán,mujer,CHINA,M20646516
+643,Pascal Burrows,60,capitan,mujer,CHINA,M20646516
 644,Robin Duggan,42,marinero,mujer,BRASILEÑA,M47185694
 645,Monet Bob,42,marinero,mujer,OMANESA,I54761065
-646,Kristin Mayer,41,capitán,mujer,BHUTANESA,H13591949
+646,Kristin Mayer,41,capitan,mujer,BHUTANESA,H13591949
 647,Lynden Calhoun,53,marinero,hombre,BRASILEÑA,Z66164439
 648,Nisha Cornish,37,marinero,hombre,REINO UNIDO,J50021010
 649,Eloise Woodward,21,marinero,hombre,MALDIVA,E15185649
@@ -664,7 +664,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 662,Phillip Russo,49,marinero,mujer,CANADIENSE,H24424611
 663,Arda Kay,28,marinero,mujer,PAKISTANI,M43509483
 664,Krish Wright,59,marinero,mujer,GRIEGA,Z49567606
-665,Siena Mcbride,58,capitán,hombre,DE BAHREIN,C35766555
+665,Siena Mcbride,58,capitan,hombre,DE BAHREIN,C35766555
 666,Gus Chadwick,27,marinero,mujer,BELICEÑA,P57862554
 667,Tyriq Guerrero,54,marinero,mujer,BELGA,I64191003
 668,Rajan Blankenship,59,marinero,hombre,LAOSIANA,R45462112
@@ -674,11 +674,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 672,Giovanni Goddard,48,marinero,hombre,FRANCESA,B19274682
 673,Jai Riley,46,marinero,hombre,ARGENTINA,A13377207
 674,Isaak Farrell,55,marinero,mujer,AUSTRALIANA,Z63638604
-675,Ernest Reid,26,capitán,mujer,ARGELIANA,T12018876
+675,Ernest Reid,26,capitan,mujer,ARGELIANA,T12018876
 676,Sia Decker,39,marinero,hombre,ZAMBIANA,Q61647603
 677,Vincenzo Hopper,33,marinero,hombre,GUYANESA,J46520579
 678,Irene Brewer,39,marinero,hombre,NORCOREANA,C10485898
-679,Elijah Bloom,18,capitán,mujer,DE ZIMBAWI,Q18294063
+679,Elijah Bloom,18,capitan,mujer,DE ZIMBAWI,Q18294063
 680,August Gallegos,52,marinero,mujer,EGIPCIA,G96255344
 681,Rhydian Mclaughlin,23,marinero,hombre,KENIANA,Y82611727
 682,Lorcan Cousins,43,marinero,hombre,TRINITARIA,B70998108
@@ -697,32 +697,32 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 695,Onur Donald,54,marinero,mujer,JORDANA,X57433646
 696,Reis Browning,33,marinero,hombre,ESLOVENIA,E12552527
 697,Eilidh Wilde,25,marinero,mujer,MAURICIANA,U14642137
-698,Veer Cameron,40,capitán,hombre,LESOTHENSE,Z93784881
+698,Veer Cameron,40,capitan,hombre,LESOTHENSE,Z93784881
 699,Brett Hanson,53,marinero,mujer,MALDIVA,N61633512
-700,Finnlay Flower,31,capitán,mujer,MALAWIANA,L73186764
-701,Micheal Weaver,53,capitán,mujer,REINO UNIDO,O35132654
+700,Finnlay Flower,31,capitan,mujer,MALAWIANA,L73186764
+701,Micheal Weaver,53,capitan,mujer,REINO UNIDO,O35132654
 702,Nicola Shah,43,marinero,mujer,NIGERINA,F85234179
 703,Anais Hester,41,marinero,mujer,YEMENI,L32090593
 704,Nicholas Brett,49,marinero,mujer,GUINEA,Z89529699
 705,Pippa Matthews,41,marinero,hombre,JAMAIQUINA,I71720626
-706,Jaya Roche,22,capitán,mujer,MOZAMBIQUEÑA,S79293181
+706,Jaya Roche,22,capitan,mujer,MOZAMBIQUEÑA,S79293181
 707,Abdi Brock,47,marinero,hombre,TURCA,F53285291
-708,Fahmida Watts,56,capitán,mujer,IRAQUI,F32873083
+708,Fahmida Watts,56,capitan,mujer,IRAQUI,F32873083
 709,Sufyaan Nielsen,28,marinero,mujer,IRANI,C29330794
 710,Tyreke Hayward,43,marinero,mujer,GUINEA ECUATORIANA,J30532761
 711,Arissa Montes,36,marinero,hombre,PORTUGUESA,X26302462
 712,Rami Stone,23,marinero,mujer,ALEMANA,X38649807
 713,Maximilian Phan,23,marinero,hombre,IRLANDESA,E74168818
 714,Ariyah Perry,39,marinero,mujer,SAMOANA,X23977739
-715,Gaia Howard,55,capitán,hombre,GUINEA,B47807991
+715,Gaia Howard,55,capitan,hombre,GUINEA,B47807991
 716,Kaden Robins,20,marinero,mujer,SAN MARINENSE,Y14343891
 717,Nikita Sutton,32,marinero,mujer,SUDANESA,Y39134822
 718,Cydney Brandt,32,marinero,mujer,PUERTORRIQUEÑA,P29941553
 719,Safia Olson,43,marinero,mujer,AUSTRIACA,M94150341
 720,Keyan Bull,53,marinero,hombre,HUNGARA,X72217433
 721,Eddison Quintero,34,marinero,hombre,HUNGARA,B29318470
-722,Youssef Merrill,41,capitán,mujer,MALASIA,G70168526
-723,Aleisha Duffy,50,capitán,hombre,KUWAITI,B28202618
+722,Youssef Merrill,41,capitan,mujer,MALASIA,G70168526
+723,Aleisha Duffy,50,capitan,hombre,KUWAITI,B28202618
 724,Taylor Sexton,24,marinero,mujer,DE ZIMBAWI,Q93070405
 725,Jett Mann,56,marinero,mujer,JAPONESA,Q97899872
 726,Ocean Wooten,53,marinero,hombre,SWAZI,A12227676
@@ -735,7 +735,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 733,Trey Henson,54,marinero,hombre,GUYANESA,B59049054
 734,Manisha Rollins,29,marinero,mujer,MOLDOVIA,Y74131374
 735,Demi-Leigh Riggs,50,marinero,hombre,MONEGASCA,O38200990
-736,Mason Booker,21,capitán,hombre,MOLDOVIA,Q68510886
+736,Mason Booker,21,capitan,hombre,MOLDOVIA,Q68510886
 737,Abel Frye,33,marinero,hombre,SALOMONESA,D42378846
 738,Marlene Alfaro,58,marinero,mujer,CHECOSLOVACA,E33644858
 739,Raphael Stott,26,marinero,mujer,RUMANA,N70038783
@@ -747,23 +747,23 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 745,Julie Mora,20,marinero,hombre,DE BARBADOS,G11145132
 746,Sherri Kendall,22,marinero,mujer,ISRAELI,M89928461
 747,Tamera Sutton,55,marinero,hombre,GRANADINA,S88813565
-748,Skye Sherman,44,capitán,mujer,PORTUGUESA,Y98611000
+748,Skye Sherman,44,capitan,mujer,PORTUGUESA,Y98611000
 749,Tyrique Page,32,marinero,mujer,HAITIANA,Z97917226
-750,Juliette Schroeder,23,capitán,hombre,AUSTRALIANA,J21247265
+750,Juliette Schroeder,23,capitan,hombre,AUSTRALIANA,J21247265
 751,Norman Preece,19,marinero,mujer,VENEZOLANA,T27239003
 752,Hamish Bradshaw,50,marinero,hombre,MACEDONIA,S25615690
 753,Cecily Forster,44,marinero,mujer,LESOTHENSE,J40055799
 754,Kirsten Naylor,26,marinero,mujer,DE SEYCHELLES,B82825000
 755,Callam Bateman,32,marinero,mujer,MARFILEÑA,I78773658
-756,Chantal Gay,55,capitán,mujer,PORTUGUESA,G63132325
+756,Chantal Gay,55,capitan,mujer,PORTUGUESA,G63132325
 757,Mira Sinclair,51,marinero,mujer,NAMIBIANA,Q20115795
-758,Lilly-Ann Donnelly,35,capitán,mujer,GUINEA,N40736646
+758,Lilly-Ann Donnelly,35,capitan,mujer,GUINEA,N40736646
 759,Ryker Sanders,20,marinero,hombre,SALVADOREÑA,J19118659
 760,Siena Beltran,25,marinero,mujer,TOGOLESA,N72848681
 761,Helen Millar,60,marinero,hombre,PARAGUAYA,M81883007
-762,Lyra Jefferson,35,capitán,mujer,FILIPINA,W97686532
+762,Lyra Jefferson,35,capitan,mujer,FILIPINA,W97686532
 763,Lilianna Forrest,49,marinero,hombre,MALAWIANA,L38252134
-764,Rikki Marsden,28,capitán,hombre,PAKISTANI,A93142339
+764,Rikki Marsden,28,capitan,hombre,PAKISTANI,A93142339
 765,Baran Bostock,50,marinero,hombre,OMANESA,V30633569
 766,Lorenzo Munro,43,marinero,mujer,GRIEGA,X78631717
 767,Dalton Cooke,43,marinero,hombre,CHILENA,C35048470
@@ -786,7 +786,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 784,Neo Weber,47,marinero,hombre,YUGOSLAVA,Y90954287
 785,Abbie Cook,38,marinero,mujer,PAKISTANI,M23386049
 786,Arian Conway,54,marinero,hombre,SUDCOREANA,H66406299
-787,Jay Vance,32,capitán,hombre,GRIEGA,O49832802
+787,Jay Vance,32,capitan,hombre,GRIEGA,O49832802
 788,Ayaz O'Connor,56,marinero,mujer,DOMINICA,N27371073
 789,Ailsa Howells,27,marinero,mujer,COSTARRICENSE,T62778068
 790,Harlee Black,27,marinero,mujer,NORVIETNAMITA,F23647465
@@ -800,20 +800,20 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 798,Mohamad Mcghee,27,marinero,mujer,SENEGALESA,A13756920
 799,Oliwia Mcgregor,50,marinero,hombre,BULGARA,F96180559
 800,Elisa Greaves,44,marinero,hombre,BOTSWANESA,Z43356349
-801,Reilly Mansell,39,capitán,hombre,MONGOLESA,E64584693
+801,Reilly Mansell,39,capitan,hombre,MONGOLESA,E64584693
 802,Rogan Whittaker,46,marinero,hombre,GABONESA,T40011963
 803,Fiona Smart,59,marinero,mujer,SUECA,N24130204
 804,Alexandre Ramsey,41,marinero,mujer,BAHAMEÑA,X28016364
 805,Roseanne Mclellan,45,marinero,hombre,CHIPRIOTA,O91091325
 806,Danial Hammond,27,marinero,hombre,SURINAMENSE,F93287822
-807,Sonya Schofield,23,capitán,mujer,REINO UNIDO,S51168316
+807,Sonya Schofield,23,capitan,mujer,REINO UNIDO,S51168316
 808,Luke Sloan,56,marinero,hombre,AUSTRIACA,W10879874
 809,Samara Noel,49,marinero,mujer,NIGERINA,A80460006
 810,Nora Moody,48,marinero,mujer,MALASIA,R41844825
 811,Zaki Novak,28,marinero,hombre,KUWAITI,E79687833
 812,Philippa Grimes,25,marinero,mujer,BHUTANESA,P85252432
 813,Jorden Cohen,42,marinero,mujer,TRINITARIA,F22133064
-814,Mica Carney,38,capitán,mujer,REINO UNIDO,I79816052
+814,Mica Carney,38,capitan,mujer,REINO UNIDO,I79816052
 815,Renae Driscoll,59,marinero,hombre,ARABE,F15606774
 816,Yu Parks,37,marinero,mujer,SALOMONESA,J85158921
 817,Harper-Rose Mcdermott,32,marinero,hombre,MAURICIANA,J49932003
@@ -823,7 +823,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 821,Christy Nichols,37,marinero,hombre,GHANATA,H12580038
 822,Stephanie Easton,23,marinero,mujer,DE CABO VERDE,K21206986
 823,Yvie Dickerson,24,marinero,hombre,PARAGUAYA,L96528062
-824,Maxwell Bonner,60,capitán,mujer,ETIOPE,R13259256
+824,Maxwell Bonner,60,capitan,mujer,ETIOPE,R13259256
 825,Wesley Salinas,44,marinero,hombre,NAMIBIANA,U55029003
 826,Clementine Wong,20,marinero,hombre,HUNGARA,R80620598
 827,Ivy-Rose Cox,37,marinero,hombre,SOVIETICA UCRANIANA,M94672986
@@ -834,7 +834,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 832,Ioana Henry,23,marinero,hombre,MALASIA,M34438638
 833,Khloe Allman,54,marinero,hombre,BOTSWANESA,X41083377
 834,Eliott Lord,26,marinero,mujer,HONDUREÑA,Z29753329
-835,Kimora Samuels,59,capitán,hombre,KIRGUISTAN,I21191197
+835,Kimora Samuels,59,capitan,hombre,KIRGUISTAN,I21191197
 836,Alessandro Ratcliffe,57,marinero,mujer,SURINAMENSE,X30743906
 837,Bartlomiej Mustafa,42,marinero,mujer,MOLDOVIA,U22812889
 838,Kyran Byrne,45,marinero,mujer,ISRAELI,H65607751
@@ -847,7 +847,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 845,Jovan Shaw,26,marinero,mujer,GRANADINA,V53011633
 846,Isabell Grant,47,marinero,mujer,HUNGARA,Z91402180
 847,Zidan Blevins,53,marinero,mujer,YUGOSLAVA,U56400510
-848,Divine Johns,53,capitán,hombre,VENEZOLANA,M26162664
+848,Divine Johns,53,capitan,hombre,VENEZOLANA,M26162664
 849,Giorgio Nichols,27,marinero,mujer,COMORENSE,W95912967
 850,Celyn Denton,57,marinero,mujer,SUDANESA,E69489272
 851,Hawa Munoz,50,marinero,hombre,ITALIANA,Z60642302
@@ -857,13 +857,13 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 855,Armani Thatcher,33,marinero,mujer,BELICEÑA,R69266668
 856,Maleeha Humphrey,52,marinero,mujer,YUGOSLAVA,Y96356672
 857,Sana O'Quinn,47,marinero,hombre,FIJIANA,S99222087
-858,Amiee Mccabe,28,capitán,mujer,LIBERIANA,F92230103
+858,Amiee Mccabe,28,capitan,mujer,LIBERIANA,F92230103
 859,Hamza Norman,58,marinero,hombre,NIGERINA,X99535805
-860,Ellie-Mae Forbes,27,capitán,mujer,ANGOLESA,A17458556
+860,Ellie-Mae Forbes,27,capitan,mujer,ANGOLESA,A17458556
 861,Lily-Ann Bartlett,22,marinero,mujer,NIGERIANA,A63197353
 862,Riley-Jay Amos,42,marinero,mujer,DE BAHREIN,H67779322
 863,Lacie Hagan,33,marinero,mujer,NEPALESA,T53145285
-864,Fatima Santiago,21,capitán,mujer,HINDU,T38670415
+864,Fatima Santiago,21,capitan,mujer,HINDU,T38670415
 865,Rosemary Kelly,57,marinero,mujer,ESPAÑOLA,Z86946890
 866,Aislinn Marsden,51,marinero,hombre,UGANDESA,R79699202
 867,Ellie-Mai Clarkson,36,marinero,mujer,BRASILEÑA,A72804905
@@ -877,30 +877,30 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 875,Buster Mueller,20,marinero,mujer,HOLANDESA,X71049717
 876,Leyla Le,56,marinero,mujer,DOMINICANA,B51685962
 877,Zayn Campbell,27,marinero,hombre,ESPAÑOLA,J82990773
-878,Arjan Ho,23,capitán,hombre,CAMBOYANA,P95013838
-879,Donnell Riley,30,capitán,mujer,GUYANESA,J21925151
+878,Arjan Ho,23,capitan,hombre,CAMBOYANA,P95013838
+879,Donnell Riley,30,capitan,mujer,GUYANESA,J21925151
 880,Stephan Slater,52,marinero,mujer,LIBANESA,O31533601
 881,Reema Andrews,23,marinero,hombre,IRAQUI,D43657420
 882,Fredrick Prosser,30,marinero,mujer,ISLANDESA,V74599183
 883,Andrea Moyer,22,marinero,hombre,DOMINICA,I76997138
 884,Giuseppe English,57,marinero,hombre,NICARAGUENSE,G35388553
-885,Jonathan Calderon,49,capitán,mujer,DE BAHREIN,M49254736
+885,Jonathan Calderon,49,capitan,mujer,DE BAHREIN,M49254736
 886,Yannis Mcneil,52,marinero,hombre,SURINAMENSE,K91217782
 887,Levi Piper,18,marinero,mujer,ITALIANA,C65927166
 888,Kenzie Cairns,27,marinero,hombre,SALVADOREÑA,V62701196
 889,Aimee Smyth,29,marinero,mujer,SALVADOREÑA,X18112744
-890,Shamima Farley,36,capitán,hombre,ITALIANA,O58652792
+890,Shamima Farley,36,capitan,hombre,ITALIANA,O58652792
 891,Lucille Peterson,57,marinero,hombre,ARGENTINA,W75934842
 892,Sierra England,41,marinero,mujer,SALVADOREÑA,F52377248
-893,Alexandros Burris,23,capitán,hombre,GUYANESA,X55853585
+893,Alexandros Burris,23,capitan,hombre,GUYANESA,X55853585
 894,Campbell Newman,58,marinero,hombre,YUGOSLAVA,Z80736127
 895,Haley Koch,18,marinero,hombre,LIBIA,S33034970
-896,Bryce Chase,44,capitán,mujer,BIRMANA,A39408361
-897,Isabella Morley,37,capitán,mujer,GUINEA,Y34927784
-898,Simone Short,38,capitán,mujer,TURCA,S50684947
+896,Bryce Chase,44,capitan,mujer,BIRMANA,A39408361
+897,Isabella Morley,37,capitan,mujer,GUINEA,Y34927784
+898,Simone Short,38,capitan,mujer,TURCA,S50684947
 899,Naima Khan,26,marinero,mujer,GAMBIANA,O54358606
-900,Jamil Buck,27,capitán,mujer,SINGAPORENSE,H54615218
-901,Justine Dejesus,24,capitán,mujer,TANZANIANA,S31733660
+900,Jamil Buck,27,capitan,mujer,SINGAPORENSE,H54615218
+901,Justine Dejesus,24,capitan,mujer,TANZANIANA,S31733660
 902,Maximus Cross,31,marinero,mujer,ESTADOUNIDENSE,F46464053
 903,Marcelina Mustafa,38,marinero,mujer,AUSTRALIANA,D18354051
 904,Yusra Melendez,33,marinero,mujer,ZAMBIANA,U55970091
@@ -926,14 +926,14 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 924,Lloyd Rodriguez,25,marinero,mujer,RWANDESA,B84828733
 925,Teddy Franks,55,marinero,mujer,GABONESA,N23661643
 926,Aaran Strickland,51,marinero,hombre,ESTONIA,F77004838
-927,Tamsin Mason,29,capitán,hombre,GUINEA ECUATORIANA,K26342479
+927,Tamsin Mason,29,capitan,hombre,GUINEA ECUATORIANA,K26342479
 928,Mazie Graves,32,marinero,hombre,TANZANIANA,P96121902
 929,Olaf Bass,26,marinero,mujer,OMANESA,L93766595
 930,Ammaarah Dunn,57,marinero,mujer,ITALIANA,O94115116
 931,Zayne Molina,48,marinero,mujer,LITUANIA ,R52037583
 932,Una Nava,22,marinero,hombre,AUSTRIACA,L32170098
 933,Bruce Harvey,22,marinero,hombre,CHIPRIOTA,I96186288
-934,Esha Stanton,39,capitán,hombre,COLOMBIANA,H57458041
+934,Esha Stanton,39,capitan,hombre,COLOMBIANA,H57458041
 935,Malika Mcdowell,24,marinero,mujer,KENIANA,P26853787
 936,Angelika Hughes,49,marinero,mujer,SURINAMENSE,V83519026
 937,Inaaya Mcloughlin,46,marinero,hombre,HAITIANA,E97357087
@@ -947,7 +947,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 945,Kailum Barajas,30,marinero,hombre,BOLIVIANA,N57463405
 946,Inez Edge,40,marinero,hombre,DE SANTO TOME,N73457430
 947,Anas Kelley,31,marinero,mujer,TUNECINA,E88586949
-948,Amisha Alexander,19,capitán,hombre,SAN MARINENSE,R85941940
+948,Amisha Alexander,19,capitan,hombre,SAN MARINENSE,R85941940
 949,Guy Buck,24,marinero,hombre,PAPUENSE,K59985719
 950,Nuha Denton,28,marinero,mujer,MALDIVA,R80128056
 951,Jed Chaney,25,marinero,mujer,AMERICANA,O93478493
@@ -957,18 +957,18 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 955,Estelle Espinosa,42,marinero,hombre,TRINITARIA,F85340053
 956,Misty Castro,35,marinero,hombre,PARAGUAYA,V47623520
 957,Ikrah Coombes,18,marinero,hombre,DE SANTO TOME,B91567090
-958,Safah Corona,46,capitán,hombre,SUIZA,H65039062
+958,Safah Corona,46,capitan,hombre,SUIZA,H65039062
 959,Abiha Yates,56,marinero,hombre,TUNECINA,N56827086
 960,Camden Felix,51,marinero,mujer,SINGAPORENSE,J79148345
 961,Emily Raymond,18,marinero,mujer,SIRIA,J57103112
 962,Elisa Senior,34,marinero,mujer,INDONESA,E10665532
 963,Elleanor Wharton,57,marinero,mujer,PARAGUAYA,Y38214748
-964,Michael Monaghan,19,capitán,hombre,MOZAMBIQUEÑA,Z49744602
+964,Michael Monaghan,19,capitan,hombre,MOZAMBIQUEÑA,Z49744602
 965,Riccardo Rossi,29,marinero,mujer,PANAMEÑA,E37918298
 966,Keeva Turner,20,marinero,mujer,NICARAGUENSE,U73863082
 967,Nimra Leblanc,60,marinero,hombre,ZAIRANA,B42748133
 968,Frederic Mclaughlin,31,marinero,hombre,ZAIRANA,G63019362
-969,Heidi Salgado,31,capitán,mujer,BURKINA FASO,Y13887486
+969,Heidi Salgado,31,capitan,mujer,BURKINA FASO,Y13887486
 970,Naveed Berg,41,marinero,mujer,SIERRA LEONESA,Y60714035
 971,Storm Church,45,marinero,mujer,REINO UNIDO,L79362037
 972,Michelle Woods,55,marinero,mujer,CHILENA,R71631410
@@ -977,26 +977,26 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 975,Halima Mcgill,33,marinero,hombre,NIGERINA,P96246533
 976,Wilfred Kerr,44,marinero,hombre,NAURUANA,O17350446
 977,Milan Sloan,43,marinero,mujer,JORDANA,R20560879
-978,Mina Bowler,30,capitán,hombre,MALDIVA,E89642588
+978,Mina Bowler,30,capitan,hombre,MALDIVA,E89642588
 979,Yasmeen Drake,37,marinero,mujer,HINDU,Y38202128
 980,Zayn Esparza,32,marinero,hombre,AMERICANA,U68302750
 981,Adnaan Pennington,39,marinero,hombre,SWAZI,D16503919
-982,Cain Penn,30,capitán,hombre,SAN MARINENSE,D60569791
+982,Cain Penn,30,capitan,hombre,SAN MARINENSE,D60569791
 983,Kavan Markham,40,marinero,hombre,TOGOLESA,D33245413
 984,Bayley Howard,29,marinero,hombre,BELICEÑA,U51326521
 985,Lara Langley,42,marinero,hombre,CONGOLESA,M87243701
 986,Brent Jefferson,42,marinero,mujer,ARGELIANA,Q56934513
-987,Cooper Potts,19,capitán,mujer,HONDUREÑA,S87800491
-988,Norman Byers,22,capitán,hombre,ZAMBIANA,J73277195
+987,Cooper Potts,19,capitan,mujer,HONDUREÑA,S87800491
+988,Norman Byers,22,capitan,hombre,ZAMBIANA,J73277195
 989,Ajay Crosby,42,marinero,mujer,CHECOSLOVACA,M68274916
 990,Wilson Wang,48,marinero,hombre,BAHAMEÑA,F71928610
-991,Eamon West,50,capitán,mujer,LIBANESA,Y66004137
+991,Eamon West,50,capitan,mujer,LIBANESA,Y66004137
 992,Katya Fuentes,19,marinero,mujer,GRIEGA,A78888327
 993,Irving Le,42,marinero,mujer,MICRONECIA,L35431609
 994,Hadi Booth,31,marinero,mujer,PAPUENSE,H50643080
 995,Jenna Carrillo,36,marinero,mujer,MARFILEÑA,X53133900
 996,Nikolas Delaney,31,marinero,mujer,CANADIENSE,H74068805
-997,Lily-Anne Glenn,48,capitán,mujer,LITUANIA ,B51353951
+997,Lily-Anne Glenn,48,capitan,mujer,LITUANIA ,B51353951
 998,Francesco Moore,41,marinero,hombre,NEPALESA,R18693239
 999,Devon Payne,39,marinero,mujer,AFGANA,O36283117
 1000,Lenny Clemons,43,marinero,hombre,DE BAHREIN,J81575463
@@ -1006,26 +1006,26 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1004,Ayomide Wagstaff,18,marinero,mujer,KIRGUISTAN,U33904694
 1005,Brielle Riley,56,marinero,mujer,SWAZI,M92704998
 1006,Mateusz Tate,18,marinero,mujer,BRITANICA,B72428673
-1007,Atif Montoya,20,capitán,mujer,LIECHTENSTENSE,J74976103
+1007,Atif Montoya,20,capitan,mujer,LIECHTENSTENSE,J74976103
 1008,Izzy Hills,53,marinero,hombre,SIRIA,P21995042
 1009,Gabija Cuevas,51,marinero,mujer,ALEMANA,P77623009
 1010,Aila Rojas,35,marinero,mujer,ZAMBIANA,X30944725
 1011,Kairon Malone,51,marinero,mujer,RUMANA,L83397600
 1012,Jaeden Whiteley,59,marinero,hombre,SUDANESA,S52043058
-1013,Manuel Frazier,23,capitán,mujer,BOLIVIANA,R10696961
+1013,Manuel Frazier,23,capitan,mujer,BOLIVIANA,R10696961
 1014,Cerys Villanueva,30,marinero,mujer,FRANCESA,L14254290
 1015,Arlene Shepherd,37,marinero,hombre,REINO UNIDO,Q31063128
 1016,Marcie Ventura,25,marinero,mujer,MARROQUI,V80767010
 1017,Rebeca Ortega,39,marinero,mujer,MAURITANA,S54680341
 1018,Tyreece Ferry,54,marinero,mujer,ZAIRANA,F93138076
 1019,Anisha Thompson,58,marinero,hombre,HOLANDESA,I10840953
-1020,Dulcie Dougherty,36,capitán,mujer,URUGUAYA,W74949936
+1020,Dulcie Dougherty,36,capitan,mujer,URUGUAYA,W74949936
 1021,Israr Merrill,38,marinero,mujer,IRLANDESA,E76672820
 1022,Aliya Busby,55,marinero,mujer,LIECHTENSTENSE,J57417491
 1023,Chandni Lee,20,marinero,mujer,GABONESA,U69216120
 1024,Abubakar Kennedy,54,marinero,hombre,SINGAPORENSE,W70368576
 1025,Aran Mcknight,28,marinero,mujer,JAPONESA,H32689676
-1026,Braydon Love,24,capitán,hombre,PARAGUAYA,T55172433
+1026,Braydon Love,24,capitan,hombre,PARAGUAYA,T55172433
 1027,Jose Atkinson,50,marinero,hombre,MONEGASCA,A92262054
 1028,Lillie-Mai Strong,26,marinero,hombre,CANADIENSE,N10030016
 1029,Nichole Sampson,18,marinero,hombre,LIBANESA,T57932954
@@ -1041,7 +1041,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1039,Luke O'Ryan,39,marinero,mujer,DANESA,J43428501
 1040,Inaaya Gibbs,46,marinero,mujer,CHINA,X91940209
 1041,Mari Salas,31,marinero,hombre,AFGANA,W47619131
-1042,Vernon Duarte,22,capitán,mujer,ALEMANA,T73448503
+1042,Vernon Duarte,22,capitan,mujer,ALEMANA,T73448503
 1043,Ilayda Rooney,49,marinero,hombre,HINDU,A86686913
 1044,Michael Elliott,18,marinero,mujer,BOLIVIANA,Y40712795
 1045,Kunal Harding,60,marinero,mujer,GUINEA,H12562022
@@ -1053,30 +1053,30 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1051,Don Lowry,53,marinero,mujer,BOTSWANESA,L22142099
 1052,Pia Lozano,30,marinero,hombre,NIGERIANA,M72286662
 1053,Wilf Palacios,49,marinero,hombre,NICARAGUENSE,N81698204
-1054,Jamaal Brown,28,capitán,hombre,MALDIVA,X30343038
+1054,Jamaal Brown,28,capitan,hombre,MALDIVA,X30343038
 1055,Fahim Watts,22,marinero,hombre,MEXICANA,P39499180
-1056,Jaydn Martin,37,capitán,mujer,REINO UNIDO,R35674246
+1056,Jaydn Martin,37,capitan,mujer,REINO UNIDO,R35674246
 1057,Reggie Whitfield,37,marinero,hombre,MALIENSE,B77905753
-1058,Jesse Drake,59,capitán,hombre,MALASIA,W74976970
-1059,Amanda Frame,59,capitán,mujer,GAMBIANA,M74177787
+1058,Jesse Drake,59,capitan,hombre,MALASIA,W74976970
+1059,Amanda Frame,59,capitan,mujer,GAMBIANA,M74177787
 1060,Elise Lucero,48,marinero,hombre,LIBIA,W66036096
 1061,Hester Finnegan,51,marinero,hombre,ETIOPE,I74589776
 1062,Sarah-Jane Magana,39,marinero,mujer,SUECA,M22721791
 1063,Taslima Wilks,58,marinero,mujer,ZAIRANA,D36495951
-1064,Scott Morales,31,capitán,hombre,AFGANA,P34307583
+1064,Scott Morales,31,capitan,hombre,AFGANA,P34307583
 1065,Axel Coulson,24,marinero,hombre,TAILANDESA,F35407623
 1066,Drew Khan,53,marinero,hombre,CUBANA,X29838977
 1067,Danial Christian,56,marinero,mujer,MONEGASCA,J74190201
 1068,Jemima Mcleod,45,marinero,hombre,NORCOREANA,U33872549
 1069,Pixie Sawyer,50,marinero,mujer,SURINAMENSE,R69721142
-1070,Chance Wynn,37,capitán,hombre,ESTONIA,Q78641272
+1070,Chance Wynn,37,capitan,hombre,ESTONIA,Q78641272
 1071,Jamie-Leigh Hills,24,marinero,hombre,ISRAELI,S36562389
 1072,Phillipa Pena,40,marinero,mujer,BHUTANESA,X23121300
 1073,Sabah Tait,38,marinero,mujer,REINO UNIDO,I83491962
 1074,Angelina Kirk,59,marinero,mujer,MONGOLESA,B20196947
 1075,Hafsa Rosas,42,marinero,mujer,ESPAÑOLA,G98817535
 1076,Klara Dean,26,marinero,mujer,RUMANA,B27587208
-1077,Gus Hood,44,capitán,hombre,MOZAMBIQUEÑA,V75902595
+1077,Gus Hood,44,capitan,hombre,MOZAMBIQUEÑA,V75902595
 1078,Gracie-Mae Bowman,46,marinero,mujer,SIERRA LEONESA,R84966691
 1079,Tylor Kavanagh,21,marinero,hombre,SOVIETICA UCRANIANA,O58946682
 1080,Iestyn Pate,19,marinero,mujer,HINDU,Z67610268
@@ -1091,8 +1091,8 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1089,Eman Marsden,32,marinero,hombre,OMANESA,H71951264
 1090,Tony Guerra,53,marinero,hombre,BHUTANESA,N85329885
 1091,Elleanor Lovell,43,marinero,mujer,BRASILEÑA,W63285059
-1092,Darcey Sampson,26,capitán,hombre,REINO UNIDO,D62958993
-1093,Ishmael Figueroa,43,capitán,hombre,MALDIVA,P69442505
+1092,Darcey Sampson,26,capitan,hombre,REINO UNIDO,D62958993
+1093,Ishmael Figueroa,43,capitan,hombre,MALDIVA,P69442505
 1094,Pawel Cantu,33,marinero,mujer,YEMENI,J25472208
 1095,Tayah Welch,24,marinero,mujer,TAIWANESA,T11556036
 1096,Kwabena Velez,60,marinero,mujer,ARGENTINA,F62685246
@@ -1104,7 +1104,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1102,Giacomo Anderson,39,marinero,hombre,HAITIANA,G59576772
 1103,Jax Regan,48,marinero,hombre,ISLANDESA,Y47445245
 1104,Emilee Sheppard,28,marinero,hombre,CANADIENSE,A93127792
-1105,Velma Douglas,24,capitán,mujer,RWANDESA,F82060209
+1105,Velma Douglas,24,capitan,mujer,RWANDESA,F82060209
 1106,Mya Woodward,49,marinero,mujer,CANADIENSE,S94646897
 1107,Rhea Lake,25,marinero,mujer,PAKISTANI,X56143181
 1108,Randy Irvine,43,marinero,hombre,GRIEGA,I13961912
@@ -1122,9 +1122,9 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1120,Jackson Avalos,34,marinero,hombre,ZAMBIANA,A88052129
 1121,Aiysha Holding,30,marinero,mujer,GUYANESA,V55086886
 1122,Emre Devine,19,marinero,hombre,NORCOREANA,V35358596
-1123,Conah Reeve,24,capitán,mujer,DE ZIMBAWI,Q56281794
+1123,Conah Reeve,24,capitan,mujer,DE ZIMBAWI,Q56281794
 1124,Raihan Shannon,59,marinero,mujer,EGIPCIA,Y49630463
-1125,Farhaan Zamora,57,capitán,mujer,KENIANA,L16239489
+1125,Farhaan Zamora,57,capitan,mujer,KENIANA,L16239489
 1126,Arlene Larsen,49,marinero,mujer,TRINITARIA,V46094550
 1127,Chelsea Carson,60,marinero,mujer,BHUTANESA,N79236809
 1128,Dario Keith,54,marinero,mujer,MAURICIANA,D54522782
@@ -1143,12 +1143,12 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1141,Aviana Bond,51,marinero,mujer,MAURICIANA,R41794606
 1142,Rida Huynh,43,marinero,hombre,LESOTHENSE,H70988509
 1143,Chad Quintero,36,marinero,mujer,MALDIVA,G92277283
-1144,Miguel Downs,30,capitán,hombre,MALAWIANA,P10687329
+1144,Miguel Downs,30,capitan,hombre,MALAWIANA,P10687329
 1145,Axel Woods,33,marinero,hombre,REINO UNIDO,X45410913
 1146,Ella-May Jeffery,48,marinero,hombre,NIGERINA,V88009042
 1147,Mahi Gentry,38,marinero,hombre,YEMENI,X74534091
 1148,Yasmin Schofield,57,marinero,mujer,GUINEA,V51944597
-1149,Yash Arnold,58,capitán,mujer,JAMAIQUINA,B96929536
+1149,Yash Arnold,58,capitan,mujer,JAMAIQUINA,B96929536
 1150,Samara Garrison,34,marinero,mujer,MOZAMBIQUEÑA,M78425830
 1151,Danielius Joseph,49,marinero,hombre,TURCA,D57194637
 1152,Yousif Mcknight,49,marinero,mujer,IRAQUI,Y72894126
@@ -1166,18 +1166,18 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1164,Renae Liu,31,marinero,mujer,HUNGARA,W53137288
 1165,Ayrton Hibbert,38,marinero,mujer,HUNGARA,E48613121
 1166,Cade Hamer,39,marinero,hombre,MALASIA,R39914552
-1167,Jacque Gregory,33,capitán,hombre,KUWAITI,Z35082300
+1167,Jacque Gregory,33,capitan,hombre,KUWAITI,Z35082300
 1168,Alan Davison,27,marinero,mujer,DE ZIMBAWI,C54286034
 1169,Carly Christensen,28,marinero,hombre,JAPONESA,S58839507
 1170,Hassan Alfaro,22,marinero,mujer,SWAZI,R79342213
 1171,Victor Oconnell,57,marinero,mujer,AUSTRIACA,U93228320
 1172,Ann Hoffman,23,marinero,hombre,ARGELIANA,X62775773
 1173,Jozef Leech,20,marinero,hombre,SAN MARINENSE,M21771881
-1174,Albert Andrade,30,capitán,mujer,LAOSIANA,S36768422
+1174,Albert Andrade,30,capitan,mujer,LAOSIANA,S36768422
 1175,Alessandro Armitage,44,marinero,hombre,MARROQUI,R67847596
 1176,Vihaan Samuels,24,marinero,mujer,NORVIETNAMITA,Y11681437
 1177,Zidan Mosley,46,marinero,mujer,GUYANESA,Q26753013
-1178,Corben Whitmore,55,capitán,hombre,MOLDOVIA,K96186985
+1178,Corben Whitmore,55,capitan,hombre,MOLDOVIA,K96186985
 1179,Chance Burton,48,marinero,mujer,MONEGASCA,T74766321
 1180,Dominika Mackie,60,marinero,hombre,MOLDOVIA,R61544371
 1181,Eoghan Whittle,39,marinero,mujer,SALOMONESA,Q89845413
@@ -1185,11 +1185,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1183,Millicent Ellison,43,marinero,mujer,RUMANA,V77812878
 1184,Tobey Bean,57,marinero,mujer,TAIWANESA,A41933786
 1185,Saskia Vaughan,56,marinero,hombre,MALAWIANA,S52555979
-1186,Asia Mclean,59,capitán,hombre,LAOSIANA,H77386222
+1186,Asia Mclean,59,capitan,hombre,LAOSIANA,H77386222
 1187,Dylan Bloggs,33,marinero,hombre,MALIENSE,F84909065
 1188,Martin Wood,35,marinero,hombre,LIBIA,J12073077
 1189,Zarah Avila,38,marinero,hombre,DE BARBADOS,M40245776
-1190,Kameron Parsons,43,capitán,mujer,ISRAELI,U48804800
+1190,Kameron Parsons,43,capitan,mujer,ISRAELI,U48804800
 1191,Persephone Hudson,25,marinero,mujer,GRANADINA,F68273821
 1192,Ashleigh Patton,51,marinero,hombre,PORTUGUESA,L77622942
 1193,Ryder Berger,59,marinero,mujer,HAITIANA,M38161500
@@ -1208,7 +1208,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1206,Arsalan Acosta,27,marinero,mujer,FILIPINA,J37639326
 1207,Izabella Devlin,56,marinero,hombre,MALAWIANA,B30957386
 1208,Dainton Hubbard,36,marinero,hombre,PAKISTANI,K11864885
-1209,Billy Burrows,36,capitán,mujer,OMANESA,T19082779
+1209,Billy Burrows,36,capitan,mujer,OMANESA,T19082779
 1210,Dominik Christie,54,marinero,hombre,GRIEGA,O81303033
 1211,Kenya Chamberlain,18,marinero,hombre,CHILENA,C25483960
 1212,Aamina Adam,58,marinero,hombre,BELGA,F41066051
@@ -1216,29 +1216,29 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1214,Ramone William,49,marinero,mujer,CHIPRIOTA,S65545547
 1215,Nolan Davila,52,marinero,mujer,CUBANA,H60319485
 1216,Aimee Hendricks,41,marinero,mujer,DE CABO VERDE,W59719049
-1217,Shoaib Ford,53,capitán,mujer,BURUNDESA,Z39477666
+1217,Shoaib Ford,53,capitan,mujer,BURUNDESA,Z39477666
 1218,Erik Mayo,52,marinero,mujer,IRANI,O27293489
 1219,Yasir Talley,42,marinero,mujer,RUMANA,P41923009
 1220,Rae Singleton,55,marinero,hombre,KUWAITI,H77749573
 1221,Charley Mcfarlane,37,marinero,hombre,MOZAMBIQUEÑA,B93001900
 1222,Henri Wilson,43,marinero,mujer,SOVIETICA UCRANIANA,C61251487
 1223,Safia Villa,25,marinero,mujer,SUDCOREANA,N57074241
-1224,Nancie Chapman,23,capitán,hombre,LIBANESA,A79049716
+1224,Nancie Chapman,23,capitan,hombre,LIBANESA,A79049716
 1225,Brennan Richardson,27,marinero,mujer,EGIPCIA,R89307152
 1226,Ayda Bates,48,marinero,mujer,MALTESA,H74217688
 1227,Shana Blankenship,30,marinero,hombre,SIERRA LEONESA,S34427761
-1228,Elleanor Michael,28,capitán,mujer,YUGOSLAVA,V93229650
+1228,Elleanor Michael,28,capitan,mujer,YUGOSLAVA,V93229650
 1229,Maksymilian Jacobs,52,marinero,hombre,PAKISTANI,Z16927017
 1230,Aleeza White,52,marinero,mujer,SUDCOREANA,Z70896232
 1231,Garrett Goodwin,34,marinero,hombre,GRIEGA,B45393192
 1232,Zhane Love,20,marinero,mujer,DOMINICA,K11003990
 1233,Joss Barber,42,marinero,hombre,COSTARRICENSE,Y86316326
 1234,Leyla Phan,34,marinero,mujer,NORVIETNAMITA,U42475060
-1235,Diane Skinner,56,capitán,mujer,MACEDONIA,S56194608
-1236,Shazia Henry,23,capitán,mujer,COMORENSE,W32270599
+1235,Diane Skinner,56,capitan,mujer,MACEDONIA,S56194608
+1236,Shazia Henry,23,capitan,mujer,COMORENSE,W32270599
 1237,Noah Zuniga,50,marinero,mujer,BULGARA,B64263142
 1238,Madina Salter,44,marinero,hombre,ESLOVAQUIA,L39691754
-1239,Rudra Blackburn,42,capitán,mujer,MOZAMBIQUEÑA,U14154176
+1239,Rudra Blackburn,42,capitan,mujer,MOZAMBIQUEÑA,U14154176
 1240,Teegan Caldwell,21,marinero,mujer,ESTADOUNIDENSE,T56398813
 1241,Umayr Lees,59,marinero,mujer,BIRMANA,B97849089
 1242,Ty Tierney,23,marinero,hombre,SENEGALESA,C21144652
@@ -1249,14 +1249,14 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1247,Estelle Ayala,38,marinero,hombre,SUECA,L52626275
 1248,Eliot Gibson,58,marinero,hombre,BAHAMEÑA,F12584447
 1249,Akram Pena,41,marinero,mujer,CHIPRIOTA,E79310984
-1250,Skyla Ferrell,57,capitán,mujer,SURINAMENSE,D90886133
-1251,Eshaan Simon,28,capitán,hombre,REINO UNIDO,Y88192910
+1250,Skyla Ferrell,57,capitan,mujer,SURINAMENSE,D90886133
+1251,Eshaan Simon,28,capitan,hombre,REINO UNIDO,Y88192910
 1252,Rhian Flowers,36,marinero,mujer,AUSTRIACA,A20675685
 1253,Alastair Carey,25,marinero,mujer,NIGERINA,C30077464
 1254,Allegra Melendez,18,marinero,hombre,MALASIA,U37538934
 1255,Haydon Frame,52,marinero,hombre,KUWAITI,K48222874
 1256,Sahil Blackwell,41,marinero,hombre,BHUTANESA,N98888249
-1257,Ami Estrada,18,capitán,mujer,TRINITARIA,K41763126
+1257,Ami Estrada,18,capitan,mujer,TRINITARIA,K41763126
 1258,Zander Barron,42,marinero,hombre,REINO UNIDO,A38534494
 1259,Phillipa Jensen,27,marinero,mujer,ARABE,M14701297
 1260,Vicki Walmsley,58,marinero,mujer,SALOMONESA,G11887618
@@ -1271,29 +1271,29 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1269,Andreea Knapp,55,marinero,hombre,NAMIBIANA,R78750474
 1270,Gabriel Jones,32,marinero,mujer,HUNGARA,O98430727
 1271,Devante Ortiz,20,marinero,mujer,SOVIETICA UCRANIANA,F46960416
-1272,Alisa Potter,22,capitán,mujer,ZAMBIANA,T72933979
+1272,Alisa Potter,22,capitan,mujer,ZAMBIANA,T72933979
 1273,Zahrah Graves,24,marinero,hombre,SURINAMENSE,X43264143
 1274,Sophie-Louise Rollins,32,marinero,mujer,NAMIBIANA,M27563604
 1275,Billy-Joe Duffy,28,marinero,hombre,SWAZI,C48673298
 1276,Elisha Ellis,43,marinero,hombre,MALASIA,D61705061
 1277,Grayson Phelps,25,marinero,hombre,BOTSWANESA,V96699134
 1278,Elizabeth Derrick,53,marinero,hombre,HONDUREÑA,Q27263029
-1279,Kennedy Salgado,42,capitán,hombre,KIRGUISTAN,H16441869
+1279,Kennedy Salgado,42,capitan,hombre,KIRGUISTAN,H16441869
 1280,Wilbur Zuniga,33,marinero,mujer,SURINAMENSE,Q89389311
 1281,Sulayman Mustafa,41,marinero,mujer,MOLDOVIA,U19901061
 1282,Tye Gilliam,38,marinero,hombre,ISRAELI,M67903414
 1283,Alexandria Farmer,42,marinero,mujer,COMORENSE,Q67899814
 1284,Caoimhe Chavez,51,marinero,mujer,AUSTRALIANA,F26385666
-1285,Isaac Huber,20,capitán,mujer,DEL QATAR,X82331557
+1285,Isaac Huber,20,capitan,mujer,DEL QATAR,X82331557
 1286,Kloe Shaffer,45,marinero,hombre,MARFILEÑA,H68402128
 1287,Kyan Phillips,56,marinero,mujer,BELGA,K20924077
 1288,Kareem Espinoza,48,marinero,mujer,DE BENNIN,Q52797482
 1289,Layla-Mae Knight,45,marinero,hombre,GRANADINA,D47203149
 1290,Arthur Huffman,19,marinero,hombre,HUNGARA,Y91126724
-1291,Issa Rankin,37,capitán,mujer,YUGOSLAVA,S25550844
+1291,Issa Rankin,37,capitan,mujer,YUGOSLAVA,S25550844
 1292,Sahra Leon,32,marinero,mujer,VENEZOLANA,B59816110
 1293,Edan Schmidt,30,marinero,hombre,COMORENSE,Q83101040
-1294,Marc Gilmore,27,capitán,mujer,SUDANESA,R13795454
+1294,Marc Gilmore,27,capitan,mujer,SUDANESA,R13795454
 1295,Breanna Landry,43,marinero,mujer,ITALIANA,M90986443
 1296,Sheila Duarte,50,marinero,mujer,ALEMANA,H17172762
 1297,Neel Wilson,57,marinero,mujer,CHINA,O82932366
@@ -1309,12 +1309,12 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1307,Macauley Sexton,41,marinero,hombre,NEPALESA,G29133284
 1308,Diogo Baker,59,marinero,mujer,HINDU,V60931739
 1309,Kory Fernandez,44,marinero,mujer,ESPAÑOLA,V50315885
-1310,Edward Humphries,45,capitán,mujer,UGANDESA,K26449991
+1310,Edward Humphries,45,capitan,mujer,UGANDESA,K26449991
 1311,Paige Jaramillo,29,marinero,mujer,BRASILEÑA,Y20965642
 1312,Kamil Clayton,33,marinero,mujer,TAILANDESA,Y86570054
-1313,Cassie Benton,36,capitán,hombre,ESLOVACA,E47448781
-1314,Teri Finch,59,capitán,hombre,LAOSIANA,U66924527
-1315,Sophia Berg,38,capitán,hombre,SALVADOREÑA,Z65517941
+1313,Cassie Benton,36,capitan,hombre,ESLOVACA,E47448781
+1314,Teri Finch,59,capitan,hombre,LAOSIANA,U66924527
+1315,Sophia Berg,38,capitan,hombre,SALVADOREÑA,Z65517941
 1316,Fleur Salazar,31,marinero,hombre,HINDU,Z81082204
 1317,Arissa Bowler,38,marinero,mujer,MONEGASCA,W84619587
 1318,Mitchel Chen,32,marinero,mujer,SWAZI,X98037398
@@ -1325,7 +1325,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1323,Rumaysa Smart,53,marinero,mujer,GUYANESA,C97098157
 1324,Abel Potts,38,marinero,mujer,LIBANESA,V26386082
 1325,Ciara Prosser,29,marinero,mujer,IRAQUI,M15764022
-1326,Kara Vinson,47,capitán,mujer,ISLANDESA,E80101428
+1326,Kara Vinson,47,capitan,mujer,ISLANDESA,E80101428
 1327,Amina Christensen,18,marinero,hombre,DOMINICA,K91232911
 1328,Aqib Horton,45,marinero,hombre,NICARAGUENSE,W84662866
 1329,Kingston Oconnor,40,marinero,mujer,DE BAHREIN,L42104285
@@ -1338,7 +1338,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1336,Vincent Velasquez,23,marinero,hombre,SALVADOREÑA,F13974785
 1337,Deborah Mcdowell,47,marinero,hombre,GUYANESA,I95652889
 1338,Cheyenne Tillman,33,marinero,hombre,YUGOSLAVA,C91112222
-1339,Leen Proctor,59,capitán,hombre,LIBIA,S11031665
+1339,Leen Proctor,59,capitan,hombre,LIBIA,S11031665
 1340,Kirsten Ashton,58,marinero,hombre,BIRMANA,V51518398
 1341,Gary Hodges,55,marinero,mujer,GUINEA,Z51759042
 1342,Lylah Lindsay,39,marinero,mujer,TURCA,B63521942
@@ -1353,18 +1353,18 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1351,Kya Wall,26,marinero,mujer,ALEMANA,J58429507
 1352,Jaidan Sparrow,57,marinero,hombre,NIGERINA,X91970776
 1353,Wiktoria Ferreira,48,marinero,mujer,AUSTRALIANA,J52509436
-1354,Rebecca Rice,30,capitán,hombre,ISRAELI,E37210159
+1354,Rebecca Rice,30,capitan,hombre,ISRAELI,E37210159
 1355,Amman Rivera,60,marinero,hombre,BURKINA FASO,E55021195
 1356,Lillian Maguire,24,marinero,mujer,TUNECINA,V42959743
 1357,Jada Fisher,33,marinero,mujer,GUINEA,N26184586
 1358,Conna Hartley,52,marinero,hombre,ZAMBIANA,Q38122183
-1359,Tillie Devine,29,capitán,mujer,INDONESA,D33460699
-1360,Iestyn Henry,18,capitán,hombre,KIRGUISTAN,Y45945019
+1359,Tillie Devine,29,capitan,mujer,INDONESA,D33460699
+1360,Iestyn Henry,18,capitan,hombre,KIRGUISTAN,Y45945019
 1361,Eileen Wolf,58,marinero,mujer,ISRAELI,P49098038
 1362,Barbara Norman,27,marinero,hombre,BHUTANESA,I61164574
 1363,Pollyanna Estrada,28,marinero,mujer,NAMIBIANA,Z93920529
 1364,Chris Bonner,19,marinero,hombre,LIBANESA,I76314419
-1365,Romany Finnegan,50,capitán,hombre,PORTUGUESA,V64493595
+1365,Romany Finnegan,50,capitan,hombre,PORTUGUESA,V64493595
 1366,Malakai Hanson,49,marinero,mujer,GUINEA,B48412354
 1367,Henley Knox,43,marinero,mujer,BULGARA,X92505390
 1368,Kathy Fernandez,46,marinero,hombre,RWANDESA,S30095111
@@ -1377,14 +1377,14 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1375,Wilson Norris,33,marinero,mujer,LITUANIA ,T36453293
 1376,Havin Johnson,42,marinero,hombre,AUSTRIACA,P16592738
 1377,Virgil Gough,57,marinero,mujer,CHIPRIOTA,D39950667
-1378,Anam North,32,capitán,mujer,COLOMBIANA,V41581736
-1379,Kealan Franco,54,capitán,mujer,KENIANA,D55276623
+1378,Anam North,32,capitan,mujer,COLOMBIANA,V41581736
+1379,Kealan Franco,54,capitan,mujer,KENIANA,D55276623
 1380,Elena Donald,25,marinero,hombre,SURINAMENSE,P43172347
 1381,Sophia Miles,55,marinero,mujer,HAITIANA,P52379994
-1382,Ines Swanson,54,capitán,hombre,SWAZI,Y50357706
+1382,Ines Swanson,54,capitan,hombre,SWAZI,Y50357706
 1383,Zac Tierney,35,marinero,hombre,REINO UNIDO,Z21021293
 1384,Rachael Mccartney,26,marinero,hombre,NAMIBIANA,O64359907
-1385,Zubair Odonnell,47,capitán,mujer,GUYANESA,S42985830
+1385,Zubair Odonnell,47,capitan,mujer,GUYANESA,S42985830
 1386,Tiarna Short,55,marinero,mujer,BURUNDESA,K85468974
 1387,Wilma Reese,57,marinero,hombre,SUIZA,P18446920
 1388,Kendal Valdez,25,marinero,mujer,ESTONIA,U50048801
@@ -1397,22 +1397,22 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1395,Misha Mathews,29,marinero,hombre,AMERICANA,O33861968
 1396,Aeryn Kaiser,20,marinero,mujer,ZAMBIANA,Z53032258
 1397,Woody Banks,25,marinero,mujer,GRANADINA,J68640174
-1398,Tamara Meyers,25,capitán,mujer,PAPUENSE,Z64414223
-1399,Cavan Howells,32,capitán,hombre,TRINITARIA,P61086155
+1398,Tamara Meyers,25,capitan,mujer,PAPUENSE,Z64414223
+1399,Cavan Howells,32,capitan,hombre,TRINITARIA,P61086155
 1400,Bret Emerson,29,marinero,hombre,PARAGUAYA,P30793818
 1401,Miles Boyle,22,marinero,mujer,DE SANTO TOME,K30677562
 1402,Haiden Grimes,36,marinero,hombre,SUIZA,X24210550
 1403,Mohsin Suarez,60,marinero,hombre,TUNECINA,D90715023
-1404,Milosz Walton,18,capitán,hombre,SINGAPORENSE,E10833391
+1404,Milosz Walton,18,capitan,hombre,SINGAPORENSE,E10833391
 1405,Erin Reyes,25,marinero,mujer,SIRIA,L18673955
 1406,Emmett Wu,27,marinero,mujer,INDONESA,H89652178
 1407,Scott Dupont,46,marinero,hombre,PARAGUAYA,Y15695568
 1408,Akshay Childs,54,marinero,hombre,MOZAMBIQUEÑA,Q33775782
 1409,Riya Nichols,54,marinero,hombre,PANAMEÑA,S25634429
 1410,Aleesha Gonzalez,25,marinero,mujer,NICARAGUENSE,R68569887
-1411,Blanche Irwin,47,capitán,mujer,ZAIRANA,K94722421
+1411,Blanche Irwin,47,capitan,mujer,ZAIRANA,K94722421
 1412,Kaleb Buck,21,marinero,mujer,ZAIRANA,I81977975
-1413,Ernest Delaney,42,capitán,mujer,BURKINA FASO,T67930846
+1413,Ernest Delaney,42,capitan,mujer,BURKINA FASO,T67930846
 1414,Patsy Whitworth,19,marinero,mujer,SIERRA LEONESA,M19914728
 1415,Esme-Rose Bouvet,52,marinero,mujer,REINO UNIDO,J87388807
 1416,Diego Rivas,36,marinero,mujer,CHILENA,Q46871617
@@ -1430,8 +1430,8 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1428,Oliver Tanner,21,marinero,mujer,BELICEÑA,D64619991
 1429,Theia Nash,41,marinero,hombre,CONGOLESA,C50103864
 1430,Reema Cox,18,marinero,hombre,ARGELIANA,K38747041
-1431,Sherri Holden,52,capitán,mujer,HONDUREÑA,M93397516
-1432,Cheryl Houghton,31,capitán,mujer,ZAMBIANA,D15088868
+1431,Sherri Holden,52,capitan,mujer,HONDUREÑA,M93397516
+1432,Cheryl Houghton,31,capitan,mujer,ZAMBIANA,D15088868
 1433,Zephaniah Hicks,23,marinero,hombre,CHECOSLOVACA,Q42757121
 1434,Carmel Camacho,42,marinero,mujer,BAHAMEÑA,H78731055
 1435,Ailish Rosas,36,marinero,hombre,LIBANESA,H25765941
@@ -1442,12 +1442,12 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1440,Ava Magana,41,marinero,hombre,CANADIENSE,J22719557
 1441,Samera Espinoza,30,marinero,hombre,LITUANIA ,P77071543
 1442,Lucinda Mooney,35,marinero,hombre,NEPALESA,Z49208250
-1443,Connagh Turnbull,32,capitán,mujer,AFGANA,N54392116
+1443,Connagh Turnbull,32,capitan,mujer,AFGANA,N54392116
 1444,Shantelle Mejia,40,marinero,hombre,DE BAHREIN,R83022086
 1445,Aneesah Meyer,23,marinero,hombre,LIECHTENSTENSE,A22830260
-1446,George Costa,42,capitán,hombre,BIRMANA,E11799224
+1446,George Costa,42,capitan,hombre,BIRMANA,E11799224
 1447,Ellesha Alford,31,marinero,hombre,URUGUAYA,I77690464
-1448,Marcel Dillon,36,capitán,mujer,KIRGUISTAN,Z80228036
+1448,Marcel Dillon,36,capitan,mujer,KIRGUISTAN,Z80228036
 1449,Imaad Barnes,38,marinero,hombre,SWAZI,I36965140
 1450,Habib Wagner,58,marinero,mujer,BRITANICA,S31809526
 1451,Aanya Pham,19,marinero,hombre,LIECHTENSTENSE,P28129448
@@ -1455,8 +1455,8 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1453,Khalid Watson,52,marinero,hombre,ALEMANA,C18219644
 1454,Talha Maguire,37,marinero,hombre,ZAMBIANA,M92953962
 1455,Tasha Ridley,55,marinero,hombre,RUMANA,Y71450811
-1456,Eliana O'Quinn,25,capitán,mujer,SUDANESA,D80875979
-1457,Norma Robin,38,capitán,mujer,BOLIVIANA,Y64764806
+1456,Eliana O'Quinn,25,capitan,mujer,SUDANESA,D80875979
+1457,Norma Robin,38,capitan,mujer,BOLIVIANA,Y64764806
 1458,Jaxson Legge,26,marinero,hombre,FRANCESA,J59091515
 1459,Montel Crane,31,marinero,mujer,REINO UNIDO,B96418694
 1460,Ammarah Willis,18,marinero,mujer,MARROQUI,E97634230
@@ -1464,46 +1464,46 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1462,Mahi Dupont,22,marinero,mujer,ZAIRANA,T34993364
 1463,Holli Jaramillo,56,marinero,hombre,HOLANDESA,O43096030
 1464,Aleyna Curry,57,marinero,mujer,URUGUAYA,W45263887
-1465,Tyson East,39,capitán,hombre,IRLANDESA,Y22908576
-1466,Tonya Wilkins,58,capitán,hombre,LIECHTENSTENSE,K32583749
-1467,Nafeesa Boyle,60,capitán,hombre,GABONESA,J29953266
+1465,Tyson East,39,capitan,hombre,IRLANDESA,Y22908576
+1466,Tonya Wilkins,58,capitan,hombre,LIECHTENSTENSE,K32583749
+1467,Nafeesa Boyle,60,capitan,hombre,GABONESA,J29953266
 1468,Jameel Quinn,21,marinero,mujer,SINGAPORENSE,K58853972
 1469,Alia Daniels,55,marinero,mujer,JAPONESA,Q91974018
 1470,Miyah Donald,28,marinero,mujer,PARAGUAYA,R53934827
 1471,Koa Le,38,marinero,mujer,MONEGASCA,C43094431
-1472,Raiden Cairns,28,capitán,hombre,CANADIENSE,H95880960
+1472,Raiden Cairns,28,capitan,hombre,CANADIENSE,H95880960
 1473,Angus Plummer,28,marinero,hombre,LIBANESA,L62301948
 1474,Julie Rodriquez,55,marinero,mujer,NAURUANA,C35680280
 1475,Cristian Barron,22,marinero,mujer,SUIZA,X98523776
 1476,Lyle Pate,53,marinero,mujer,GUINEA ECUATORIANA,F15613610
-1477,Tobias Partridge,56,capitán,hombre,ETIOPE,Q91915032
+1477,Tobias Partridge,56,capitan,hombre,ETIOPE,Q91915032
 1478,Sarah-Jane Cherry,18,marinero,hombre,URUGUAYA,V60764222
-1479,Lynsey Sears,29,capitán,hombre,BRITANICA,S75558443
-1480,Shakeel Lam,23,capitán,mujer,MEXICANA,Q35652318
+1479,Lynsey Sears,29,capitan,hombre,BRITANICA,S75558443
+1480,Shakeel Lam,23,capitan,mujer,MEXICANA,Q35652318
 1481,Kelvin Cervantes,34,marinero,mujer,FINLANDESA,B15207104
 1482,Denise Gordon,27,marinero,hombre,DOMINICA,Y67770169
-1483,Irfan Dickinson,50,capitán,hombre,DANESA,Z89168974
+1483,Irfan Dickinson,50,capitan,hombre,DANESA,Z89168974
 1484,Alastair Wilkes,34,marinero,hombre,CHINA,S31711852
 1485,Brandi Stamp,21,marinero,hombre,AFGANA,C58646385
-1486,Fenella Wickens,19,capitán,mujer,ALEMANA,I34794437
+1486,Fenella Wickens,19,capitan,mujer,ALEMANA,I34794437
 1487,Emilija Stewart,54,marinero,hombre,HINDU,Z22643979
-1488,Melina Briggs,22,capitán,hombre,BOLIVIANA,E49574564
+1488,Melina Briggs,22,capitan,hombre,BOLIVIANA,E49574564
 1489,Teegan Hooper,42,marinero,mujer,GUINEA,I14560493
 1490,Sahara Hess,36,marinero,hombre,MALDIVA,U94425738
 1491,Filip Ortega,39,marinero,hombre,NORVIETNAMITA,H44107345
 1492,Benito Beaumont,60,marinero,mujer,SINGAPORENSE,J88383831
-1493,Frances Young,27,capitán,hombre,SUECA,O20562020
-1494,Padraig Humphreys,54,capitán,mujer,SIRIA,L62234267
+1493,Frances Young,27,capitan,hombre,SUECA,O20562020
+1494,Padraig Humphreys,54,capitan,mujer,SIRIA,L62234267
 1495,Ameena Wallace,20,marinero,mujer,BOTSWANESA,Y86372859
 1496,Bailey Hamilton,33,marinero,mujer,NIGERIANA,C28894089
 1497,Ace Walton,48,marinero,hombre,NICARAGUENSE,L65568802
 1498,Beverley Sharp,45,marinero,mujer,MALDIVA,Q27389411
-1499,Shay Baird,26,capitán,mujer,MEXICANA,A83437055
+1499,Shay Baird,26,capitan,mujer,MEXICANA,A83437055
 1500,Uzma Green,19,marinero,hombre,REINO UNIDO,J63004751
 1501,Alishba Potter,45,marinero,hombre,MALIENSE,I33929157
 1502,Suzanna Bean,23,marinero,hombre,MALASIA,E74931410
 1503,Theia Churchill,21,marinero,hombre,GAMBIANA,M22599508
-1504,Francesco Parrish,39,capitán,mujer,LIBIA,N49133392
+1504,Francesco Parrish,39,capitan,mujer,LIBIA,N49133392
 1505,Ariana Cleveland,26,marinero,hombre,ETIOPE,P44337852
 1506,Izabel Jeffery,30,marinero,hombre,SUECA,O50692935
 1507,Macy Mueller,31,marinero,hombre,ZAIRANA,J73623481
@@ -1515,27 +1515,27 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1513,Wilson Huff,20,marinero,mujer,SURINAMENSE,O71022549
 1514,Ayana Decker,21,marinero,mujer,ESTONIA,G54657901
 1515,Hana Vu,39,marinero,mujer,ISRAELI,C61655882
-1516,Alejandro Trujillo,57,capitán,mujer,BHUTANESA,K12654398
+1516,Alejandro Trujillo,57,capitan,mujer,BHUTANESA,K12654398
 1517,Ayomide Hutton,36,marinero,mujer,REINO UNIDO,V43692324
 1518,Zion Hampton,40,marinero,hombre,MONGOLESA,D23850707
-1519,Jett Becker,24,capitán,hombre,ESPAÑOLA,R92063116
+1519,Jett Becker,24,capitan,hombre,ESPAÑOLA,R92063116
 1520,Radhika Dudley,33,marinero,hombre,RUMANA,S12023826
-1521,John-James Hood,23,capitán,hombre,MOZAMBIQUEÑA,H14216032
+1521,John-James Hood,23,capitan,hombre,MOZAMBIQUEÑA,H14216032
 1522,Gwion Chan,23,marinero,mujer,SIERRA LEONESA,E15311496
 1523,Komal Stephenson,49,marinero,mujer,SOVIETICA UCRANIANA,G40799282
 1524,Dennis Haynes,54,marinero,hombre,HINDU,L22938365
 1525,Kieran Mcmanus,26,marinero,mujer,ZAMBIANA,D14950542
-1526,Kean Nicholls,49,capitán,mujer,TANZANIANA,E68580309
+1526,Kean Nicholls,49,capitan,mujer,TANZANIANA,E68580309
 1527,Tai Robles,57,marinero,mujer,DOMINICA,S73126291
-1528,Ayush Moss,22,capitán,mujer,BRITANICA,H25917362
+1528,Ayush Moss,22,capitan,mujer,BRITANICA,H25917362
 1529,Etienne Butler,50,marinero,mujer,PAKISTANI,G56673931
 1530,Caolan Espinoza,34,marinero,hombre,ARGELIANA,I79947265
 1531,Clementine Sheldon,56,marinero,mujer,CHINA,U68460971
 1532,Enya Boone,30,marinero,mujer,BRASILEÑA,E93314712
-1533,Zayd Fellows,47,capitán,mujer,OMANESA,O84026147
+1533,Zayd Fellows,47,capitan,mujer,OMANESA,O84026147
 1534,Emmie Talley,54,marinero,mujer,BHUTANESA,I69758453
 1535,Sachin Jenkins,46,marinero,hombre,BRASILEÑA,P67850230
-1536,Roxy Mccall,24,capitán,mujer,REINO UNIDO,I12399792
+1536,Roxy Mccall,24,capitan,mujer,REINO UNIDO,I12399792
 1537,Danica Cardenas,22,marinero,hombre,MALDIVA,X27674093
 1538,Poppy Leon,26,marinero,mujer,YEMENI,H21742994
 1539,Cai Gallagher,46,marinero,mujer,TAIWANESA,W59784575
@@ -1545,7 +1545,7 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1543,Rayan Hewitt,59,marinero,hombre,DE CABO VERDE,Z94575494
 1544,Musa Rayner,45,marinero,mujer,CHADIANA,P34487801
 1545,Kason Jenkins,22,marinero,hombre,DE BAHREIN,Y26687661
-1546,Garin Hills,43,capitán,mujer,HAITIANA,P62521786
+1546,Garin Hills,43,capitan,mujer,HAITIANA,P62521786
 1547,Cooper Lucas,32,marinero,mujer,ISLANDESA,H25875897
 1548,Aronas Hatfield,49,marinero,mujer,CANADIENSE,E36506226
 1549,Huma Valentine,25,marinero,mujer,RWANDESA,H15179611
@@ -1556,9 +1556,9 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1554,Daniella Medrano,27,marinero,mujer,BELICEÑA,H60519333
 1555,Marwa Hopkins,60,marinero,hombre,BELGA,M70221947
 1556,Hajrah Hansen,19,marinero,hombre,LAOSIANA,M41203201
-1557,Eloise Hinton,50,capitán,hombre,GUINEA,Y93670902
+1557,Eloise Hinton,50,capitan,hombre,GUINEA,Y93670902
 1558,Arlo Fraser,49,marinero,mujer,MALASIA,J17125181
-1559,Zack Tang,34,capitán,mujer,CAMERUNESA,X82519989
+1559,Zack Tang,34,capitan,mujer,CAMERUNESA,X82519989
 1560,Maddison Chung,50,marinero,hombre,FRANCESA,N78674089
 1561,Maisey Lawrence,40,marinero,mujer,ARGENTINA,Y81002144
 1562,Zubair Kay,39,marinero,mujer,AUSTRALIANA,O63984931
@@ -1567,16 +1567,16 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1565,Phillipa Archer,48,marinero,hombre,GUYANESA,R60669083
 1566,Bilaal Novak,37,marinero,mujer,NORCOREANA,O66263196
 1567,Ananya Sherman,22,marinero,hombre,DE ZIMBAWI,K57095440
-1568,Aston Berg,18,capitán,mujer,EGIPCIA,K38336985
-1569,Alexa Henderson,32,capitán,mujer,KENIANA,X71965468
+1568,Aston Berg,18,capitan,mujer,EGIPCIA,K38336985
+1569,Alexa Henderson,32,capitan,mujer,KENIANA,X71965468
 1570,Aairah Larsen,27,marinero,hombre,TRINITARIA,L34669447
 1571,Christos Sharma,29,marinero,mujer,BHUTANESA,N68371627
 1572,Betty Whittington,39,marinero,hombre,MAURICIANA,X47728816
-1573,Adnaan Corona,57,capitán,hombre,ARABE,A71445978
+1573,Adnaan Corona,57,capitan,hombre,ARABE,A71445978
 1574,Raya Dejesus,57,marinero,hombre,SINGAPORENSE,X76165312
 1575,Eric Caldwell,52,marinero,hombre,BOTSWANESA,E74162962
 1576,Lillie-May Hammond,43,marinero,hombre,LIBANESA,Z71264239
-1577,Vivienne Herrera,40,capitán,hombre,GABONESA,I60955054
+1577,Vivienne Herrera,40,capitan,hombre,GABONESA,I60955054
 1578,Rea Alvarado,40,marinero,hombre,REINO UNIDO(BRIT. DEL EXT.),J25372468
 1579,Tymon Gaines,60,marinero,mujer,RUMANA,M15728697
 1580,Janelle Dickerson,52,marinero,mujer,BURUNDESA,B26662981
@@ -1592,11 +1592,11 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1590,Veronica Ali,47,marinero,hombre,NIGERINA,K89362716
 1591,Maiya Stout,60,marinero,hombre,YEMENI,P33323816
 1592,Judah Buck,43,marinero,mujer,GUINEA,L56259815
-1593,Fabio Hooper,36,capitán,mujer,JAMAIQUINA,G94153544
+1593,Fabio Hooper,36,capitan,mujer,JAMAIQUINA,G94153544
 1594,Ryan David,58,marinero,hombre,MOZAMBIQUEÑA,W82320661
 1595,Darcie-Mae Dowling,43,marinero,hombre,TURCA,L78231211
-1596,Inigo Haley,26,capitán,mujer,IRAQUI,F42449248
-1597,Deborah Dunne,42,capitán,mujer,IRANI,K68311115
+1596,Inigo Haley,26,capitan,mujer,IRAQUI,F42449248
+1597,Deborah Dunne,42,capitan,mujer,IRANI,K68311115
 1598,Kendal Mcfadden,22,marinero,hombre,GUINEA ECUATORIANA,A50484842
 1599,Charis Lin,26,marinero,hombre,PORTUGUESA,D26409712
 1600,Chantel Hayden,38,marinero,mujer,ALEMANA,H90600071
@@ -1611,34 +1611,34 @@ id_personal,nombre,edad,marinero,genero,nacionalidad,pasaporte
 1609,Miguel Crane,60,marinero,mujer,HUNGARA,G59577030
 1610,Lia Humphrey,21,marinero,hombre,MALASIA,I88892388
 1611,Sheena Perry,31,marinero,hombre,KUWAITI,M69113431
-1612,Emme Fischer,29,capitán,mujer,DE ZIMBAWI,F19346482
+1612,Emme Fischer,29,capitan,mujer,DE ZIMBAWI,F19346482
 1613,Isra Pruitt,22,marinero,hombre,JAPONESA,O13449416
-1614,Nuha Davila,24,capitán,hombre,SWAZI,D26044036
+1614,Nuha Davila,24,capitan,hombre,SWAZI,D26044036
 1615,Halimah Chaney,31,marinero,hombre,AUSTRIACA,E96622189
 1616,Matthias Waller,33,marinero,mujer,ARGELIANA,M16794912
-1617,Maisha Davis,51,capitán,hombre,SAN MARINENSE,H63425329
+1617,Maisha Davis,51,capitan,hombre,SAN MARINENSE,H63425329
 1618,Oluwatobiloba Mac,30,marinero,mujer,LAOSIANA,H48785745
 1619,Lewie Pearson,44,marinero,hombre,MARROQUI,F27429636
 1620,Kayden Gunn,54,marinero,mujer,NORVIETNAMITA,U65928011
 1621,Ellen Downes,22,marinero,hombre,GUYANESA,W68251412
-1622,Axl Hahn,43,capitán,mujer,MOLDOVIA,E17897945
+1622,Axl Hahn,43,capitan,mujer,MOLDOVIA,E17897945
 1623,Thelma Anthony,25,marinero,hombre,MONEGASCA,W84528986
 1624,Siyana Oneal,48,marinero,mujer,MOLDOVIA,W19724377
 1625,Harriet Carpenter,46,marinero,mujer,SALOMONESA,M43293318
 1626,Jason Devlin,30,marinero,hombre,CHECOSLOVACA,M81919103
 1627,Meredith Mcclure,22,marinero,mujer,RUMANA,K96803196
 1628,Olly Kaufman,45,marinero,hombre,TAIWANESA,U86107037
-1629,Aminah Kennedy,41,capitán,hombre,MALAWIANA,A38888126
+1629,Aminah Kennedy,41,capitan,hombre,MALAWIANA,A38888126
 1630,Juliet Dennis,54,marinero,mujer,LAOSIANA,T53899888
 1631,Deon Mcneill,30,marinero,mujer,MALIENSE,U93785974
-1632,Dilan Steele,59,capitán,hombre,LIBIA,R81584068
+1632,Dilan Steele,59,capitan,hombre,LIBIA,R81584068
 1633,Fardeen Whittle,38,marinero,mujer,DE BARBADOS,J87987922
 1634,Clarissa Dougherty,60,marinero,hombre,ISRAELI,B23610129
 1635,Yousuf Draper,40,marinero,mujer,GRANADINA,S90330150
 1636,Ishaan Webber,33,marinero,mujer,PORTUGUESA,C39285747
 1637,Remi Barnes,29,marinero,mujer,HAITIANA,I88057857
 1638,Kamran Bull,37,marinero,hombre,AUSTRALIANA,M56565231
-1639,Chandler Chandler,56,capitán,hombre,VENEZOLANA,M66934590
+1639,Chandler Chandler,56,capitan,hombre,VENEZOLANA,M66934590
 1640,Julius Roche,41,marinero,hombre,MACEDONIA,X63147050
 1641,Amiyah Short,38,marinero,hombre,LESOTHENSE,R65306181
 1642,Marwah Lester,52,marinero,hombre,DE SEYCHELLES,E81051489

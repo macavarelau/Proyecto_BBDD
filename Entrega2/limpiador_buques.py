@@ -65,8 +65,8 @@ with open('solo_buques.csv', 'w', encoding='utf-8') as nbf:
         nbf.write(instanica[3])
         nbf.write(',')
         nbf.write(instanica[4])
-        nbf.write(',')
-        nbf.write(str(dict_n_personal[instanica[6]]))
+        #nbf.write(',')
+        #nbf.write(str(dict_n_personal[instanica[6]]))
         nbf.write('\n')
 
 
