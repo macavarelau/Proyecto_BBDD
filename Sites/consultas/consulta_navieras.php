@@ -18,7 +18,7 @@
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
-  		echo "<tr> <td>$naviera</td> </tr>";
+  		echo "<tr> <td>$naviera[0]</td> </tr>";
 	}
   ?>
 	</table>
