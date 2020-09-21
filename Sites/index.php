@@ -6,16 +6,28 @@
 
   <br>
 
-  <h3 align="center"> Ver todas las Navieras</h3>
+  <h3 align="center">Ver todas las Navieras</h3>
 
   <form align="center" action="consultas/consulta_navieras.php" method="post">
-    <br/><br/>
-    <!--input type="submit" value="Buscar"-->
+    <br/>
+    Naviera:
+    <input type="text" name="nombre_naviera">
+    <br>
     <button type="submit" class="btn btn-primary">Ver</button>
 
   </form>
 
   <br>
+  <br>
+
+  <h3 align="center">Buscar buques según naviera</h3>
+
+  <form align="center" action="consultas/consulta_bueques_naviera.php" method="post">
+    <br/><br/>
+    <button type="submit" class="btn btn-primary">Ver</button>
+
+  </form>
+
   <br>
   <br>
   
