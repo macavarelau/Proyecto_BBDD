@@ -15,7 +15,7 @@
 	$navieras = $result -> fetchAll();
   ?>
 
-	<table>
+	<table class="table">
     <tr>
       <th>NOMBRE</th>
       <th>PAÍS</th>
