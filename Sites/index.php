@@ -15,7 +15,9 @@
     Nombre:
     <input type="text" name="nombre_naviera">
     <br/><br/>
-    <input type="submit" value="Buscar">
+    <!--input type="submit" value="Buscar"-->
+    <button type="submit" class="btn btn-primary">Buscar</button>
+
   </form>
   
   <br>
