@@ -6,9 +6,10 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-	$nombre = $_POST["nombre_naviera"];
+    $nombre = $_POST["nombre_naviera"];
+    
 
- 	$query = "SELECT buques.bid, bueques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques  ;";
+ 	$query = "SELECT * FROM buques;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
@@ -29,7 +30,5 @@
 	}
   ?>
 	</table>
-
-</body>
 
 <?php include('../templates/footer.html'); ?>
