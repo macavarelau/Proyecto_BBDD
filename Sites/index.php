@@ -15,6 +15,10 @@
 
   </form>
 
+  <br>
+  <br>
+  <br>
+  
   <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
