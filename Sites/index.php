@@ -9,14 +9,9 @@
   <h3 align="center"> Ver todas las Navieras</h3>
 
   <form align="center" action="consultas/consulta_navieras.php" method="post">
-    Tipo:
-    <input type="text" name="tipo_elegido">
-    <br/>
-    Nombre:
-    <input type="text" name="nombre_naviera">
     <br/><br/>
     <!--input type="submit" value="Buscar"-->
-    <button type="submit" class="btn btn-primary">Buscar</button>
+    <button type="submit" class="btn btn-primary">Ver</button>
 
   </form>
 

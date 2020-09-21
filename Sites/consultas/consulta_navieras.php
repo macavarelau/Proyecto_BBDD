@@ -11,7 +11,10 @@
 	$result -> execute();
 	$navieras = $result -> fetchAll();
   ?>
-	<h1>Aquí podrá ver lista con los nombres de todas las navieras:</h1>
+  
+    <br/><br/>
+	<h2>Aquí podrá ver lista con los nombres de todas las navieras:</h2>
+    <br/><br/>
 	<table class="table">
     <tr>
       <th>NOMBRE</th>
