@@ -8,7 +8,7 @@
 
 	$nombre = $_POST["nombre_naviera"];
 
- 	$query = "SELECT buques.bid, bueques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques ;";
+ 	$query = "SELECT buques.bid, bueques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques  ;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
