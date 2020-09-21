@@ -6,6 +6,15 @@
 
   <br>
 
+  <h3 align="center"> Ver todas las Navieras</h3>
+
+  <form align="center" action="consultas/consulta_navieras.php" method="post">
+    <br/><br/>
+    <!--input type="submit" value="Buscar"-->
+    <button type="submit" class="btn btn-primary">Buscar</button>
+
+  </form>
+
   <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
