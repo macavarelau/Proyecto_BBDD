@@ -10,8 +10,6 @@
 
   <form align="center" action="consultas/consulta_navieras.php" method="post">
     <br/>
-    Naviera:
-    <input type="text" name="nombre_naviera">
     <br>
     <button type="submit" class="btn btn-primary">Ver</button>
 
@@ -23,7 +21,10 @@
   <h3 align="center">Buscar buques según naviera</h3>
 
   <form align="center" action="consultas/consulta_bueques_naviera.php" method="post">
-    <br/><br/>
+    <br/>
+    Naviera:
+    <input type="text" name="nombre_naviera">
+    <br/>
     <button type="submit" class="btn btn-primary">Ver</button>
 
   </form>
