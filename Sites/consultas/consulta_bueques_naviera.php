@@ -9,7 +9,7 @@
     $nombre = $_POST["nombre_naviera"];
     
 
- 	$query = "SELECT * FROM buques;";
+ 	$query = "SELECT bid, nombre, patente, pais, giro, personal FROM buques;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
