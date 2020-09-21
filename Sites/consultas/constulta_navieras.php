@@ -15,7 +15,6 @@
 	<table class="table">
     <tr>
       <th>NOMBRE</th>
-      <th>PAÍS</th>
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
