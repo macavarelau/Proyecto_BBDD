@@ -8,7 +8,7 @@
 
 	$nombre = $_POST["nombre_naviera"];
 
- 	$query = "SELECT buques.bid, bueques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM navieras, posee, buques WHERE buques.bid = posee.bid and navieras.nid = posee.nid and UPPER(navieras.nombre) LIKE UPPER('%$nombre%');";
+ 	$query = "SELECT buques.bid, bueques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques ;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
