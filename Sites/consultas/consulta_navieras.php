@@ -13,7 +13,7 @@
   ?>
   
     <br/><br/>
-	<h2>Aquí podrá ver lista con los nombres de todas las navieras:</h2>
+	<h2 class="font-weight-bolder" >Aquí podrá ver lista con los nombres de todas las navieras:</h2>
     <br/><br/>
 	<table class="table">
     <tr>

@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-  <h1 align="center">Buquepedia</h1>
+  <h1 class="font-weight-bolder" align="center">Buquepedia</h1>
   <p style="text-align:center;">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 
   <br>
