@@ -9,7 +9,7 @@
   $tipo = $_POST["tipo"];
 
   #Se construye la consulta como un string
-  $query = "SELECT * FROM buques WHERE giro = '%$tipo%' AND personal = (SELECT max(personal) FROM buques WHERE giro = '%$tipo%');";
+  $query = "SELECT * FROM buques WHERE giro = '$tipo' AND personal = (SELECT max(personal) FROM buques WHERE giro = '$tipo');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

@@ -43,6 +43,7 @@
     <br/>
     Puerto:
     <input type="text" name="nombre_puerto">
+    <br>
     Año:
     <select class="form-control" id="sel1" name="año">
         <option>2010</option>
@@ -114,10 +115,7 @@
   <br>
   <br>
 
-  <!-- CONSULTAS viejas-->
 
-
-  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     Tipo:
