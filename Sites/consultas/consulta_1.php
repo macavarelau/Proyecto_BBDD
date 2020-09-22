@@ -22,8 +22,3 @@
   <?php
 	foreach ($navieras as $naviera) {
   		echo "<tr> <td>$naviera[0]</td> </tr>";
-	}
-  ?>
-	</table>
-
-<?php include('../templates/footer.html'); ?>

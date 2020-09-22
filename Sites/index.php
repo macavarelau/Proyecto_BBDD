@@ -6,9 +6,10 @@
 
   <br>
 
+  <!-- CONSULTA 1-->
   <h3 align="center">Ver todas las Navieras</h3>
 
-  <form align="center" action="consultas/consulta_navieras.php" method="post">
+  <form align="center" action="consultas/consulta_1.php" method="post">
     <br/>
     <br>
     <button type="submit" class="btn btn-primary">Ver</button>
@@ -18,9 +19,11 @@
   <br>
   <br>
 
-  <h3 align="center">Buscar buques según naviera</h3>
 
-  <form align="center" action="consultas/consulta_bueques_naviera.php" method="post">
+  <!-- CONSULTA 2-->
+  <h3 align="center">Buscar Buques según Naviera</h3>
+
+  <form align="center" action="consultas/consulta_2.php" method="post">
     <br/>
     Naviera:
     <input type="text" name="nombre_naviera">
@@ -32,6 +35,47 @@
   <br>
   <br>
   
+
+  <!-- CONSULTA 3-->
+  <h3 align="center">Buscar Buques según Puerto</h3>
+
+  <form align="center" action="consultas/consulta_3.php" method="post">
+    <br/>
+    Puerto:
+    <input type="text" name="nombre_puerto">
+    Año:
+    <select class="form-control" id="sel1" name="año">
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+      </select>
+    <br/>
+    <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+
+  </form>
+
+  <br>
+  <br>
+  
+
+  <!-- CONSULTA 4-->
+
+  <!-- CONSULTA 5-->
+
+  <!-- CONSULTA 6-->
+
+  <!-- CONSULTAS viejas-->
+
+
   <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
@@ -50,6 +94,7 @@
   <br>
   <br>
 
+  
   <h3 align="center"> ¿Quieres buscar un Pokemón por su ID?</h3>
 
   <form align="center" action="consultas/consulta_stats.php" method="post">
@@ -63,6 +108,7 @@
   <br>
   <br>
 
+  
   <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
 
   <form align="center" action="consultas/consulta_altura.php" method="post">
