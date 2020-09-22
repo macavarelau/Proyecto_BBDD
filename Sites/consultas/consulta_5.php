@@ -11,7 +11,7 @@
   $puerto = $_POST["puerto"];
 
   #Se construye la consulta como un string
-  $query = "SELECT personal.nombre from personal, tiene, buques, atraques, puertos where personal.genero = '$genero' and personal.cargo = '$cargo' and personal.pid = tiene.pid and buques.bid = tiene.bid and atraques.bid = buques.bid and puertos.ptid = atraques.puerto and UPPER(puertos.nombre) like UPPER('%$puerto%');";
+  $query = "SELECT personal.nombre from personal, tiene, buques, atraques, puertos where personal.genero = '$genero' and personal.cargo = '$cargo' and personal.pid = tiene.pid and buques.bid = tiene.bid and atraques.abid = buques.bid and puertos.ptid = atraques.puerto and UPPER(puertos.pnombre) like UPPER('%$puerto%');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

@@ -10,7 +10,7 @@
   $año = $_POST["año"];
 
   #Se construye la consulta como un string
-  $query = "SELECT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques, atraques, puertos WHERE atraques.bid = buques.bid AND atraques.puerto = puertos.ptid AND UPPER(puertos.nombre) LIKE UPPER('%$nombre_puerto%') AND Atraques.ingreso BETWEEN '$año-01-01' AND '$año-12-31';";
+  $query = "SELECT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques, atraques, puertos WHERE atraques.abid = buques.bid AND atraques.puerto = puertos.ptid AND UPPER(puertos.pnombre) LIKE UPPER('%$nombre_puerto%') AND Atraques.ingreso BETWEEN '$año-01-01' AND '$año-12-31';";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

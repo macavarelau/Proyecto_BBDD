@@ -69,31 +69,31 @@
 
   <!-- CONSULTA 4-->
 
+  <!-- CONSULTA 5-->
+
   <h3 align="center">Buscar personal por cargo, género y puerto</h3>
 
-  <form align="center" action="consultas/consulta_4.php" method="post">
-    <br/>
-    Cargo:
-    <select class="form-control" id="sel1" name="cargo">
-        <option>marinero</option>
-        <option>capitán</option>
-      </select>
-    Género
-    <select class="form-control" id="sel1" name="genero">
-        <option>hombre</option>
-        <option>mujer</option>
-      </select>
-    Puerto:
-    <input type="text" name="puerto">
-    <br/>
-    <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+<form align="center" action="consultas/consulta_5.php" method="post">
+  <br/>
+  Cargo:
+  <select class="form-control" id="sel1" name="cargo">
+      <option>marinero</option>
+      <option>capitán</option>
+    </select>
+  Género
+  <select class="form-control" id="sel1" name="genero">
+      <option>hombre</option>
+      <option>mujer</option>
+    </select>
+  Puerto:
+  <input type="text" name="puerto">
+  <br/>
+  <button align= "center" type="submit" class="btn btn-primary">Ver</button>
 
-  </form>
+</form>
 
-  <br>
-  <br>
-
-  <!-- CONSULTA 5-->
+<br>
+<br>
 
   <!-- CONSULTA 6-->
   <h3 align="center">Buscar buques de algún tipo con mayor cantidad de personal</h3>
@@ -106,7 +106,6 @@
         <option>carga</option>
         <option>petrolero</option>
       </select>
-    <input type="text" name="puerto">
     <br/>
     <button align= "center" type="submit" class="btn btn-primary">Ver</button>
 
