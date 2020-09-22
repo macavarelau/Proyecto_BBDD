@@ -6,11 +6,12 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $nombre_puerto = $_POST["nombre_puerto"];
-  $año = $_POST["año"];
+  $cargo = $_POST["cargo"];
+  $genero = $_POST["genero"];
+  $puerto = $_POST["puerto"];
 
   #Se construye la consulta como un string
-  $query = "SELECT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques, atraques, puertos WHERE atraques.bid = buques.bid AND atraques.puerto = puertos.ptid AND UPPER(puertos.nombre) LIKE UPPER('%$nombre_puerto%') AND Atraques.ingreso BETWEEN '$año-01-01' AND '$año-12-31';";
+  $query = "SELECT personal.nombre from personal, tiene, buques, atraques, puertos where personal.genero = '$genero' and personal.cargo = '$cargo' and personal.pid = tiene.pid and buques.bid = tiene.bid and atraques.bid = buques.bid and puertos.ptid = atraques.puerto and UPPER(puertos.nombre) like UPPER('%$puerto%');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

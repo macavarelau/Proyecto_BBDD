@@ -6,11 +6,10 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $nombre_puerto = $_POST["nombre_puerto"];
-  $año = $_POST["año"];
+  $tipo = $_POST["tipo"];
 
   #Se construye la consulta como un string
-  $query = "SELECT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal FROM buques, atraques, puertos WHERE atraques.bid = buques.bid AND atraques.puerto = puertos.ptid AND UPPER(puertos.nombre) LIKE UPPER('%$nombre_puerto%') AND Atraques.ingreso BETWEEN '$año-01-01' AND '$año-12-31';";
+  $query = "SELECT * from buques where giro = '%$tipo%' and personal = (select max(personal) from buques where giro = '%$tipo%');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
