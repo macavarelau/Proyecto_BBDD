@@ -5,7 +5,7 @@
 <?php
   require("../config/conexion.php");
 
-    $nombre = $_POST["nombre_naviera"];
+    $nombre_naviera = $_POST["nombre_naviera"];
     
     $query = "SELECT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal 
     FROM navieras, posee, buques WHERE navieras.nombre>=$nombre_naviera
