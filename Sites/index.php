@@ -5,12 +5,7 @@
   <p style="text-align:center;">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 
   <br>
-<<<<<<< HEAD
 <!-- CONSULTA 1-->
-=======
-
-  <!-- CONSULTA 1-->
->>>>>>> 41889fc33c9ada2922b398914311e2d877f260ab
   <h3 align="center">Ver todas las Navieras</h3>
 
   <form align="center" action="consultas/consulta_1.php" method="post">
@@ -22,13 +17,6 @@
 
   <br>
   <br>
-
-<<<<<<< HEAD
-<!-- CONSULTA 2-->
-  <h3 align="center">Buscar buques según naviera</h3>
-=======
->>>>>>> 41889fc33c9ada2922b398914311e2d877f260ab
-
   <!-- CONSULTA 2-->
   <h3 align="center">Buscar Buques según Naviera</h3>
 
@@ -43,22 +31,6 @@
 
   <br>
   <br>
-<<<<<<< HEAD
-  <!-- CONSULTA 3-->
-
-
-  <!-- CONSULTA 4-->
-
-
-  <!-- CONSULTA 5-->
-
-
-  <!-- CONSULTA 6-->
-
-
-  <!-- Consultas viejas-->
-  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
-=======
   
 
   <!-- CONSULTA 3-->
@@ -141,7 +113,6 @@
   <br>
 
 
->>>>>>> 41889fc33c9ada2922b398914311e2d877f260ab
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     Tipo:
