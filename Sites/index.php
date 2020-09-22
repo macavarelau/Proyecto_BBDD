@@ -1,6 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
+<div class="container">
   <h1 class="font-weight-bolder" align="center">Buquepedia</h1>
   <p style="text-align:center;">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 
@@ -67,6 +68,23 @@
 
   <!-- CONSULTA 4-->
 
+  <h3 align="center">Buscar Buques que comparten tiempos y puertos</h3>
+
+<form align="center" action="consultas/consulta_4.php" method="post">
+  <br/>
+  Buque:
+  <input type="text" name="nombre_buque">
+  <br>
+  Puerto:
+  <input type="text" name="nombre_puerto">
+  <br/>
+  <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+
+</form>
+
+<br>
+<br>
+
   <!-- CONSULTA 5-->
 
   <h3 align="center">Buscar personal por cargo, género y puerto</h3>
@@ -111,8 +129,6 @@
 
   <br>
   <br>
-
-
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     Tipo:
@@ -186,4 +202,5 @@
   <br>
   <br>
 </body>
+</div>
 </html>
