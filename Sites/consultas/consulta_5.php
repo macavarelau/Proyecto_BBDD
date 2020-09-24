@@ -23,7 +23,7 @@
   ?>
 
 <br/><br/>
-	<h2 class="font-weight-bolder" >Tabla de personal que son <?php $cargo ?>, <?php $genero ?> y han estado en el puerto "<?php $puerto ?>":</h2>
+	<h2 class="font-weight-bolder" >Tabla de personal que son <?php echo "$cargo" ?>, <?php echo "$genero" ?> y han estado en el puerto "<?php echo "$puerto" ?>":</h2>
 <br/><br/>
 
 <table class="table table-striped">

@@ -22,7 +22,7 @@
   ?>
 
 <br/><br/>
-	<h2 class="font-weight-bolder" >Tabla de buques que atracaron en "<?php $nombre_puerto ?>" durante el año <?php $año ?>:</h2>
+	<h2 class="font-weight-bolder" >Tabla de buques que atracaron en "<?php echo "$nombre_puerto" ?>" durante el año <?php echo "$año" ?>:</h2>
 <br/><br/>
 
 <table class="table table-striped">
