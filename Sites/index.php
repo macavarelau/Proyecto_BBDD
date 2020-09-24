@@ -3,13 +3,15 @@
 <body>
 <div class="jumbotron">
   <br/><br/>
-  <h1 >Buquepedia</h1>
+  <h1>Buquepedia</h1>
   <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
 <div class="container">
 
   <br>
 <!-- CONSULTA 1-->
+
+<div class="container">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
@@ -27,7 +29,8 @@
   <form  action="consultas/consulta_2.php" method="post">
     <br/>
     Naviera:
-    <input type="text" name="nombre_naviera">
+    <label for="naviera">Naviera:</label>
+    <input class="form-control" id="naviera" type="text" name="nombre_naviera">
     <br/>
     <button type="submit" class="btn btn-primary">Ver</button>
 
@@ -43,7 +46,7 @@
   <form  action="consultas/consulta_3.php" method="post">
     <br/>
     Puerto:
-    <input type="text" name="nombre_puerto">
+    <input class="form-control"type="text" name="nombre_puerto">
     <br>
     Año:
     <select class="form-control" id="sel1" name="año">
@@ -76,10 +79,10 @@
 <form  action="consultas/consulta_4.php" method="post">
   <br/>
   Buque:
-  <input type="text" name="nombre_buque">
+  <input class="form-control"type="text" name="nombre_buque">
   <br>
   Puerto:
-  <input type="text" name="nombre_puerto">
+  <input class="form-control"type="text" name="nombre_puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 
@@ -105,7 +108,7 @@
       <option>mujer</option>
     </select>
   Puerto:
-  <input type="text" name="puerto">
+  <input class="form-control"type="text" name="puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 

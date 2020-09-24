@@ -21,6 +21,10 @@
 	$buques = $result -> fetchAll();
   ?>
 
+<br/><br/>
+	<h2 class="font-weight-bolder" >Tabla de buques que atracaron en "<?php $nombre_puerto ?>" durante el año <?php $año ?>:</h2>
+<br/><br/>
+
 <table class="table table-striped">
     <tr>
       <th>ID</th>

@@ -22,6 +22,10 @@
 	$buques = $result -> fetchAll();
   ?>
 
+<br/><br/>
+	<h2 class="font-weight-bolder" >Tabla de personal que son <?php $cargo ?>, <?php $genero ?> y han estado en el puerto "<?php $puerto ?>":</h2>
+<br/><br/>
+
 <table class="table table-striped">
     <tr>
       <th>ID</th>

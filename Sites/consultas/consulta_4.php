@@ -26,6 +26,11 @@
 	$buques = $result -> fetchAll();
   ?>
 
+<br/><br/>
+	<h2 class="font-weight-bolder" >Tabla de buques que han estado en "<?php $nombre_puerto ?>" al mismo tiempo que el buque <?php $nombre_buque ?>:</h2>
+<br/><br/>
+
+
 <table class="table table-striped">
     <tr>
       <th>ID</th>

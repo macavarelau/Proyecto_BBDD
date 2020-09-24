@@ -18,6 +18,10 @@
 	$buques = $result -> fetchAll();
   ?>
 
+<br/><br/>
+	<h2 class="font-weight-bolder" >Buque que posee más personas trabajando:</h2>
+<br/><br/>
+
 <table class="table table-striped">
     <tr>
       <th>ID</th>
