@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="jumbotron p-5 my-5 text-black " style="background-color: #e3f2fd">
+<div class="jumbotron p-5 my-5 text-white " style="background-color: ##3E6F75">
   <h1 align="center" ><b>BUQUEPEDIA</b></h1>
   <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
@@ -11,7 +11,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+<div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
   <h3 >Ver todas las <b>navieras</b></h3>
 
   <form  action="consultas/consulta_1.php" method="post">
