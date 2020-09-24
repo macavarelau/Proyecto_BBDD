@@ -2,7 +2,7 @@
 
 <body>
 <div class="jumbotron p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h1 align="center"><b>Buquepedia</b></h1>
+  <h1 align="center"><b>BUQUEPEDIA</b></h1>
   <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
 
@@ -12,7 +12,7 @@
 <!-- CONSULTA 1-->
 
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h3 >Ver todas las Navieras</h3>
+  <h3 >Todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
     <br/>
@@ -31,7 +31,7 @@
   <form  action="consultas/consulta_2.php" method="post">
     <br/>
     <label for="naviera">Naviera:</label>
-    <input class="form-control" id="naviera" placeholder="nombre naviera" type="text" name="nombre_naviera">
+    <input class="form-control" id="naviera" placeholder="Nombre naviera" type="text" name="nombre_naviera">
     <br/>
     <button type="submit" class="btn btn-primary">Ver</button>
 
@@ -48,7 +48,7 @@
   <form  action="consultas/consulta_3.php" method="post">
     <br/>
     <label for="puerto">Puerto:</label>
-    <input class="form-control" id="puerto" placeholder="nombre puerto" type="text" name="nombre_puerto">
+    <input class="form-control" id="puerto" placeholder="Nombre puerto" type="text" name="nombre_puerto">
     <br>
     <label for="año">Año:</label>
     <select class="form-control" id="año" name="año">
@@ -82,10 +82,10 @@
 <form  action="consultas/consulta_4.php" method="post">
   <br/>
   <label for="buque">Buque:</label>
-  <input class="form-control" id="buque" placeholder="nombre buque" type="text" name="nombre_buque">
+  <input class="form-control" id="buque" placeholder="Nombre buque" type="text" name="nombre_buque">
   <br>
   <label for="puerto">Puerto:</label>
-  <input class="form-control"  id="puerto" placeholder="nombre puerto" type="text" name="nombre_puerto">
+  <input class="form-control"  id="puerto" placeholder="Nombre puerto" type="text" name="nombre_puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 
@@ -114,7 +114,7 @@
     </select>
     <br>
   <label for="puerto">Puerto:</label>
-  <input class="form-control"  id="puerto" placeholder="nombre puerto" type="text" name="puerto">
+  <input class="form-control"  id="puerto" placeholder="Nombre puerto" type="text" name="puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 
