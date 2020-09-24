@@ -2,7 +2,7 @@
 
 <body>
 <div class="jumbotron p-5 my-5 text-black " style="background-color: #C3E0E6">
-  <h1 align="center"><b>BUQUEPEDIA</b></h1>
+  <h1 align="center"><b>Buquepedia</b></h1>
   <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
 
@@ -12,7 +12,7 @@
 <!-- CONSULTA 1-->
 
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h3 >Todas las <b>Navieras</b></h3>
+  <h3 >Ver todas las <b>navieras</b></h3>
 
   <form  action="consultas/consulta_1.php" method="post">
     <br/>
@@ -26,7 +26,7 @@
   <br>
   <!-- CONSULTA 2-->
   <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-    <h3 >Buscar <b>Buques</b> según <b>Naviera</b></h3>
+    <h3 >Buscar <b>buques</b> según <b>naviera</b></h3>
 
   <form  action="consultas/consulta_2.php" method="post">
     <br/>
@@ -43,7 +43,7 @@
   
   <!-- CONSULTA 3-->
   <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-    <h3 >Buscar Buques según Puerto</h3>
+    <h3 >Buscar <b>buques</b> según <b>puerto</b></h3>
 
   <form  action="consultas/consulta_3.php" method="post">
     <br/>
@@ -77,7 +77,7 @@
 
   <!-- CONSULTA 4-->
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h3 >Buscar Buques que comparten tiempos y puertos</h3>
+  <h3 >Buscar <b>buques</b> que comparten tiempos y puertos</h3>
 
 <form  action="consultas/consulta_4.php" method="post">
   <br/>
@@ -97,7 +97,7 @@
 
   <!-- CONSULTA 5-->
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h3 >Buscar personal por cargo, género y puerto</h3>
+  <h3 >Buscar <b>personal</b> por <b>cargo</b>, <b>género</b> y <b>puerto</b></h3>
 
 <form  action="consultas/consulta_5.php" method="post">
   <br/>
@@ -126,7 +126,7 @@
 
   <!-- CONSULTA 6-->
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-<h3 >Buscar buques de algún tipo con mayor cantidad de personal</h3>
+<h3 >Buscar <b>buques</b> según <b>tipo</b>, con mayor cantidad de personal</h3>
 
 <form  action="consultas/consulta_6.php" method="post">
   <br/>
