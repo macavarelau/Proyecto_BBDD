@@ -2,7 +2,7 @@
 
 <body>
 <div class="jumbotron">
-  <br/><br/>
+  <br/>
   <h1>Buquepedia</h1>
   <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
@@ -11,7 +11,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-3 my-3 bg-secondary text-black">
+<div class="container p-3 my-3 bg-secondary text-black text-white">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
