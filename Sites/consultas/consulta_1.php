@@ -16,9 +16,7 @@
     <br/><br/>
 	<h2 class="font-weight-bolder" >Aquí podrá ver lista con los nombres de todas las navieras:</h2>
     <br/><br/>
-	<table class="table table-striped tbody tr:nth-of-type(odd) {
-      background-color: rgb(217, 235, 235);
-    }">
+	<table class="table table-striped tbody tr:nth-of-type(odd) background-color: rgb(217, 235, 235)">
     <tr>
       <th>NOMBRE</th>
     </tr>
