@@ -5,7 +5,7 @@
   <br/><br/>
   <h1 >Buquepedia</h1>
   <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
-
+</div>
 <div class="container">
 
   <br>

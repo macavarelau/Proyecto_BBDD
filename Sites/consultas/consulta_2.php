@@ -17,7 +17,7 @@
   ?>
 
   <br/><br/>
-	<h2 class="font-weight-bolder" >Aquí podrá ver lista con los nombres de todas las navieras:</h2>
+	<h2 class="font-weight-bolder" >Tabla de buques pertenecientes a la naviera "<?php $nombre_naviera ?>"</h2>
     <br/><br/>
 
 	<table class="table table-striped">
