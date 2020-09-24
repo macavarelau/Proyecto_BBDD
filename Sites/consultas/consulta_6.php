@@ -19,7 +19,7 @@
   ?>
 
 <br/><br/>
-	<h2 class="font-weight-bolder" >Buque que posee más personas trabajando:</h2>
+	<h2 class="font-weight-bolder" >Tabla de buques <?php echo "$tipo" ?>s que poseen más personas trabajando:</h2>
 <br/><br/>
 
 <table class="table table-striped">
