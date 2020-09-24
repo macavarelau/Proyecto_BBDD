@@ -1,8 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="jumbotron p-3 my-3 bg-info text-white">
-  <br/>
+<div class="jumbotron p-5 my-5 text-black " style="background-color: #e3f2fd">
   <h1>Buquepedia</h1>
   <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
@@ -11,7 +10,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 text-black" style="background-color: #e3f2fd">
+<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
@@ -78,11 +77,11 @@
 
 <form  action="consultas/consulta_4.php" method="post">
   <br/>
-  Buque:
-  <input class="form-control"type="text" name="nombre_buque">
+  <label for="buque">Buque:</label>
+  <input class="form-control" id="buque" placeholder="nombre buque" type="text" name="nombre_buque">
   <br>
-  Puerto:
-  <input class="form-control"type="text" name="nombre_puerto">
+  <label for="puerto">Puerto:</label>
+  <input class="form-control"  id="puerto" placeholder="nombre puerto" type="text" name="nombre_puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 
@@ -97,18 +96,18 @@
 
 <form  action="consultas/consulta_5.php" method="post">
   <br/>
-  Cargo:
-  <select class="form-control" id="sel1" name="cargo">
+  <label for="cargo">Cargo:</label>
+  <select class="form-control" id="cargo" name="cargo">
       <option>marinero</option>
       <option>capitán</option>
     </select>
-  Género
-  <select class="form-control" id="sel1" name="genero">
+  <label for="genero">Género:</label>
+  <select class="form-control" id="genero" name="genero">
       <option>hombre</option>
       <option>mujer</option>
     </select>
-  Puerto:
-  <input class="form-control"type="text" name="puerto">
+  <label for="puerto">Puerto:</label>
+  <input class="form-control"  id="puerto" placeholder="nombre puerto" type="text" name="puerto">
   <br/>
   <button  type="submit" class="btn btn-primary">Ver</button>
 
@@ -118,20 +117,20 @@
 <br>
 
   <!-- CONSULTA 6-->
-  <h3 >Buscar buques de algún tipo con mayor cantidad de personal</h3>
+<h3 >Buscar buques de algún tipo con mayor cantidad de personal</h3>
 
-  <form  action="consultas/consulta_6.php" method="post">
-    <br/>
-    Tipo:
-    <select class="form-control" id="sel1" name="tipo">
-        <option>pesquero</option>
-        <option>carga</option>
-        <option>petrolero</option>
-      </select>
-    <br/>
-    <button  type="submit" class="btn btn-primary">Ver</button>
+<form  action="consultas/consulta_6.php" method="post">
+  <br/>
+  <label for="tipo">Tipo:</label>
+  <select class="form-control" id="tipo" name="tipo">
+      <option>pesquero</option>
+      <option>carga</option>
+      <option>petrolero</option>
+    </select>
+  <br/>
+  <button  type="submit" class="btn btn-primary">Ver</button>
 
-  </form>
+</form>
 
   <br>
   <br>
