@@ -11,7 +11,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 bg-secondary text-white">
+<div class="container p-5 my-5 bg-primary-50 text-white">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
