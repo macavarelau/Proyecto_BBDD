@@ -25,7 +25,7 @@
 	<h2 class="font-weight-bolder" >Tabla de buques que atracaron en "<?php echo "$nombre_puerto" ?>" durante el año <?php echo "$año" ?>:</h2>
 <br/><br/>
 
-<table class="table table-striped">
+<table class="table table-striped table-hover">
     <tr>
       <th>ID</th>
       <th>Nombre</th>

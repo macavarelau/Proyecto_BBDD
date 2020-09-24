@@ -26,7 +26,7 @@
 	<h2 class="font-weight-bolder" >Tabla de personal que son <?php echo "$cargo" ?>, <?php echo "$genero" ?> y han estado en el puerto "<?php echo "$puerto" ?>":</h2>
 <br/><br/>
 
-<table class="table table-striped">
+<table class="table table-striped table-hover">
     <tr>
       <th>ID</th>
       <th>NOMBRE</th>

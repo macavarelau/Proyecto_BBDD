@@ -22,7 +22,7 @@
 	<h2 class="font-weight-bolder" >Tabla de buques <?php echo "$tipo" ?>s que poseen más personas trabajando:</h2>
 <br/><br/>
 
-<table class="table table-striped">
+<table class="table table-striped table-hover">
     <tr>
       <th>ID</th>
       <th>Nombre</th>
