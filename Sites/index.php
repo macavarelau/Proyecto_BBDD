@@ -24,7 +24,8 @@
   <br>
   <br>
   <!-- CONSULTA 2-->
-  <h3 >Buscar Buques según Naviera</h3>
+  <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+    <h3 >Buscar Buques según Naviera</h3>
 
   <form  action="consultas/consulta_2.php" method="post">
     <br/>
@@ -34,13 +35,14 @@
     <button type="submit" class="btn btn-primary">Ver</button>
 
   </form>
+  </div>
 
   <br>
   <br>
   
-
   <!-- CONSULTA 3-->
-  <h3 >Buscar Buques según Puerto</h3>
+  <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+    <h3 >Buscar Buques según Puerto</h3>
 
   <form  action="consultas/consulta_3.php" method="post">
     <br/>
@@ -66,13 +68,14 @@
     <button  type="submit" class="btn btn-primary">Ver</button>
 
   </form>
+  </div>
 
   <br>
   <br>
   
 
   <!-- CONSULTA 4-->
-
+<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
   <h3 >Buscar Buques que comparten tiempos y puertos</h3>
 
 <form  action="consultas/consulta_4.php" method="post">
@@ -86,12 +89,13 @@
   <button  type="submit" class="btn btn-primary">Ver</button>
 
 </form>
+</div>
 
 <br>
 <br>
 
   <!-- CONSULTA 5-->
-
+<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
   <h3 >Buscar personal por cargo, género y puerto</h3>
 
 <form  action="consultas/consulta_5.php" method="post">
@@ -114,11 +118,13 @@
   <button  type="submit" class="btn btn-primary">Ver</button>
 
 </form>
+</div>
 
 <br>
 <br>
 
   <!-- CONSULTA 6-->
+<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
 <h3 >Buscar buques de algún tipo con mayor cantidad de personal</h3>
 
 <form  action="consultas/consulta_6.php" method="post">
@@ -133,6 +139,7 @@
   <button  type="submit" class="btn btn-primary">Ver</button>
 
 </form>
+</div>
 
   <br>
   <br>
