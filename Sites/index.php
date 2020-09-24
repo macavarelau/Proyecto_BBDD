@@ -77,7 +77,7 @@
 
   <!-- CONSULTA 4-->
 <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h3 >Buscar <b>buques</b> que comparten tiempos y puertos</h3>
+  <h3 >Buscar <b>buques</b> que comparten tiempos y <b>puerto</b></h3>
 
 <form  action="consultas/consulta_4.php" method="post">
   <br/>
