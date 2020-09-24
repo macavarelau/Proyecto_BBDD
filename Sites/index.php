@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="jumbotron">
+<div class="jumbotron p-3 my-3 bg-info text-white">
   <br/>
   <h1>Buquepedia</h1>
   <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
@@ -11,7 +11,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-3 my-3 bg-secondary text-black text-white">
+<div class="container p-5 my-5 bg-secondary text-white">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
