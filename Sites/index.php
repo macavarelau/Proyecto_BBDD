@@ -25,7 +25,7 @@
   <br>
   <br>
   <!-- CONSULTA 2-->
-  <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+  <div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
     <h3 >Buscar <b>buques</b> según <b>naviera</b></h3>
 
   <form  action="consultas/consulta_2.php" method="post">
@@ -42,7 +42,7 @@
   <br>
   
   <!-- CONSULTA 3-->
-  <div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+  <div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
     <h3 >Buscar <b>buques</b> según <b>puerto</b></h3>
 
   <form  action="consultas/consulta_3.php" method="post">
@@ -76,7 +76,7 @@
   
 
   <!-- CONSULTA 4-->
-<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+<div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
   <h3 >Buscar <b>buques</b> que comparten tiempos y <b>puerto</b></h3>
 
 <form  action="consultas/consulta_4.php" method="post">
@@ -96,7 +96,7 @@
 <br>
 
   <!-- CONSULTA 5-->
-<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+<div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
   <h3 >Buscar <b>personal</b> por <b>cargo</b>, <b>género</b> y <b>puerto</b></h3>
 
 <form  action="consultas/consulta_5.php" method="post">
@@ -125,7 +125,7 @@
 <br>
 
   <!-- CONSULTA 6-->
-<div class="container p-5 my-5 text-black " style="background-color: #e3f2fd">
+<div class="container p-5 my-5 text-black " style="background-color: #CCF0F5">
 <h3 >Buscar <b>buques</b> según <b>tipo</b>, con mayor cantidad de personal</h3>
 
 <form  action="consultas/consulta_6.php" method="post">
