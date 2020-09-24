@@ -7,7 +7,7 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
- 	$query = "SELECT nombre, país FROM navieras;";
+ 	$query = "SELECT DISTINCT nombre, país FROM navieras;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$navieras = $result -> fetchAll();
