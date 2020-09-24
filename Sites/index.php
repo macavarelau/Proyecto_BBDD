@@ -101,11 +101,13 @@
       <option>marinero</option>
       <option>capitán</option>
     </select>
+    <br>
   <label for="genero">Género:</label>
   <select class="form-control" id="genero" name="genero">
       <option>hombre</option>
       <option>mujer</option>
     </select>
+    <br>
   <label for="puerto">Puerto:</label>
   <input class="form-control"  id="puerto" placeholder="nombre puerto" type="text" name="puerto">
   <br/>
