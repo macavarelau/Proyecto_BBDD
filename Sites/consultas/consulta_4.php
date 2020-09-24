@@ -17,8 +17,8 @@
   $query = "SELECT DISTINCT newtable2.bid, newtable2.nombre, newtable2.patente, newtable2.pais, newtable2.giro, newtable2.personal 
             FROM(SELECT * FROM buques, atraques, puertos WHERE UPPER(buques.nombre) = UPPER('$nombre_buque') AND buques.bid = atraques.abid AND puertos.ptid = atraques.puerto
             AND UPPER(puertos.pnombre) = UPPER('$nombre_puerto')) AS newtable, (SELECT * FROM buques, atraques, puertos WHERE buques.bid = atraques.abid AND
-            puertos.ptid = atraques.puerto) AS newtable2 WHERE (newtable2.salida > newtable.ingreso AND newtable2.salida <= newtable.salida) 
-            OR (newtable.salida > newtable2.ingreso AND newtable.salida < newtable2.salida AND newtable2.pnombre = newtable.pnombre) AND (newtable2.nombre <> 'magnolia');";
+            puertos.ptid = atraques.puerto) AS newtable2 WHERE ((newtable2.salida > newtable.ingreso AND newtable2.salida <= newtable.salida) 
+            OR (newtable.salida > newtable2.ingreso AND newtable.salida < newtable2.salida AND newtable2.pnombre = newtable.pnombre)) AND (newtable2.nombre <> 'magnolia');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
