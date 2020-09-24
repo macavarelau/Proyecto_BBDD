@@ -11,7 +11,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container">
+<div class="container p-3 my-3 bg-secondary text-black">
   <h3 >Ver todas las Navieras</h3>
 
   <form  action="consultas/consulta_1.php" method="post">
@@ -20,7 +20,8 @@
     <button type="submit" class="btn btn-primary">Ver</button>
 
   </form>
-
+  </div>
+  
   <br>
   <br>
   <!-- CONSULTA 2-->
@@ -28,9 +29,8 @@
 
   <form  action="consultas/consulta_2.php" method="post">
     <br/>
-    Naviera:
     <label for="naviera">Naviera:</label>
-    <input class="form-control" id="naviera" type="text" name="nombre_naviera">
+    <input class="form-control" id="naviera" placeholder="nombre naviera" type="text" name="nombre_naviera">
     <br/>
     <button type="submit" class="btn btn-primary">Ver</button>
 
@@ -45,11 +45,11 @@
 
   <form  action="consultas/consulta_3.php" method="post">
     <br/>
-    Puerto:
-    <input class="form-control"type="text" name="nombre_puerto">
+    <label for="puerto">Puerto:</label>
+    <input class="form-control" id="puerto" placeholder="nombre puerto" type="text" name="nombre_puerto">
     <br>
-    Año:
-    <select class="form-control" id="sel1" name="año">
+    <label for="año">Año:</label>
+    <select class="form-control" id="año" name="año">
         <option>2010</option>
         <option>2011</option>
         <option>2012</option>
