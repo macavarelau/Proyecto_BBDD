@@ -1,6 +1,9 @@
 <?php include('../templates/header.html');   ?>
 
 <body>
+
+<div class="container">
+
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
@@ -18,7 +21,7 @@
 	$buques = $result -> fetchAll();
   ?>
 
-<table class="table">
+<table class="table table-striped">
     <tr>
       <th>ID</th>
       <th>Nombre</th>
@@ -36,5 +39,7 @@
       ?>
       
   </table>
+
+</div>
 
 <?php include('../templates/footer.html'); ?>
