@@ -2,11 +2,12 @@
 
 <body>
 <div class="jumbotron p-5 my-5 text-black " style="background-color: #e3f2fd">
-  <h1>Buquepedia</h1>
-  <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+  <h1 align="center"><b>Buquepedia</b></h1>
+  <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
 </div>
-<div class="container">
 
+
+<div class="container">
   <br>
 <!-- CONSULTA 1-->
 
