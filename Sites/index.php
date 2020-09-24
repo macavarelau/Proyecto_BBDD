@@ -2,16 +2,17 @@
 
 <body>
 <div class="jumbotron">
-  <h1>Buquepedia</h1>
-  <p>En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
-</div>
+  <br/><br/>
+  <h1 >Buquepedia</h1>
+  <p >En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+
 <div class="container">
 
   <br>
 <!-- CONSULTA 1-->
-  <h3 align="center">Ver todas las Navieras</h3>
+  <h3 >Ver todas las Navieras</h3>
 
-  <form align="center" action="consultas/consulta_1.php" method="post">
+  <form  action="consultas/consulta_1.php" method="post">
     <br/>
     <br>
     <button type="submit" class="btn btn-primary">Ver</button>
@@ -21,9 +22,9 @@
   <br>
   <br>
   <!-- CONSULTA 2-->
-  <h3 align="center">Buscar Buques según Naviera</h3>
+  <h3 >Buscar Buques según Naviera</h3>
 
-  <form align="center" action="consultas/consulta_2.php" method="post">
+  <form  action="consultas/consulta_2.php" method="post">
     <br/>
     Naviera:
     <input type="text" name="nombre_naviera">
@@ -37,9 +38,9 @@
   
 
   <!-- CONSULTA 3-->
-  <h3 align="center">Buscar Buques según Puerto</h3>
+  <h3 >Buscar Buques según Puerto</h3>
 
-  <form align="center" action="consultas/consulta_3.php" method="post">
+  <form  action="consultas/consulta_3.php" method="post">
     <br/>
     Puerto:
     <input type="text" name="nombre_puerto">
@@ -60,7 +61,7 @@
         <option>2021</option>
       </select>
     <br/>
-    <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+    <button  type="submit" class="btn btn-primary">Ver</button>
 
   </form>
 
@@ -70,9 +71,9 @@
 
   <!-- CONSULTA 4-->
 
-  <h3 align="center">Buscar Buques que comparten tiempos y puertos</h3>
+  <h3 >Buscar Buques que comparten tiempos y puertos</h3>
 
-<form align="center" action="consultas/consulta_4.php" method="post">
+<form  action="consultas/consulta_4.php" method="post">
   <br/>
   Buque:
   <input type="text" name="nombre_buque">
@@ -80,7 +81,7 @@
   Puerto:
   <input type="text" name="nombre_puerto">
   <br/>
-  <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+  <button  type="submit" class="btn btn-primary">Ver</button>
 
 </form>
 
@@ -89,9 +90,9 @@
 
   <!-- CONSULTA 5-->
 
-  <h3 align="center">Buscar personal por cargo, género y puerto</h3>
+  <h3 >Buscar personal por cargo, género y puerto</h3>
 
-<form align="center" action="consultas/consulta_5.php" method="post">
+<form  action="consultas/consulta_5.php" method="post">
   <br/>
   Cargo:
   <select class="form-control" id="sel1" name="cargo">
@@ -106,7 +107,7 @@
   Puerto:
   <input type="text" name="puerto">
   <br/>
-  <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+  <button  type="submit" class="btn btn-primary">Ver</button>
 
 </form>
 
@@ -114,9 +115,9 @@
 <br>
 
   <!-- CONSULTA 6-->
-  <h3 align="center">Buscar buques de algún tipo con mayor cantidad de personal</h3>
+  <h3 >Buscar buques de algún tipo con mayor cantidad de personal</h3>
 
-  <form align="center" action="consultas/consulta_6.php" method="post">
+  <form  action="consultas/consulta_6.php" method="post">
     <br/>
     Tipo:
     <select class="form-control" id="sel1" name="tipo">
@@ -125,7 +126,7 @@
         <option>petrolero</option>
       </select>
     <br/>
-    <button align= "center" type="submit" class="btn btn-primary">Ver</button>
+    <button  type="submit" class="btn btn-primary">Ver</button>
 
   </form>
 
@@ -133,5 +134,5 @@
   <br>
   <br>
 </body>
-</div>
+
 </html>
