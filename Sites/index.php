@@ -31,8 +31,7 @@
 
   </form>
   </div>
-  
-  <br>
+ 
   <br>
   <!-- CONSULTA 2-->
   <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
