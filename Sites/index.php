@@ -27,7 +27,7 @@
   <form  action="consultas/consulta_1.php" method="post">
     <br/>
     <br>
-    <button type="submit" class="btn btn-primary">Ver</button>
+    <button type="submit" class="btn">Ver</button>
 
   </form>
   </div>
