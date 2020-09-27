@@ -43,7 +43,7 @@
     <label for="naviera">Naviera:</label>
     <input class="form-control" id="naviera" placeholder="Nombre naviera" type="text" name="nombre_naviera">
     <br/>
-    <button type="submit" class="btn btn-primary">Ver</button>
+    <button type="submit" class="btn btn-dark">Ver</button>
 
   </form>
   </div>
