@@ -4,7 +4,7 @@
 <div class="jumbotron p-8 text-white " style="background-color: #3E6F75">
 <?php
 echo ' 
-<img src="buque_2.jpg" width="absolute" title="Buque" />
+<img src="buque_2.jpg" width="responsive" title="Buque" />
 </html>
 ';
 ?>
