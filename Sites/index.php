@@ -3,7 +3,7 @@
 <body>
 <div class="container-fluid" style="position: relative;">
   
-  <div class="container middle center" style="background-color: white; opacity: 0.5; position: absolute; margin-top: 20%;">
+  <div class="container-fluid middle center" style="background-color: white; position: absolute; margin-top: 20%;">
     
       <h1 align="center" ><b>BUQUEPEDIA</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
