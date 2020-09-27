@@ -4,7 +4,7 @@
 <div class="container-fluid">
   <?php
   echo ' 
-  <img src="buque_2.jpg" title="Buque" />
+  <img src="buque_2.jpg" setImageOpacity=0.5 title="Buque" />
   ';
   ?>
   <div class="row">
