@@ -3,9 +3,9 @@
 <body>
 <div class="container-fluid" style="position: relative; opacity: 60%;">
   
-  <div class="container-fluid middle center" style="background-color: white; opacity: 80%; position: absolute; margin-top: 15%; padding: 5%;">
+  <div class="container-fluid middle center" style="background: rgba(0, 0, 0, 0.8); position: absolute; margin-top: 15%; padding: 5%;">
     
-      <h1 align="center" style="opacity: 100%;"><b>B U Q U E P E D I A</b></h1>
+      <h1 align="center"><b>B U Q U E P E D I A</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
   
   </div>
@@ -21,7 +21,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 text-black " style="background-color: #A89792; border: thick solid; opacity: 50%;">
+<div class="container p-5 my-5 text-black " style="background-color: #A89792; border-radius: 3%; opacity: 50%;">
   <h3 >Ver todas las <b>navieras</b></h3>
 
   <form  action="consultas/consulta_1.php" method="post">
