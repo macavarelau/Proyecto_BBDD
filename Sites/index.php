@@ -1,5 +1,12 @@
 <?php include('templates/header.html');   ?>
 
+<?php
+echo ' 
+<img src="buque_2.jpg" width="280" height="125" title="Buque" />
+</html>
+';
+?>
+
 <body>
 <div class="jumbotron p-8 text-white " style="background-color: #3E6F75">
   <h1 align="center" ><b>BUQUEPEDIA</b></h1>
