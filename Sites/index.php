@@ -5,7 +5,7 @@
   <div class="row">
 <?php
 echo ' 
-<img src="buque_2.jpg" with=100% title="Buque" />
+<img src="buque_2.jpg" with=50% title="Buque" />
 </html>
 ';
 ?>
