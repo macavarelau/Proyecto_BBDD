@@ -2,6 +2,7 @@
 
 <body>
 <div class="container-fluid">
+  <div class="row">
 <?php
 echo ' 
 <img src="buque_2.jpg" with=100% title="Buque" />
@@ -10,6 +11,7 @@ echo '
 ?>
   <h1 align="center" ><b>BUQUEPEDIA</b></h1>
   <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+  </div>
 </div>
 
 
