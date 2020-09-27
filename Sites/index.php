@@ -27,7 +27,7 @@
   <form  action="consultas/consulta_1.php" method="post">
     <br/>
     <br>
-    <button type="submit" class="btn btn-light">Ver</button>
+    <button type="submit" class="btn btn-dark">Ver</button>
 
   </form>
   </div>
@@ -76,7 +76,7 @@
         <option>2021</option>
       </select>
     <br/>
-    <button  type="submit" class="btn btn-primary">Ver</button>
+    <button  type="submit" class="btn btn-dark">Ver</button>
 
   </form>
   </div>
@@ -97,7 +97,7 @@
   <label for="puerto">Puerto:</label>
   <input class="form-control"  id="puerto" placeholder="Nombre puerto" type="text" name="nombre_puerto">
   <br/>
-  <button  type="submit" class="btn btn-primary">Ver</button>
+  <button  type="submit" class="btn btn-dark">Ver</button>
 
 </form>
 </div>
@@ -126,7 +126,7 @@
   <label for="puerto">Puerto:</label>
   <input class="form-control"  id="puerto" placeholder="Nombre puerto" type="text" name="puerto">
   <br/>
-  <button  type="submit" class="btn btn-primary">Ver</button>
+  <button  type="submit" class="btn btn-dark">Ver</button>
 
 </form>
 </div>
@@ -147,7 +147,7 @@
       <option>petrolero</option>
     </select>
   <br/>
-  <button  type="submit" class="btn btn-primary">Ver</button>
+  <button  type="submit" class="btn btn-dark">Ver</button>
 
 </form>
 </div>
