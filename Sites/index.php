@@ -1,9 +1,9 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="container-fluid" style="position: relative; opacity: 60%;">
+<div class="container-fluid" style="position: relative;">
   
-  <div class="container-fluid middle center" style="background: rgba(0, 0, 0, 0.8); position: absolute; margin-top: 15%; padding: 5%;">
+  <div class="container-fluid middle center" style="background: rgba(255, 255, 255, 0.8); position: absolute; margin-top: 15%; padding: 5%;">
     
       <h1 align="center"><b>B U Q U E P E D I A</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
@@ -11,7 +11,7 @@
   </div>
   <?php
   echo ' 
-  <img src="buque_2.jpg" title="Buque" />
+  <img src="buque_2.jpg" style="opacity: 50%;" title="Buque" />
   ';
   ?>
 </div>
