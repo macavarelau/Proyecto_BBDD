@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="jumbotron p-8 text-white " style="background-color: #3E6F75">
+<div>
 <?php
 echo ' 
 <img src="buque_2.jpg" width="responsive" title="Buque" />
