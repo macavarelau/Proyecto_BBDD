@@ -4,7 +4,7 @@
 <div>
 <?php
 echo ' 
-<img src="buque_2.jpg" width="responsive" title="Buque" />
+<img src="buque_2.jpg" width="1000" title="Buque" />
 </html>
 ';
 ?>
