@@ -5,7 +5,7 @@
   
   <div class="container-fluid middle center" style="background-color: white; opacity: 80%; position: absolute; margin-top: 15%; padding: 5%;">
     
-      <h1 align="center" ><b>B U Q U E P E D I A</b></h1>
+      <h1 align="center" style="opacity: 100%;"><b>B U Q U E P E D I A</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
   
   </div>
