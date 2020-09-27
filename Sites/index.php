@@ -4,10 +4,10 @@
 <div class="container-fluid">
   <?php
   echo ' 
-  <img src="buque_2.jpg" setImageOpacity=0.5 title="Buque" />
+  <img src="buque_2.jpg" title="Buque" />
   ';
   ?>
-  <div class="row">
+  <div class="row" style="background-color: black; opacity: 0.5">
     <div class="column">
       <h1 align="center" ><b>BUQUEPEDIA</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
