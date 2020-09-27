@@ -2,17 +2,18 @@
 
 <body>
 <div class="container-fluid">
+  
+  <div class="container-fluid middle center" style="background-color: white; opacity: 0.5">
+    
+      <h1 align="center" ><b>BUQUEPEDIA</b></h1>
+      <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+  
+  </div>
   <?php
   echo ' 
   <img src="buque_2.jpg" style="opacity: 0.6" title="Buque" />
   ';
   ?>
-  <div class="container-fluid middle center" style="background-color: white; opacity: 0.5">
-    
-      <h1 align="center" ><b>BUQUEPEDIA</b></h1>
-      <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
-    
-  </div>
 </div>
 
 
