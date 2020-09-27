@@ -5,7 +5,6 @@
   <?php
   echo ' 
   <img src="buque_2.jpg" title="Buque" />
-  </html>
   ';
   ?>
   <div class="row">
