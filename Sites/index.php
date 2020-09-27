@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid" style="position: relative;">
   
   <div class="container-fluid middle center" style="background-color: white; opacity: 0.5">
     
