@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="img" position="relative">
+<div class="jumbotron">
 <?php
 echo ' 
 <img src="buque_2.jpg" with=100% title="Buque" />
