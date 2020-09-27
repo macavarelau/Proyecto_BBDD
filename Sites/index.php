@@ -1,10 +1,10 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="container-fluid">
+<div class="img">
 <?php
 echo ' 
-<img src="buque_2.jpg" background-size: cover title="Buque" />
+<img src="buque_2.jpg" with=100% title="Buque" />
 </html>
 ';
 ?>
