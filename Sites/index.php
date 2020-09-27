@@ -21,7 +21,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 text-black " style="background-color: #E3CE9F; border: 1%;">
+<div class="container p-5 my-5 text-black " style="background-color: #A89792; border: thick solid; opacity: 50%;">
   <h3 >Ver todas las <b>navieras</b></h3>
 
   <form  action="consultas/consulta_1.php" method="post">
