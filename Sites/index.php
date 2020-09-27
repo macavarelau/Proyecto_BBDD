@@ -4,7 +4,7 @@
 <div class="container-fluid">
   <?php
   echo ' 
-  <img src="buque_2.jpg" with=100% height=100% title="Buque" />
+  <img src="buque_2.jpg" title="Buque" />
   </html>
   ';
   ?>
