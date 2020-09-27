@@ -11,7 +11,7 @@
   </div>
   <?php
   echo ' 
-  <img src="buque_2.jpg" style="opacity: 50%;" title="Buque" />
+  <img src="buque_2.jpg" title="Buque" />
   ';
   ?>
 </div>
@@ -21,7 +21,7 @@
   <br>
 <!-- CONSULTA 1-->
 
-<div class="container p-5 my-5 text-black " style="background-color: #A89792; border-radius: 3%; opacity: 50%;">
+<div class="container p-5 my-5 text-black " style="background:  rgba(214, 213, 208, 84); border-radius: 10%;">
   <h3 >Ver todas las <b>navieras</b></h3>
 
   <form  action="consultas/consulta_1.php" method="post">
