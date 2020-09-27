@@ -48,7 +48,6 @@
   </div>
 
   <br>
-  <br>
   
   <!-- CONSULTA 3-->
   <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
@@ -81,9 +80,7 @@
   </div>
 
   <br>
-  <br>
   
-
   <!-- CONSULTA 4-->
 <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
   <h3 >Buscar <b>buques</b> que comparten tiempos y <b>puerto</b></h3>
@@ -101,7 +98,6 @@
 </form>
 </div>
 
-<br>
 <br>
 
   <!-- CONSULTA 5-->
@@ -131,7 +127,6 @@
 </div>
 
 <br>
-<br>
 
   <!-- CONSULTA 6-->
 <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
@@ -151,7 +146,6 @@
 </form>
 </div>
 
-  <br>
   <br>
   <br>
 </body>
