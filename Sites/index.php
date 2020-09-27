@@ -4,13 +4,15 @@
 <div class="container-fluid">
   <?php
   echo ' 
-  <img src="buque_2.jpg" background-size:cover with=50% title="Buque" />
+  <img src="buque_2.jpg" with=1500 title="Buque" />
   </html>
   ';
   ?>
   <div class="row">
-    <h1 align="center" ><b>BUQUEPEDIA</b></h1>
-    <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+    <div class="column">
+      <h1 align="center" ><b>BUQUEPEDIA</b></h1>
+      <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
+    </div>  
   </div>
 </div>
 
