@@ -2,7 +2,7 @@
 
 <?php
 echo ' 
-<img src="buque_2.jpg" width="280" height="125" title="Buque" />
+<img src="buque_2.jpg" width="1000" height="125" title="Buque" />
 </html>
 ';
 ?>
