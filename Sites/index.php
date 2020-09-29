@@ -10,7 +10,7 @@
       
   <?php
   echo ' 
-  <img class="img-fluid" src="buque_2.jpg" title="Buque" width="1160" height="345" />
+  <img class="img-fluid" src="buque_2.jpg" title="Buque"/>
   </div>
   ';
   ?>
