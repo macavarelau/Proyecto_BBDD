@@ -11,7 +11,7 @@
   </div>
   <?php
   echo ' 
-  <img align="center" class="img-fluid" src="buque_2.jpg" title="Buque" />
+  <img align="center" class="img-fluid mx-auto d-block" src="buque_2.jpg" title="Buque" />
   ';
   ?>
 </div>
