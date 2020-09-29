@@ -7,11 +7,11 @@
     
       <h1 align="center"><b>B U Q U E P E D I A</b></h1>
       <p align="center">En esta página podras encontrar toda la información que desees respecto a los buques registrados en la ACMB.</p>
-      <img class="img-fluid" src="buque_2.jpg" title="Buque" width="1160" height="345" />
-  </div>
+      
   <?php
   echo ' 
-  
+  <img class="img-fluid" src="buque_2.jpg" title="Buque" width="1160" height="345" />
+  </div>
   ';
   ?>
 </div>
