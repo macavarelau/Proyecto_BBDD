@@ -235,7 +235,7 @@
     {
 
         $query = "INSERT INTO usuarios (user_id, nombre_usuario, edad, sexo, pasaporte, nacionalidad, contraseña)
-        VALUES (3, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
+        VALUES (4, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db -> prepare($query);
         $result -> execute();
         $usuarios = $result -> fetchAll();
