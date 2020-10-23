@@ -6,7 +6,7 @@
  
 <!-- html form here where the user information will be entered -->
 <div class="container" style="margin: auto;">
-<form method="post">
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-bordered table-center'>
         <tr>
             <td>Nombre</td>
@@ -246,6 +246,8 @@
         }
         else
         {
+            echo $query;
+            $sql = mysql_query($query) or die (mysql_error());
             echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
         }
     }    
