@@ -4,7 +4,7 @@
 <body>
 <!-- PHP insert code will be here -->
  
-<!-- html form here where the product information will be entered -->
+<!-- html form here where the user information will be entered -->
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-responsive table-bordered table-center'>
         <tr>
@@ -29,7 +29,11 @@
         </tr>
         <tr>
             <td>Contraseña</td>
-            <td><input type='text' name='name' class='form-control' /></td>
+            <td><input type='password' name='password' class='form-control' /></td>
+        </tr>
+        <tr>
+            <td>Confirma contraseña</td>
+            <td><input type='password' name='cpassword' class='form-control' /></td>
         </tr>
         <tr>
             <td></td>
