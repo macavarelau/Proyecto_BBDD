@@ -5,7 +5,7 @@
 <!-- PHP insert code will be here -->
  
 <!-- html form here where the user information will be entered -->
-<div class="container-center" style="margin: 0 auto;">
+<div class="container" style="margin: 0 auto;">
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-responsive table-bordered table-center'>
         <tr>
