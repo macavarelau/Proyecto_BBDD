@@ -7,7 +7,7 @@
 <!-- html form here where the user information will be entered -->
 <div class="container" style="margin: auto;">
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-    <table class='table table-hover table-responsive table-bordered table-center'>
+    <table class='table table-hover table-bordered table-center'>
         <tr>
             <td>Nombre</td>
             <td><input type='text' name='nombre' class='form-control' /></td>
