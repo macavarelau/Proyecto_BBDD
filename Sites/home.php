@@ -25,7 +25,8 @@
         </tr>
         <tr>
             <td>Nacionalidad</td>
-            <td><input type='radio' name='nacionalidad' class='form-control' /></td>
+            <td>
+            <!--<input type='option' name='nacionalidad' class='form-control' />-->
             <select name="nationality">
                 <option value="">-- select one --</option>
                 <option value="afghan">Afghan</option>
@@ -221,6 +222,7 @@
                 <option value="zambian">Zambian</option>
                 <option value="zimbabwean">Zimbabwean</option>
                 </select>
+                </td>
         </tr>
         <tr>
             <td>Contraseña</td>
