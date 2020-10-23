@@ -18,8 +18,9 @@
         <tr>
             <td>Sexo</td>
             <td><select name="nacionalidad">
-                <option value="hombre">hombre</option>
-                <option value="mujer">mujer</option>
+                <option value="">-- Selecciona tu sexo --</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
             </select>
             </td>
         </tr>
