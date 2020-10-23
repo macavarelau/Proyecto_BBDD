@@ -6,7 +6,7 @@
  
 <!-- html form here where the user information will be entered -->
 <div class="container" style="margin: auto;">
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+<form method="post">
     <table class='table table-hover table-bordered table-center'>
         <tr>
             <td>Nombre</td>
@@ -219,7 +219,7 @@
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  $a = require("config/conexion.php");
+  require("config/conexion.php");
 
   if(isset($_POST['login']))
   {
@@ -246,7 +246,7 @@
         }
         else
         {
-            echo mysql_error($a);
+            echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
         }
     }    
     else
