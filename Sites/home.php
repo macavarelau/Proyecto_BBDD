@@ -248,9 +248,9 @@
         {
             echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
         }
-        else
+    }    
+    else
         {
         echo '<script type="text/javascript"> alert("Confirmación de contraseña no coincide")</script>';
         }
-      }
   ?>
