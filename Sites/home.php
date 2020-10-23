@@ -10,15 +10,15 @@
     <table class='table table-hover table-bordered table-center'>
         <tr>
             <td>Nombre</td>
-            <td><input type='text' name='nombre' class='form-control' /></td>
+            <td><input type='text' name='user_name' class='form-control' /></td>
         </tr>
         <tr>
             <td>Edad</td>
-            <td><input type='number' name='edad' class='form-control' /></td>
+            <td><input type='number' name='user_age' class='form-control' /></td>
         </tr>
         <tr>
             <td>Sexo</td>
-            <td><select name="nacionalidad">
+            <td><select name="user_gender">
                 <option value="">-- Selecciona tu sexo --</option>
                 <option value="hombre">Hombre</option>
                 <option value="mujer">Mujer</option>
@@ -27,13 +27,13 @@
         </tr>
         <tr>
             <td>Número de pasaporte</td>
-            <td><input type='text' name='pasaporte' class='form-control' /></td>
+            <td><input type='text' name='user_passport' class='form-control' /></td>
         </tr>
         <tr>
             <td>Nacionalidad</td>
             <td>
             <!--<input type='option' name='nacionalidad' class='form-control' />-->
-            <select name="nacionalidad">
+            <select name="user_nationality">
                 <option value="">-- Selecciona tu nacionalidad --</option>
                 <option value="AFGANA">AFGANA</option>
                 <option value="ALEMANA">ALEMANA</option>
@@ -206,7 +206,7 @@
         <tr>
             <td></td>
             <td>
-                <input type='submit' value='Guardar' class='btn btn-primary' />
+                <input type='submit' value='Registrarse' name='login' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
             </td>
         </tr>
@@ -216,3 +216,41 @@
 </body>
 
 </html>
+
+<?php
+  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  require("../config/conexion.php");
+
+  if(isset($_POST['login']))
+  {
+    $user_name = $_POST["user_name"];
+    $user_age = $_POST["user_age"];
+    $user_gender = $_POST["user_gender"];
+    $user_passport = $_POST["user_passport"];
+    $user_nationality = $_POST["user_nationality"];
+    $user_password = $_POST["password"];
+    $user_cpassword = $_POST["cpassword"];    
+
+    if($user_password==$user_cpassword)
+    {
+
+        $query = "INSERT INTO usuarios VALUES (1, '%$user_name%', %$nombre_puerto%, '%$user_gender%',
+        '%$user_passport%', '%$user_nationality%', '%$user_password%');";
+        $result = $db -> prepare($query);
+        $result -> execute();
+        $usuarios = $result -> fetchAll();
+
+        if($query_run)
+        {
+            echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
+        }
+        else
+        {
+            echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
+        }
+        else
+        {
+        echo '<script type="text/javascript"> alert("Confirmación de contraseña no coincide")</script>';
+        }
+      }
+  ?>
