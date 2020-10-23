@@ -219,7 +219,7 @@
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  require("config/conexion.php");
+  $connection = require("config/conexion.php");
 
   if(isset($_POST['login']))
   {
@@ -236,11 +236,12 @@
 
         $query = "INSERT INTO usuarios (user_id, nombre_usuario, edad, sexo, pasaporte, nacionalidad, contraseña)
         VALUES (2, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
+        $query_run = mysql_query($connection, $query);
         $result = $db -> prepare($query);
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
-        if($query)
+        if($query NOT NULL)
         {
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
