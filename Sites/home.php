@@ -17,7 +17,11 @@
         </tr>
         <tr>
             <td>Sexo</td>
-            <td><input type='text' name='sexo' class='form-control' /></td>
+            <td><select name="nacionalidad">
+                <option value="hombre">hombre</option>
+                <option value="mujer">mujer</option>
+            </select>
+            </td>
         </tr>
         <tr>
             <td>Número de pasaporte</td>
@@ -27,7 +31,7 @@
             <td>Nacionalidad</td>
             <td>
             <!--<input type='option' name='nacionalidad' class='form-control' />-->
-            <select name="nationality">
+            <select name="nacionalidad">
                 <option value="">-- Selecciona tu nacionalidad --</option>
                 <option value="AFGANA">AFGANA</option>
                 <option value="ALEMANA">ALEMANA</option>
