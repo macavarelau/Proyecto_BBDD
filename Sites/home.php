@@ -235,7 +235,7 @@
     {
 
         $query = "INSERT INTO usuarios (user_id, nombre_usuario, edad, sexo, pasaporte, nacionalidad, contraseña)
-        VALUES (1, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
+        VALUES (2, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db -> prepare($query);
         $result -> execute();
         $usuarios = $result -> fetchAll();
@@ -246,8 +246,6 @@
         }
         else
         {
-            echo $query;
-            $sql = mysql_query($query) or die (mysql_error());
             echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
         }
     }    
