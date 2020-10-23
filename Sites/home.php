@@ -235,12 +235,12 @@
     {
 
         $query = "INSERT INTO usuarios (user_id, nombre_usuario, edad, sexo, pasaporte, nacionalidad, contraseña)
-        VALUES (2, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
+        VALUES (3, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db -> prepare($query);
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
-        if($query_run)
+        if($query)
         {
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
