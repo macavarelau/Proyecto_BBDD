@@ -6,7 +6,7 @@
  
 <!-- html form here where the product information will be entered -->
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-    <table class='table table-hover table-responsive table-bordered'>
+    <table class='table table-hover table-responsive table-bordered table-center'>
         <tr>
             <td>Nombre</td>
             <td><input type='text' name='name' class='form-control' /></td>
@@ -24,11 +24,11 @@
             <td><input type='text' name='name' class='form-control' /></td>
         </tr>
         <tr>
-            <td>Contraseña</td>
+            <td>Nacionalidad</td>
             <td><input type='text' name='name' class='form-control' /></td>
         </tr>
         <tr>
-            <td>Nacionalidad</td>
+            <td>Contraseña</td>
             <td><input type='text' name='name' class='form-control' /></td>
         </tr>
         <tr>
