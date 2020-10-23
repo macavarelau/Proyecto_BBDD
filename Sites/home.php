@@ -236,7 +236,7 @@
 
         $query = "INSERT INTO usuarios (user_id, nombre_usuario, edad, sexo, pasaporte, nacionalidad, contraseña)
         VALUES (2, '$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
-        $query_run = mysql_query($connection, $query);
+        $query_run = mysqli_query($connection, $query);
         $result = $db -> prepare($query);
         $result -> execute();
         $usuarios = $result -> fetchAll();
