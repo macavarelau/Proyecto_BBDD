@@ -253,4 +253,5 @@
         {
         echo '<script type="text/javascript"> alert("Confirmación de contraseña no coincide")</script>';
         }
+    }
   ?>
