@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td>Nacionalidad</td>
-            <td><input type='checkbox' name='nacionalidad' class='form-control' /></td>
+            <td><input type='radio' name='nacionalidad' class='form-control' /></td>
             <select name="nationality">
                 <option value="">-- select one --</option>
                 <option value="afghan">Afghan</option>
