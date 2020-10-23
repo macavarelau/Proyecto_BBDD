@@ -5,6 +5,7 @@
 <!-- PHP insert code will be here -->
  
 <!-- html form here where the user information will be entered -->
+<div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-responsive table-bordered table-center'>
         <tr>
@@ -211,6 +212,7 @@
         </tr>
     </table>
 </form>
+</div>
 </body>
 
 </html>
