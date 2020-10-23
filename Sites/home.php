@@ -13,7 +13,7 @@
         </tr>
         <tr>
             <td>Edad</td>
-            <td><input type='text' name='edad' class='form-control' /></td>
+            <td><input type='number' name='edad' class='form-control' /></td>
         </tr>
         <tr>
             <td>Sexo</td>
