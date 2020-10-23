@@ -219,7 +219,7 @@
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  $connection = require("config/conexion.php");
+  require("config/conexion.php");
 
   if(isset($_POST['login']))
   {
@@ -241,7 +241,7 @@
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
-        if($query_run)
+        if($query NOT NULL)
         {
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
