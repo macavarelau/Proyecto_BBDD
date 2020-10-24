@@ -129,10 +129,25 @@
 <br>
 
   <!-- CONSULTA 6-->
-<div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
+  <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
 <h3 >Buscar <b>buques</b> según <b>tipo</b>, con mayor cantidad de personal</h3>
 
 <form  action="consultas/consulta_6.php" method="post">
+  <br/>
+  <label for="tipo">Tipo:</label>
+  <select class="form-control" id="tipo" name="tipo">
+      <option>pesquero</option>
+      <option>carga</option>
+      <option>petrolero</option>
+    </select>
+  <br/>
+  <button  type="submit" class="btn btn-dark">Ver</button>
+    
+<!-- CONSULTA de prueba-->
+<div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
+<h3 >Buscar <b>buques</b> según <b>tipo</b>, con mayor cantidad de personal</h3>
+
+<form  action="consultas/consulta_p.php" method="post">
   <br/>
   <label for="tipo">Tipo:</label>
   <select class="form-control" id="tipo" name="tipo">
