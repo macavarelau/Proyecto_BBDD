@@ -13,7 +13,7 @@
   $query = "SELECT DISTINCT * FROM buques WHERE giro = '$tipo' AND personal = (SELECT max(personal) FROM buques WHERE giro = '$tipo');";
  
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
-	$result = $db -> prepare($query);
+	$result = $db36 -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
   ?>

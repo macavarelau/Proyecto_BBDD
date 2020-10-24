@@ -142,6 +142,9 @@
     </select>
   <br/>
   <button  type="submit" class="btn btn-dark">Ver</button>
+  </form>
+</div>
+<br>
     
 <!-- CONSULTA de prueba-->
 <div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
