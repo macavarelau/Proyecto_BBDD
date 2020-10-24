@@ -5,4 +5,5 @@
   $user2 = 'grupo85';
   $password2 = 'pieza312';
   $databaseName2 = 'grupo85e3';
+  $localhost = 'localhost';
 ?>
