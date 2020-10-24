@@ -164,6 +164,20 @@
 </form>
 </div>
 
+<!-- CONSULTA prueba 2-->
+
+<div class="container p-5 my-5 text-black " style="background: rgba(214, 213, 208, 95);">
+  <h3 >Ver todas las <b>personas</b></h3>
+
+  <form  action="consultas/consulta_p2.php" method="post">
+    <br/>
+    <br>
+    <button type="submit" class="btn btn-dark">Ver</button>
+
+  </form>
+  </div>
+ 
+
   <br>
   <br>
 </body>
