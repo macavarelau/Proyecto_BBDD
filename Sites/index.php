@@ -151,7 +151,7 @@
   <br/>
   <label for="tipo">Tipo:</label>
   <select class="form-control" id="tipo" name="tipo">
-      <option>pesquero</option>
+      <option>xxxxxxx</option>
       <option>carga</option>
       <option>petrolero</option>
     </select>

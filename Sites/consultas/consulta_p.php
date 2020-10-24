@@ -12,6 +12,7 @@
   $nombre_buque = $_POST["nombre_buque"];
   $nombre_puerto = $_POST["nombre_puerto"];
   $año = $_POST["año"];
+  $x = 1;
 
   #Se construye la consulta como un string
   $query = "SELECT distinct puertos.puerto_id, puertos.nombre, count(astilleros.instalacion_id) as cant_astilleros FROM puertos, instalaciones, astilleros where puertos.puerto_id = instalaciones.puerto_id and instalaciones.instalacion_id = astilleros.instalacion_id group by puertos.puerto_id having count(astilleros.instalacion_id) >= $x order by puertos.puerto_id; 
