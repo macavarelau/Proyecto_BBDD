@@ -8,7 +8,7 @@
   require("../config/conexion.php");
   require("../config/data.php");
 
-   $query = "SELECT DISTINCT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT rut, nombre FROM personal');";
+  $query = "SELECT DISTINCT * FROM public.dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT rut, nombre FROM personal');";
 	$result = $db36 -> prepare($query);
 	$result -> execute();
 	$personas = $result -> fetchAll();
