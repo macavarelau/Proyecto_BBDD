@@ -240,8 +240,10 @@
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
+        print $query;
         if($query)
         {
+            print $query;
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
         else
