@@ -1,10 +1,12 @@
 CREATE or REPLACE FUNCTION
 migrar_usuarios ()
 RETURNS void AS $$
-DECLARE row personal%rowtype;
+DECLARE 
+  t_curs cursor for SELECT nombre, edad, genero, pasaporte, nacionalidad FROM personal WHERE cargo='capitán'
+  t_row personal%rowtype;
 BEGIN
-  FOR row in SELECT nombre, edad, genero, pasaporte, nacionalidad FROM personal WHERE cargo='capitán' LOOP
+  FOR t_row in t_curs LOOP
     INSERT INTO usuarios VALUES (1, row, '123456');
   END LOOP;
-END
-$$ language plpgsql 
+END;
+$$ language plpgsql;
