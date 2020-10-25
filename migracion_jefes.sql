@@ -2,7 +2,7 @@ CREATE or REPLACE FUNCTION
 migrar_usuarios2 ()
 RETURNS void AS $$
 DECLARE 
-  t_curs cursor for SELECT DISTINCT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT nombre, edad, sexo, rut FROM personal, trabajaen WHERE rut=trut AND jefe="t"') AS t1(nombre varchar, edad int, sexo varchar, rut varchar);";
+  t_curs cursor for SELECT DISTINCT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT nombre, edad, sexo, rut FROM personal, trabajaen WHERE rut=trut AND jefe="t"') AS t1(nombre varchar, edad int, sexo varchar, rut varchar);
   t_row personal%rowtype;
 BEGIN
   FOR t_row in t_curs LOOP
