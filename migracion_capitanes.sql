@@ -6,7 +6,7 @@ DECLARE
   t_row personal%rowtype;
 BEGIN
   FOR t_row in t_curs LOOP
-    INSERT INTO usuarios VALUES (1, row, '123456');
+    INSERT INTO usuarios VALUES (1, t_row, '123456');
   END LOOP;
 END;
 $$ language plpgsql;
