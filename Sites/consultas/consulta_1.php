@@ -23,7 +23,7 @@
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
-      echo "<tr> <td>$naviera[0]</td> <td>Ver</td></tr>"; 
+      echo "<tr> <td>$naviera[0]</td> <td onClick = 'alert('¡Has hecho clic!')' >Ver</td></tr>"; 
       
     }
       ?>
