@@ -49,11 +49,12 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
+    $result -> execute();
     $rows = pg_num_rows($result);
     if($rows == 0) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
-        echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
+        echo $rows . '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
     }     
     else {
         $result -> execute();
@@ -61,8 +62,8 @@ echo '
         $query_2 = "SELECT * FROM usuarios WHERE pasaporte='$user_passport' AND contrasena='$user_password';";
         $result_2 = $db36 -> query($query);
         if($result_2){
-           $result -> execute();
-           $usuarios = $result -> fetchAll();
+           $result_2 -> execute();
+           $usuarios = $result_2 -> fetchAll();
            echo $rows . '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
         }
     }         
