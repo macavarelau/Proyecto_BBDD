@@ -52,8 +52,6 @@ echo '
     $result = $db36 -> query($query);
     $result -> execute();
     #$rows = pg_num_rows($result);
-    echo $result;
-
     $result -> execute();
     $usuarios = $result -> fetchAll();
     if (!$usuarios[0]){
