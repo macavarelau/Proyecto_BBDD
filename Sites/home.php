@@ -247,7 +247,7 @@
         $usuarios = $result -> fetchAll();
 
         echo "\nPDO::errorInfo():\n";
-        print_r($dbh->errorInfo());
+        print_r($db36->errorInfo());
 
         $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';";
         $result_1 = $db36 -> prepare($check_query);
