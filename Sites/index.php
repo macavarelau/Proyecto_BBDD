@@ -62,6 +62,9 @@ echo '
         if($usuarios_2[6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
          }
+        else{
+            echo '<script type="text/javascript"> alert("Contraseña incorrecta. Intente nuevamente.")</script>';
+        }
      }         
   }
   ?>
