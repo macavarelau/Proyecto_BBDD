@@ -48,8 +48,8 @@ echo '
     $user_password = $_POST["password"];
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
-    $result = $db36 -> query($query);
-    $result -> execute();
+    $result = $db36 -> pg_query($query);
+    $result -> pg_execute();
     $rows = pg_num_rows($result);
     print $rows;
     if($rows == 0) {
