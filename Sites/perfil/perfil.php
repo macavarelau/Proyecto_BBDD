@@ -12,7 +12,6 @@
   require("../config/conexion.php");
   
   $result = $db36 -> prepare($query);
-  echo "\nPDO::errorInfo():\n";
   print_r($db36->errorInfo());
   $result -> execute();
   $user = $result -> fetchAll();

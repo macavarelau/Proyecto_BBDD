@@ -19,6 +19,12 @@
 
 <h1>DIAS:</h1>
 <?php
+if ($dias[0]){
+  echo 'la wea funciona';
+}
+if (!$dias[0]){
+  echo 'sam es wn';
+}
   echo "<h1>$dias[0]</h1><h1>$dias[1]</h1>";
 ?>
 
