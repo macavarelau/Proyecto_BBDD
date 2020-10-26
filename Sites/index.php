@@ -49,11 +49,11 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
-    if empty($result){
+    if (pg_field_is_null($result) == 1) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
-        echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';        
-      }        
+        echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
+    }     
     else {
         $result -> execute();
         $usuarios = $result -> fetchAll();
