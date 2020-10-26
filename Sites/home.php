@@ -243,7 +243,9 @@
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
         if (!$result){
-            echo '<script type="text/javascript"> alert($db36->errorInfo())</script>';
+            echo "\nPDO::errorInfo():\n";
+            print_r($db36->errorInfo());
+            echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
         }        
     }    
     else
