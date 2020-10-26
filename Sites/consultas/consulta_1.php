@@ -23,8 +23,9 @@
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
-      $link = "chttp://codd.ing.puc.cl/~grupo36/consultas/consulta_2.php";
-      echo "<tr> <td>$naviera[0]</td> <td onClick = $link>Ver</td></tr>"; 
+
+      $link = "location.href='https://www.facebook.com'"
+      echo "<tr> <td>$naviera[0]</td> <td onClick = $link >Ver</td></tr>"; 
       
     }
       ?>
