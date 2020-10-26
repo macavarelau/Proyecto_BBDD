@@ -26,7 +26,15 @@
     ?>
   </tbody>
   </table>
-
+<br>
+<br>
+<form action="../home.php" method="get">
+    <button type="submit" class="btn btn-secondary" align= "center">Volver</button>
+    <br>
+<br><br>
+<br>
+</form>
+</div>
 </body>
 
-<?php include('../templates/footer.html'); ?>
+</html>

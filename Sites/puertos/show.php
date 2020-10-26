@@ -44,5 +44,15 @@ echo "<h1>$puerto_id</h1>"
     ?>
     <input type="submit" value="Mostrar datos">
 </form>
+<br>
+<br>
+<form action="index.php" method="get">
+    <button type="submit" class="btn btn-secondary" align= "center">Volver</button>
+    <br>
+<br><br>
+<br>
+</form>
+</div>
+</body>
 
-<?php include('../templates/footer.html'); ?>
+</html>
