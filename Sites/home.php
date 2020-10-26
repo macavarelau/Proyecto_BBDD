@@ -240,7 +240,7 @@
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
-        print $query;
+        print $result;
         if($query)
         {
             print $query;
