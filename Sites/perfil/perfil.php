@@ -1,6 +1,6 @@
 <?php 
-  include('../templates/header.html');
   session_start();
+  include('../templates/header.html');
   echo $_SESSION['user_passport'];
   #include "../index.php";
 ?>
