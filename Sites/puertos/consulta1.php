@@ -10,7 +10,6 @@
   $termino = $_POST["termino"];
   echo "<h1>$inicio</h1><h2>$termino</h2>";
   
-  #$query = "SELECT instalaciones.instalacion_id, permisos.atraque from permisos, instalaciones where instalaciones.instalacion_id = permisos.instalacion_id and permisos.atraque between '2018-08-10' and '2020-08-31' and instalaciones.puerto_id = 1 group by instalaciones.instalacion_id, permisos.atraque having count(permisos.permiso_id) < instalaciones.capacidad order by instalaciones.instalacion_id;";
   $query = "SELECT instalaciones.instalacion_id, permisos.atraque from permisos, instalaciones where instalaciones.instalacion_id = permisos.instalacion_id and permisos.atraque between '$inicio' and '$termino' and instalaciones.puerto_id = $puerto_id group by instalaciones.instalacion_id, permisos.atraque having count(permisos.permiso_id) < instalaciones.capacidad order by instalaciones.instalacion_id;";
   $result = $db85 -> prepare($query);
   $result -> execute();
