@@ -2,7 +2,7 @@
   session_start();
   echo $_SESSION['user_passport'];
   include('../templates/header.html');
-  include "../index.php";
+  #include "../index.php";
 ?>
 
 <?php
