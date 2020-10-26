@@ -206,7 +206,7 @@
         <tr>
             <td></td>
             <td>
-                <input type='submit' value='Registrarse' name='login' class='btn btn-primary' />
+                <input type='submit' value='Registrarse' name='signin' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
             </td>
         </tr>
@@ -221,7 +221,7 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("config/conexion.php");
 
-  if(isset($_POST['login']))
+  if(isset($_POST['signin']))
   {
     $user_name = $_POST["user_name"];
     $user_age = $_POST["user_age"];
