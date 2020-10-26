@@ -48,9 +48,8 @@ echo '
     $user_password = $_POST["password"];
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
-    $count = "SELECT COUNT(*) FROM $query;";
     $result = $db36 -> query($query);
-    if ($count == 0) {
+    if ($query == ' ') {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
         echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
