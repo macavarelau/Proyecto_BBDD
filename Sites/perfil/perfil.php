@@ -5,7 +5,7 @@
 
   $query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
   
-  $result = $db36 -> query($query);
+  $result = $db36 -> prepare($query);
   echo $result;
   echo "\nPDO::errorInfo():\n";
   print_r($db36->errorInfo());
