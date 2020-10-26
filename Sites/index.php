@@ -61,9 +61,10 @@ echo '
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
+            header("Location: /index_old.php");
+            exit();
          }
         if($usuarios_2[0][6] != $user_password){
-            print_r($usuarios_2[0][6]);
             echo '<script type="text/javascript"> alert("Contraseña incorrecta. Intente nuevamente.")</script>';
         }
      }         
