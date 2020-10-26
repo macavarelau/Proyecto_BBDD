@@ -8,7 +8,7 @@
   $result -> execute();
   $user = $result -> fetchAll();
   foreach ($user as $u) {
-      echo "<h1>$u[0]</h1><h2>$u[1]</h2><h1>$u[2]</h1><h2>$u[3]</h2><h1>$u[4]</h1>"
+      echo "<h1>$u[0]</h1><h2>$u[1]</h2><h1>$u[2]</h1><h2>$u[3]</h2><h1>$u[4]</h1>";
   }
 ?>
 
