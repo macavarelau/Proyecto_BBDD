@@ -49,7 +49,7 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     #$result = $db36 -> query($query);
-    $result = $db36 -> pg_query($query);
+    $result = $db36 -> query($query);
     $result -> execute();
     #$rows = pg_num_rows($result);
     echo $result;
