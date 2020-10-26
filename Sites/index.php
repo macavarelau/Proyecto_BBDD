@@ -1,4 +1,7 @@
-<?php include('templates/header.html');   ?>
+<?php
+  session_start();
+  include('templates/header.html');
+?>
 
 <body>
 <!--<div class="container-fluid" style="position: relative;padding-left: 0px;padding-right: 0px;">
@@ -46,7 +49,7 @@ echo '
   {
     $user_passport = $_POST["user_passport"];
     $user_password = $_POST["password"];
-    
+    $_SESSION['user_passport'] = $user_passport;
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
@@ -70,8 +73,4 @@ echo '
         }
      }         
   }
-  session_start();
-  $_SESSION['user_passport'] = $user_passport;
-
-
-  ?>
+?>
