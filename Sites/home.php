@@ -238,14 +238,14 @@
         VALUES ('$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db36 -> query($query);
         echo "\nPDO::errorInfo():\n";
-        print_r($db36->errorInfo());
+        print_r();
         if ($result){
             $result -> execute();
             $usuarios = $result -> fetchAll();
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
         if (!$result){
-            echo '$db36->errorInfo()';
+            echo '<script type="text/javascript"> alert($db36->errorInfo())</script>';
         }        
     }    
     else
