@@ -11,7 +11,6 @@
 	$result = $db36 -> prepare($query);
 	$result -> execute();
   $navieras = $result -> fetchAll();
-  $link = "location.href='https://www.facebook.com'"
   ?>
   
     <br/><br/>
@@ -24,7 +23,8 @@
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
-      echo "<tr> <td>$naviera[0]</td> <td onClick = $link >Ver</td></tr>"; 
+      $link = "consultas/consulta_2.php";
+      echo "<tr> <td>$naviera[0]</td> <td onClick = $link name='$naviera[0]' >Ver</td></tr>"; 
       
     }
       ?>
