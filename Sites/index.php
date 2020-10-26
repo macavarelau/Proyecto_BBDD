@@ -27,7 +27,7 @@ echo '
             <td><input type='password' name='password' class='form-control' /></td>
         </tr>
         <tr>
-            <td>¿No tienes una cuenta? Regístrate <a href= "home.php">aquí</a>.</td>
+            <td>¿No tienes una cuenta? Regístrate <a href= "sign_in.php">aquí</a>.</td>
             <td>
                 <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
@@ -61,7 +61,7 @@ echo '
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
-            echo '<script type="text/javascript">location.href = "index_old.php";</script>';
+            echo '<script type="text/javascript">location.href = "main.php";</script>';
             exit();
          }
         if($usuarios_2[0][6] != $user_password){
