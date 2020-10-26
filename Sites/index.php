@@ -27,7 +27,7 @@ echo '
             <td><input type='password' name='password' class='form-control' /></td>
         </tr>
         <tr>
-            <td>¿No tienes una cuenta? Regístrate <a href= "home.php">aquí</a>";.</td>
+            <td>¿No tienes una cuenta? Regístrate <a href= "home.php">aquí</a>.</td>
             <td>
                 <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
