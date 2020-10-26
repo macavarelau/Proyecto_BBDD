@@ -19,6 +19,8 @@
 
 <h1>DIAS:</h1>
 <?php
+echo "\nPDO::errorInfo():\n";
+print_r($db36->errorInfo());
 if ($dias[0]){
   echo 'la wea funciona';
 }
