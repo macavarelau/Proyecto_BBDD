@@ -241,6 +241,10 @@
         $usuarios = $result -> fetchAll();
 
         $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';";
+        $result_1 = $db36 -> prepare($check_query);
+        $result_1 -> execute();
+        $chequeo = $result_1 -> fetchAll();
+        print $chequeo;
 
         print $usuarios;
         if($query)
