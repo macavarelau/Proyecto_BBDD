@@ -1,7 +1,12 @@
 <?php 
-  #session_start();
+  session_start();
   include('../templates/header.html');
-  #$user_passport = $_SESSION['user_passport'];
+  $user_passport = $_SESSION['user_passport'];   ?>
+  
+<body>
+<div class="container">
+
+<?php
 
   #$query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
   $query = "SELECT * FROM navieras;";
