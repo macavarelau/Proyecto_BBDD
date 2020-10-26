@@ -2,7 +2,6 @@
   session_start();
   include('../templates/header.html');
   $user_passport = $_SESSION['user_passport'];   ?>
-  require("../config/conexion.php");
   
 <body>
 <div class="container">
@@ -10,6 +9,7 @@
 <?php
 
   #$query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
+  require("../config/conexion.php");
   $query = "SELECT * FROM navieras;";
   
   $result = $db36 -> prepare($query);
