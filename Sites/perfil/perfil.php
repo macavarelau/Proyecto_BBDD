@@ -4,7 +4,7 @@
   $user_passport = $_SESSION['user_passport'];
 
   #$query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
-  $query = "SELECT * FROM usuarios;";
+  $query = "SELECT * FROM navieras;";
   
   $result = $db36 -> prepare($query);
   echo $result;
