@@ -29,7 +29,7 @@ echo '
         <tr>
             <td></td>
             <td>
-                <input type='submit' value='Registrarse' name='login' class='btn btn-primary' />
+                <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
             </td>
         </tr>
@@ -49,7 +49,7 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
-    if ($result){
+    if not empty($result){
         $result -> execute();
         $usuarios = $result -> fetchAll();
         $query_2 = "SELECT * FROM usuarios WHERE pasaporte='$user_passport' AND contrasena='$user_password';";
