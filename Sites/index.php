@@ -60,10 +60,5 @@ echo '
            echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
         }
     }
-    else (!$result){
-        echo "\nPDO::errorInfo():\n";
-        print_r($db36->errorInfo());
-        echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
-    }         
   }
   ?>
