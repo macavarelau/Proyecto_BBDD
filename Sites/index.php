@@ -49,8 +49,9 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
-    $rows = pg_num_rows($result);
-    print $rows;
+    $result -> execute();
+    #$rows = pg_num_rows($result);
+    print $result;
     if($rows == 0) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
