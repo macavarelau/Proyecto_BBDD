@@ -51,7 +51,7 @@ echo '
     $result = $db36 -> query($query);
     $result -> execute();
     #$rows = pg_num_rows($result);
-    print $result;
+    echo $result;
     if($rows == 0) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
