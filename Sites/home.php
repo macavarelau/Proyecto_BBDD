@@ -245,7 +245,7 @@
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
         if (!$result){
-            echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
+            echo '$db36->errorInfo()';
         }        
     }    
     else
