@@ -49,7 +49,8 @@ echo '
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
-    if ($query == '') {
+    $rows = pg_num_rows($result);
+    if ($rows == 0) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
         echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
