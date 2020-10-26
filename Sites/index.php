@@ -53,7 +53,6 @@ echo '
         $result -> execute();
         $usuarios = $result -> fetchAll();
         $query_2 = "SELECT contrasena FROM usuarios WHERE pasaporte='$user_passport';";
-        if($query_2)
         echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
     }
     else (!$result){
