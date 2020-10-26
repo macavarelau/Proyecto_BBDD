@@ -237,6 +237,12 @@
         $query = "INSERT INTO usuarios (nombre, edad, sexo, pasaporte, nacionalidad, contrasena)
         VALUES ('$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db36 -> prepare($query);
+        if ($result){
+            print "funcionó";
+        }
+        if (!$result){
+            print "no funcó";
+        }
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
