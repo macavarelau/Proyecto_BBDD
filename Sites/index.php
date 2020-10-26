@@ -61,7 +61,7 @@ echo '
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
-            header("Location: /index_old.php");
+            echo '<script type="text/javascript">location.href = 'newurl';</script>';
             exit();
          }
         if($usuarios_2[0][6] != $user_password){
