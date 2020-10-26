@@ -24,7 +24,7 @@
 
   <?php
     foreach ($buques as $b) {
-      echo "<tr><td>$b[0]</td><td>$b[1]</td><td>$b[2]</td><td>$b[3]</td><td>$b[4]</td><td>$b[5]</td></tr>"
+      echo "<tr><td>$b[0]</td><td>$b[1]</td><td>$b[2]</td><td>$b[3]</td><td>$b[4]</td><td>$b[5]</td></tr>";
     }
   ?>
 </table>
