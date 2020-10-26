@@ -79,5 +79,5 @@ echo '
   #         echo $rows . '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
   #      }
   #  }         
-  #}
+  }
   ?>
