@@ -59,12 +59,11 @@ echo '
         $result_2 = $db36 -> query($query_2);
         $result_2 -> execute();
         $usuarios_2 = $result_2 -> fetchAll();
-        if($usuarios_2[6] == $user_password){
+        if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
          }
-        if($usuarios_2[6] != $user_password){
-            print_r($usuarios[6]);
-            print_r($usuarios_2[6]);
+        if($usuarios_2[0][6] != $user_password){
+            print_r($usuarios_2[0][6]);
             echo '<script type="text/javascript"> alert("Contraseña incorrecta. Intente nuevamente.")</script>';
         }
      }         
