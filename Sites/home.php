@@ -124,7 +124,7 @@
                 <option value="LIBERIANA">LIBERIANA</option>
                 <option value="LIBIA">LIBIA</option>
                 <option value="LIECHTENSTENSE">LIECHTENSTENSE</option>
-                 <option value="LITUANIA">LITUANIA</option>
+                <option value="LITUANIA">LITUANIA</option>
                 <option value="MACEDONIA">MACEDONIA</option>
                 <option value="MALASIA">MALASIA</option>
                 <option value="MALAWIANA">MALAWIANA</option>
