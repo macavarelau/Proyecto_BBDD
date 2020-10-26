@@ -46,6 +46,7 @@ echo '
   {
     $user_passport = $_POST["user_passport"];
     $user_password = $_POST["password"];
+    
 
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
@@ -69,4 +70,8 @@ echo '
         }
      }         
   }
+  session_start();
+  $_SESSION['user_passport'] = $user_passport;
+
+
   ?>
