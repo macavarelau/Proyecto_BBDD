@@ -250,7 +250,7 @@
         print_r($db36->errorInfo());
 
 
-        echo "\nPDO::errorCode(): ", $dbh->errorCode();
+        echo "\nPDO::errorCode(): ", $db36->errorCode();
 
         $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';";
         $result_1 = $db36 -> prepare($check_query);
