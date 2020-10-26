@@ -17,12 +17,5 @@
   </li>
 </ul>
 
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane container active" id="perfil">...</div>
-  <div class="tab-pane container fade" id="navieras">...</div>
-  <div class="tab-pane container fade" id="puertos">...</div>
-</div>
-
 </body>
 </html>
