@@ -63,7 +63,7 @@ echo '
         if($result_2){
            $result -> execute();
            $usuarios = $result -> fetchAll();
-           echo '<script type="text/javascript"> alert(" '$rows' ¡Bienvenido/a!")</script>';
+           echo $rows . '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
         }
     }         
   }
