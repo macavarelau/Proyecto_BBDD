@@ -7,21 +7,21 @@
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#home">Ver mi perfil</a>
+    <a class="nav-link active" data-toggle="tab" href="#perfil">Ver mi perfil</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#menu1">Navieras y Buques</a>
+    <a class="nav-link" data-toggle="tab" href="#navieras">Navieras</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#menu2">Puertos</a>
+    <a class="nav-link" data-toggle="tab" href="#puertos">Puertos</a>
   </li>
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content">
-  <div class="tab-pane container active" id="home">...</div>
-  <div class="tab-pane container fade" id="menu1">...</div>
-  <div class="tab-pane container fade" id="menu2">...</div>
+  <div class="tab-pane container active" id="perfil">...</div>
+  <div class="tab-pane container fade" id="navieras">...</div>
+  <div class="tab-pane container fade" id="puertos">...</div>
 </div>
 
 </body>
