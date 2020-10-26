@@ -8,7 +8,7 @@
   require("../config/conexion.php");
 
  	$query = "SELECT DISTINCT nombre, país FROM navieras;";
-	$result = $db -> prepare($query);
+	$result = $db36 -> prepare($query);
 	$result -> execute();
 	$navieras = $result -> fetchAll();
   ?>
