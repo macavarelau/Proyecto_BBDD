@@ -16,7 +16,7 @@ echo '
 ?>
 </div>
 <h3>INICIA SESIÓN</h3>
-<form method="post">
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-bordered table-center'>
         <tr>
             <td>Número de pasaporte</td>
@@ -52,8 +52,13 @@ echo '
     if ($result){
         $result -> execute();
         $usuarios = $result -> fetchAll();
-        $query_2 = "SELECT contrasena FROM usuarios WHERE pasaporte='$user_passport';";
-        echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
+        $query_2 = "SELECT * FROM usuarios WHERE pasaporte='$user_passport' AND contrasena='$user_password';";
+        $result_2 = $db36 -> query($query);
+        if($result_2){
+           $result -> execute();
+           $usuarios = $result -> fetchAll();
+           echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
+        }
     }
     else (!$result){
         echo "\nPDO::errorInfo():\n";
