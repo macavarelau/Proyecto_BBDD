@@ -4,9 +4,11 @@
   $user_passport = $_SESSION['user_passport'];
 
   $query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = $user_passport;";
+  
+  echo $query;
+  $result = $db36 -> query($query);
   echo "\nPDO::errorInfo():\n";
   print_r($db36->errorInfo());
-  $result = $db36 -> query($query);
   $result -> execute();
   $user = $result -> fetchAll();
 
