@@ -17,7 +17,7 @@
 
 
   foreach ($user as $u) {
-      echo "Nombre: $u[0]<br>Edad: $u[1]<br>Sexo: $u[2]<br>Pasaporte: $u[3]<br>Nacionalidad: $u[4]";
+      echo "Nombre: $u[0]<br>Edad: $u[1]<br>Sexo: $u[2]<br>Pasaporte: $u[3]<br>Nacionalidad: $u[4]<br><br>";
   }
 
   $query_cap = "SELECT distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport';";
@@ -41,8 +41,8 @@
     echo "es jefe";
     include('jefe.php');
   }
-  if (!$info_cap){
-    if (!$info_jefe){
+  if (!$info_cap[0]){
+    if (!$info_jefe[0]){
       echo "no es ni jefe ni cap";
     }
   }
