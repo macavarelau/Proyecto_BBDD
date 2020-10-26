@@ -24,7 +24,7 @@
   <?php
 	foreach ($navieras as $naviera) {
 
-      $link = "location.href='http://codd.ing.puc.cl/~grupo36/consultas/consulta_1.php'";
+      $link = "location.href='http://codd.ing.puc.cl/~grupo36/consultas/consulta_2.php'";
       echo "<tr> <td onClick = $link >$naviera[0]</td> </tr>"; 
       
     }
