@@ -12,8 +12,8 @@
   <table class="table table-hover" align="center">
     <thead>
       <tr>
-        <th> id Naviera </th>
-        <th> Nombre </th>
+        <th>ID Naviera</th>
+        <th>Nombre</th>
       </tr>
     </thead>
 
@@ -25,6 +25,15 @@
       ?>
     </tbody>
   </table>
-
+<br>
+<br>
+<form action="../home.php" method="get">
+    <button type="submit" class="btn btn-secondary" align= "center">Volver</button>
+    <br>
+<br><br>
+<br>
+</form>
+</div>
 </body>
-<?php include('../templates/footer.html'); ?>
+
+</html>
