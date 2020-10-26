@@ -7,11 +7,15 @@
   $result = $db36 -> prepare($query);
   $result -> execute();
   $user = $result -> fetchAll();
+
+  echo "\nPDO::errorInfo():\n";
+  print_r($db36->errorInfo());
+  
   foreach ($user as $u) {
       echo "<h1>$u[0]</h1><h2>$u[1]</h2><h1>$u[2]</h1><h2>$u[3]</h2><h1>$u[4]</h1>";
   }
 ?>
-
+Fatal error: Uncaught Error: Call to a member function prepare() on null in /home/grupo36/Sites/perfil/perfil.php:7 Stack trace: #0 {main} thrown in /home/grupo36/Sites/perfil/perfil.php on line 7
 </div>
 </body>
 
