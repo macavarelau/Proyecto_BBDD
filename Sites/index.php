@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-<div class="container-fluid" style="position: relative;padding-left: 0px;padding-right: 0px;">
+<!--<div class="container-fluid" style="position: relative;padding-left: 0px;padding-right: 0px;">
 
 <div class="container-fluid middle center" style="background: rgba(255, 255, 255, 0.9); position: absolute; margin-top: 15%; padding: 5%;">
     
@@ -14,7 +14,7 @@ echo '
 <img class="img-fluid mx-auto d-block" src="buque_2.jpg" title="Buque" style="width:200%" />
 ';
 ?>
-</div>
+</div>-->
 <h3>INICIA SESIÓN</h3>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <table class='table table-hover table-bordered table-center'>
