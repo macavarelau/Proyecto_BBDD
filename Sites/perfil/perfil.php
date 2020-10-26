@@ -1,6 +1,6 @@
 <h1>HOLA1</h1>
 <?php include('../templates/header.html');
-  require("../index.php");
+  #require("../index.php");
 ?>
 <h1>HOLA</h1>
 
