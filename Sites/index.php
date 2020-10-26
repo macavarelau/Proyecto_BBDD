@@ -50,7 +50,7 @@ echo '
     $query = "SELECT * FROM usuarios WHERE pasaporte='$user_passport';";
     $result = $db36 -> query($query);
     $rows = pg_num_rows($result);
-    if ($rows == 0) {
+    if($rows == 0) {
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
         echo '<script type="text/javascript"> alert("Usted no está registrado.")</script>';
@@ -63,7 +63,7 @@ echo '
         if($result_2){
            $result -> execute();
            $usuarios = $result -> fetchAll();
-           echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
+           echo '<script type="text/javascript"> alert(" '$rows' ¡Bienvenido/a!")</script>';
         }
     }         
   }
