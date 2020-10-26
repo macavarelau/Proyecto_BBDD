@@ -21,11 +21,11 @@
   }
 
   $query_cap = "SELECT distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport';";
-  $result_cap = $db36 -> prepare($query);
+  $result_cap = $db36 -> prepare($query_cap);
   $result_cap -> execute();
   $info_cap = $result -> fetchAll();
   $query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
-  $result_jefe = $db85 -> prepare($query);
+  $result_jefe = $db85 -> prepare($query_jefe);
   $result_jefe -> execute();
   $info_jefe = $result -> fetchAll();
   
