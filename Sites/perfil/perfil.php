@@ -2,6 +2,7 @@
   session_start();
   include('../templates/header.html');
   $user_passport = $_SESSION['user_passport'];   ?>
+  require("../config/conexion.php");
   
 <body>
 <div class="container">
