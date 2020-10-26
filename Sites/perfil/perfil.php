@@ -1,16 +1,16 @@
 <?php 
   session_start();
   include('../templates/header.html');
-  echo $_SESSION['user_passport'];
-  #include "../index.php";
-?>
+  $user_passport = $_SESSION['user_passport'];
 
-<?php
-  #echo "<h1>$user_passport</h1>";
+  $query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = $user_passport"
+  $result = $db36 -> prepare($query);
+  $result -> execute();
+  $user = $result -> fetchAll();
+  foreach ($user as $u) {
+      echo "<h1>$u[0]</h1><h2>$u[1]</h2><h1>$u[2]</h1><h2>$u[3]</h2><h1>$u[4]</h1>"
+  }
 ?>
-
-#E99654323
-#CriE99
 
 </div>
 </body>
