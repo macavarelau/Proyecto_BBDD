@@ -237,37 +237,16 @@
         $query = "INSERT INTO usuarios (nombre, edad, sexo, pasaporte, nacionalidad, contrasena)
         VALUES ('$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
         $result = $db36 -> query($query);
+        $result -> execute();
+        $usuarios = $result -> fetchAll();
         echo "\nPDO::errorInfo():\n";
         print_r($db36->errorInfo());
         if ($result){
-            print "funcionó";
-        }
-        if (!$result){
-            print "no funcó";
-        }
-        $result -> execute();
-        $usuarios = $result -> fetchAll();
-
-
-
-        echo "\nPDO::errorCode(): ", $db36->errorCode();
-
-        $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';";
-        $result_1 = $db36 -> prepare($check_query);
-        $result_1 -> execute();
-        $chequeo = $result_1 -> fetchAll();
-        print $chequeo;
-
-        print $usuarios;
-        if($query)
-        {
-            print $query;
             echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
         }
-        else
-        {
+        if (!$result){
             echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
-        }
+        }        
     }    
     else
         {
