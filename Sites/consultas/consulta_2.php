@@ -10,7 +10,7 @@
     
     $query = "SELECT DISTINCT buques.bid, buques.nombre, buques.patente, buques.pais, buques.giro, buques.personal 
     FROM navieras, posee, buques WHERE UPPER(navieras.nombre) LIKE UPPER('%$nombre_naviera%')
-    AND buques.bid = posee.bid AND navieras.nid = posee.nid;";
+    AND buques.bid = posee.bid AND navieras.nid = posee.nid ORDER BY buques.giro;";
 	$result = $db36 -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
