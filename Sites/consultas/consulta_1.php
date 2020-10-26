@@ -24,7 +24,7 @@
   <?php
 	foreach ($navieras as $naviera) {
       $link = "consultas/consulta_2.php";
-      echo "<tr> <td>$naviera[0]</td> <td onClick = $link name='$naviera[0]' >Ver</td></tr>"; 
+      echo "<tr> <td>$naviera[0]</td> <td onClick = $link>Ver</td></tr>"; 
       
     }
       ?>
