@@ -13,12 +13,10 @@
   $query = "SELECT * FROM navieras;";
   
   $result = $db36 -> prepare($query);
-  echo $result;
   echo "\nPDO::errorInfo():\n";
   print_r($db36->errorInfo());
   $result -> execute();
   $user = $result -> fetchAll();
-  echo $user;
 
 
   foreach ($user as $u) {
