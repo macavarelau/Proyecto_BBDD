@@ -20,20 +20,20 @@
       echo "Nombre: $u[0]<br>Edad: $u[1]<br>Sexo: $u[2]<br>Pasaporte: $u[3]<br>Nacionalidad: $u[4]<br><br>";
   }
 
-  $query_cap = "SELECT distinct info_caps.bid as id_info_cap, info_caps.patente as patente_info_cap, info_caps.nombre as nombre_info_cap, info_caps.giro as tipo_info_cap, navieras.nombre as nombre_naviera from info_caps, navieras, tiene, posee, personal, usuarios where info_caps.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport';";
+  $query_cap = "SELECT distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport';";
   $result_cap = $db36 -> query($query_cap);
   $result_cap -> execute();
-  $info_caps = $result -> fetchAll();
+  $info_cap = $result -> fetchAll();
   $query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
   $result_jefe = $db85 -> query($query_jefe);
   $result_jefe -> execute();
-  $info_jefes = $result -> fetchAll();
+  $info_jefe = $result -> fetchAll();
   
   $cargo = 0; # 0 si no es nada, 1 si es cap y 2 si es jefe;
   echo $query_cap;
   echo $query_jefe;
-  echo $info_cap[0];
-  echo $info_jefe[0];
+  echo $info_caps[0];
+  echo $info_jefes[0];
   if ($info_caps[0]){
     $cargo = 1;
     echo "es capitan";
