@@ -240,8 +240,8 @@
         $result -> execute();
         $usuarios = $result -> fetchAll();
 
-        $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';
-        
+        $check_query = "SELECT pasaporte FROM usuarios WHERE pasaporte = '$user_passport';";
+
         print $usuarios;
         if($query)
         {
