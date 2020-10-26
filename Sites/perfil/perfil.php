@@ -8,9 +8,8 @@
 
 <?php
 
-  #$query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
+  $query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
   require("../config/conexion.php");
-  $query = "SELECT * FROM navieras;";
   
   $result = $db36 -> prepare($query);
   echo "\nPDO::errorInfo():\n";
