@@ -62,7 +62,7 @@ echo '
         if($usuarios_2[5] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
          }
-        if($usuarios_2[5] != $user_password){
+        if(UPPER($usuarios_2[5]) != UPPER($user_password)){
             echo '<script type="text/javascript"> alert("Contraseña incorrecta. Intente nuevamente.")</script>';
         }
      }         
