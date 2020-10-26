@@ -27,7 +27,7 @@ echo '
             <td><input type='password' name='password' class='form-control' /></td>
         </tr>
         <tr>
-            <td></td>
+            <td>hola</td>
             <td>
                 <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
                 <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
