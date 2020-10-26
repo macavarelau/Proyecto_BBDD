@@ -23,7 +23,8 @@
     </tr>
   <?php
 	foreach ($navieras as $naviera) {
-      echo "<tr> <td>$naviera[0]</td> </tr>";
+      echo "<tr> <td>$naviera[0]</td> <td> <button  type="submit" class="btn btn-dark">Ver</button></td></tr>"; 
+      
     }
       ?>
 </table>
