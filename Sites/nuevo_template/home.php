@@ -31,7 +31,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-3" data-aos="zoom-in-up">
-          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
+          <div class="card-body mt-4 mb-1 text-center text-primary"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
             <div class="h4 pb-3">Flexibility</div>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
           </div>
