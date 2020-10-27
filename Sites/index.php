@@ -1,7 +1,7 @@
 <?php
   session_start();
 ?>
-<!--
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -17,13 +17,13 @@
     <link href="nuevo_template/styles/bootstrap.css" rel="stylesheet">
     <link href="nuevo_template/styles/main.css" rel="stylesheet">
   </head>
-<?php include('nuevo_template/index.php'); ?>
--->
+<?php #include('nuevo_template/index.php'); ?>
+
 
 <?php
   #session_start();
 ?>
-
+<!--
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
