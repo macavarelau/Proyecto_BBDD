@@ -22,28 +22,28 @@
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Selecciona el item que quieras revisar.</p>
     <div class="row">
       <div class="col-md-4">
-        <a href="perfil/perfil.php"><div class="card mb-3" data-aos="flip-left">
+        <a href="../perfil/perfil.php"><div class="card mb-3" data-aos="flip-left">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
-            <div class="h4 pb-3" href="perfil/perfil.php">Ver mi perfil</div>
-            <p class="text-secondary">En esta sección podrás ver tu perfil y tu información de usuario. además si es que eres Jefe de alguna instalación o Capitán de buque, podras fer tu información asociada.</p>
+            <div class="h4 pb-3" >Ver mi perfil</div>
+            <p class="text-secondary">En esta sección podrás ver tu perfil y tu información de usuario.</p>
           </div>
         </div></a>
       </div>
       <div class="col-md-4">
-        <div class="card mb-3" data-aos="zoom-in-up">
+      <a href="../navieras/index.php"><div class="card mb-3" data-aos="zoom-in-up">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
-            <div class="h4 pb-3">Flexibility</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
+            <div class="h4 pb-3">Navieras</div>
+            <p>En esta sección podras ver todas las navieras y sus respectivos buques.</p>
           </div>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-4">
-        <div class="card mb-3" data-aos="flip-right">
+      <a href="../puertos/index.php"><div class="card mb-3" data-aos="flip-right">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-trophy fa-3x"></i>
-            <div class="h4 pb-3">Results</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
+            <div class="h4 pb-3">Puertos</div>
+            <p>Aqui podras vecr toda la info relativa a los puertos, instalaciones o atraques.</p>
           </div>
-        </div>
+        </div></a>
       </div>
     </div>
   </div>
