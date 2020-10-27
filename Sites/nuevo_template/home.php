@@ -16,7 +16,7 @@
   <body id="top">
     <div class="page-content">
       <div>
-<div class="da-section da-work bg-primary" id="learn">
+<div class="da-section da-work bg-secondary" id="learn">
   <div class="container">
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">HOME</div>
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Selecciona el item que quieras revisar.</p>
