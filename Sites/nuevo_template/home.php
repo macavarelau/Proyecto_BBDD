@@ -14,28 +14,6 @@
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body id="top">
-    <header class="background-color black">
-      <div class="container pt-4">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0"><a class="text-white navbar-brand" href="#">@codd.ing.puc.cl</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#da-navbarNav" aria-controls="da-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse text-uppercase" id="da-navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#learn">Log in</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Sign up</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <div class="da-home-page-text" data-aos="fade-right" data-aos-duration="1000">
-        <div class="container">
-          <div class="col-md-10 col-sm-12 px-0 mx-0">
-            <h2 class="display-3" style="margin-left:-6px;">Buquepedia</h2>
-            <h3 class="h5 mt-3">Inicia sesión para navegar en el este paraiso digital</h3><a class="smooth-scroll btn btn-outline-light mt-4" href="#learn">GO!</a>
-          </div>
-        </div>
-      </div>
-    </header>
     <div class="page-content">
       <div>
 <div class="da-section da-work bg-secondary" id="learn">
