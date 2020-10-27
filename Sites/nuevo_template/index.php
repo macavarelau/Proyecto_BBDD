@@ -44,7 +44,7 @@
   <div class="container">
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    <div class="row">
+    <div class="row" data-aos="flip-left">
       <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
             <tr>
