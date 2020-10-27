@@ -27,7 +27,7 @@
   #$query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
   #$result_jefe = $db85 -> prepare($query_jefe);
   #$result_jefe -> execute();
-  #$info_jefes = $result -> fetchAll();
+  #$info_jefes = $result_jefe -> fetchAll();
   
   $cargo = 0; # 0 si no es nada, 1 si es cap y 2 si es jefe;
   echo $query_cap;
@@ -39,16 +39,16 @@
     echo "es capitan";
     include('capitan.php');
   }
-  #if ($info_jefes[0]){
-  #  $cargo = 2;
-  #  echo "es jefe";
-  #  include('jefe.php');
-  #}
-  #if (!$info_caps[0]){
-  #  if (!$info_jefes[0]){
-  #    echo "no es ni jefe ni cap";
-  #  }
-  #}
+  if ($info_jefes[0]){
+    $cargo = 2;
+    echo "es jefe";
+    include('jefe.php');
+  }
+  if (!$info_caps[0]){
+    if (!$info_jefes[0]){
+      echo "no es ni jefe ni cap";
+    }
+  }
 
 ?>
 <table class="table table-striped table-hover">
