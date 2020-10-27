@@ -52,11 +52,11 @@
                 <td><input type='text' name='user_passport' class='form-control' /></td>
             </tr>
             <tr>
-                <td>Contraseña</td>
+                <td class="px-5 pb-5 text-center text-white">Contraseña</td>
                 <td><input type='password' name='password' class='form-control' /></td>
             </tr>
             <tr>
-                <td>¿No tienes una cuenta? Regístrate <a href= "sign_in.php">aquí</a>.</td>
+                <td class="px-5 pb-5 text-center text-white">¿No tienes una cuenta? Regístrate <a href= "sign_in.php">aquí</a>.</td>
                 <td>
                     <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
                     <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
