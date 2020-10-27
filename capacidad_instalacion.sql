@@ -2,8 +2,7 @@ CREATE or REPLACE FUNCTION
 capacidad_instalacion (f_inicio timestamp, f_termino timestamp, idpuerto int)
 RETURNS TABLE (instalacion_id text, fecha_atraques timestamp) AS $$
 DECLARE 
-  tabla_dias TABLE(fechas DATE);
-  INSERT INTO tabla_dias VALUES(SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') AS t(day) DATE);
+  CREATE TABLE tabla_dias AS (SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') AS t(day));
   contador INT;
   t_curs cursor for SELECT * FROM tabla_dias;
   t_row tabla_dias%rowtype;
