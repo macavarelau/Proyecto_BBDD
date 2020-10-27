@@ -13,7 +13,7 @@
   $result -> execute();
   $dias = $result -> fetchAll();
 ?>
-  
+
 <table>
   <tr>
     <th>instalacion_id</th>
