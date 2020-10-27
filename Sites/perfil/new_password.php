@@ -1,6 +1,6 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 <input type='password' name='password' class='form-control'>
-<input type="submit" value='contrasena' class='btn btn-primary' />
+<input type="submit" name='contrasena' value='Cambiar Contraseña' class='btn btn-primary' />
 </form>
 
 <?php
