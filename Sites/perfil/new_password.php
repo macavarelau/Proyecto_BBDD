@@ -1,14 +1,16 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+<input type='password' name='old_password' class='form-control'>
 <input type='password' name='password' class='form-control'>
 <input type="submit" name='contrasena' value='Cambiar Contraseña' class='btn btn-primary' />
 </form>
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  require("config/conexion.php");
+  require("../config/conexion.php");
   if(isset($_POST['contrasena']))
   {
     $user_passport = $_POST["user_passport"];
+    $user_old_password = $_POST["old_password"];
     $user_password = $_POST["password"];
     $_SESSION['user_passport'] = $user_passport;
 
