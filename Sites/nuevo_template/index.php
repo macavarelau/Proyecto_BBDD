@@ -354,3 +354,40 @@
      }         
   }
 ?>
+<?php
+  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  require("config/conexion.php");
+
+  if(isset($_POST['signin']))
+  {
+    $user_name = $_POST["user_name"];
+    $user_age = $_POST["user_age"];
+    $user_gender = $_POST["user_gender"];
+    $user_passport = $_POST["user_passport"];
+    $user_nationality = $_POST["user_nationality"];
+    $user_password = $_POST["password"];
+    $user_cpassword = $_POST["cpassword"];    
+
+    if($user_password==$user_cpassword)
+    {
+
+        $query = "INSERT INTO usuarios (nombre, edad, sexo, pasaporte, nacionalidad, contrasena)
+        VALUES ('$user_name', $user_age, '$user_gender', '$user_passport', '$user_nationality', '$user_password');";
+        $result = $db36 -> query($query);
+        if ($result){
+            $result -> execute();
+            $usuarios = $result -> fetchAll();
+            echo '<script type="text/javascript"> alert("¡Te has registrado exitosamente!")</script>';
+        }
+        if (!$result){
+            echo "\nPDO::errorInfo():\n";
+            print_r($db36->errorInfo());
+            echo '<script type="text/javascript"> alert("Proceso de registro ha fallado")</script>';
+        }        
+    }    
+    else
+        {
+        echo '<script type="text/javascript"> alert("Confirmación de contraseña no coincide")</script>';
+        }
+  }
+  ?>
