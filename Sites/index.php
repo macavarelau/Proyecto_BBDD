@@ -1,1 +1,1 @@
-<?php include('nuevo_template/index.php')
+<?php include('nuevo_template/index.php'); ?>
