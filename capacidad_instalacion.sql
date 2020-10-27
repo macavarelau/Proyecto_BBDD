@@ -3,9 +3,8 @@ capacidad_instalacion (f_inicio timestamp, f_termino timestamp, idpuerto int)
 RETURNS TABLE (instalacion_id text, fecha_atraques timestamp) AS $$
 DECLARE 
   contador INT;
-  tabla_dias TABLE := SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') as t(day);
-  t_curs cursor for tabla_dias;
-  t_row tabla_dias%rowtype;
+  t_curs cursor for SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') as t(day);
+  t_data record;
   t_curs2 cursor for (SELECT permisos.permiso_id as pid, permisos.atraque as fecha, permisos.instalacion_id as iid, 
                       instalaciones.capacidad as cap FROM permisos, instalaciones, puertos WHERE 
                       permisos.instalacion_id = instalaciones.instalacion_id AND instalaciones.puerto_id = puertos.puerto_id 
@@ -13,10 +12,10 @@ DECLARE
   t_row2 permisos_puerto%rowtype;
 BEGIN
   CREATE TABLE CANTIDAD(instalacion int, dia timestamp);
-  FOR t_row in t_curs LOOP
+  FOR t_data in t_curs LOOP
     contador := 0
     FOR t_row2 in t_curs2 LOOP
-      IF t_row2.fecha = t_row.day THEN
+      IF t_row2.fecha = t_data.day THEN
         contador := contador + 1
       END IF
       IF contador < t_row2.cap THEN
