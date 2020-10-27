@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include('nuevo_template/index.php');
+  #include('nuevo_template/index.php');
   include('templates/header.html');
 ?>
 
