@@ -6,7 +6,7 @@ DECLARE
   t_curs cursor for SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') as t(day);
   t_data record;
   t_curs2 cursor for SELECT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT permisos.permiso_id as pid, permisos.atraque as fecha, permisos.instalacion_id as iid, instalaciones.capacidad as cap FROM permisos, instalaciones, puertos WHERE permisos.instalacion_id = instalaciones.instalacion_id AND instalaciones.puerto_id = puertos.puerto_id 
-  AND puertos.puerto_id = idpuerto);') AS permisos_puerto(pid int, fecha timestamp, iid int, cap int);
+  AND puertos.puerto_id = idpuerto') AS permisos_puerto(pid int, fecha timestamp, iid int, cap int);
   t_row2 permisos_puerto%rowtype;
 BEGIN
   CREATE TABLE CANTIDAD(instalacion int, dia timestamp);
