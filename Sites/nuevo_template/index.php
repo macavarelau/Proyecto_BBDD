@@ -280,13 +280,6 @@
           </form>
             </div>
           </div>
-          <div class="col-md-5">
-            <p>Non dis torquent conubia neque duis enim lectus, dictumst bibendum nam lacinia faucibus sollicitudin consequat tortor, mattis taciti sem arcu pellentesque quisque.</p>
-            <p><b>Address:</b> 568, Hill Road, USA</p>
-            <p><b>Phone:</b> +1 802-457-1144</p>
-            <p><b>Email:</b> info@example.com</p>
-            <p><b>Fax:</b> +1 502-257-1156</p>
-          </div>
         </div>
       </div>
     </div>
