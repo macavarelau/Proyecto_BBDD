@@ -52,7 +52,7 @@
             <td><input type='password' name='password' class='form-control' /></td>
           </tr>
           <tr>
-            <td>¿No tienes una cuenta? Regístrate <a href= "../sign_in.php">aquí</a>.</td>
+            <td>¿No tienes una cuenta? Regístrate <a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a><!a href= "../sign_in.php">aquí<!/a>.</td>
             <td>
               <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
             </td>
@@ -60,7 +60,7 @@
           
         </table>
       </form>
-      <a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
+      
       </div>
     </div>
   </div>
