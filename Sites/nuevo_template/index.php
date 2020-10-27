@@ -58,9 +58,9 @@
             </td>
           </tr>
           
-        </table><a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
+        </table>
       </form>
-
+      <a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
       </div>
     </div>
   </div>
