@@ -43,7 +43,6 @@
 <div class="da-section da-work bg-secondary" id="learn">
   <div class="container">
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
-    <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     <div class="row" data-aos="flip-left">
       <form aling="center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
@@ -161,7 +160,6 @@
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
-  echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa";
   if(isset($_POST['login']))
   {
     $user_passport = $_POST["user_passport"];
@@ -182,7 +180,7 @@
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
-            echo '<script type="text/javascript">location.href = "home.php";</script>';
+            echo '<script type="text/javascript">location.href = "../home.php";</script>';
             exit();
          }
         if($usuarios_2[0][6] != $user_password){
