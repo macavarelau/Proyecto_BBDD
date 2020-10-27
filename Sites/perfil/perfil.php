@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+  <?php 
+  session_start();
+  include('../templates/header.html');
+  $user_passport = $_SESSION['user_passport'];   ?><!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
@@ -14,10 +18,6 @@
     <link href="styles/main.css" rel="stylesheet">
   </head>
 
-  <?php 
-  session_start();
-  include('../templates/header.html');
-  $user_passport = $_SESSION['user_passport'];   ?>
   
 <body>
 <div class="container">
