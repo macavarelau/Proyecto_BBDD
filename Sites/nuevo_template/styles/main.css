@@ -128,7 +128,7 @@ header {
 
 /*Contact Style*/
 .da-contact {
-  background-color: #26b7a0;
+  background: url("../images/cuaderno.jpg") no-repeat center center;
   position: relative;
   min-height: 700px;
   background-size: cover;
