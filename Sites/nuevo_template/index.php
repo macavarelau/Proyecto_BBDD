@@ -295,13 +295,12 @@
             <p>+1 502-257-1157</p>
           </div>
           <div class="col-md-4">
-            <div class="h6 pb-2">Follow Us</div>
+            <div class="h6 pb-2">Team</div>
             <ul>
-              <li><a class="da-social-link" href="#">Twitter</a></li>
-              <li><a class="da-social-link" href="#">Facebook</a></li>
-              <li><a class="da-social-link" href="#">Instagram</a></li>
-              <li><a class="da-social-link" href="#">Google</a></li>
-              <li><a class="da-social-link" href="#">Behance</a></li>
+              <li><a class="da-social-link" >Benja Guiloff</a></li>
+              <li><a class="da-social-link" >Maca Varela</a></li>
+              <li><a class="da-social-link" >Sam Weinstein</a></li>
+              <li><a class="da-social-link" >Lucas Zalaquett</a></li>
             </ul>
           </div>
           <div class="col-md-4">
