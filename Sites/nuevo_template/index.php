@@ -52,7 +52,7 @@
             <td><input type='password' name='password' class='form-control' /></td>
           </tr>
           <tr>
-            <td>¿No tienes una cuenta? Regístrate <a class="smooth-scroll btn btn-outline-light mt-4" href= "contact">aquí</a>.</td>
+            <td>¿No tienes una cuenta? Regístrate <a class="smooth-scroll mt-4" href= "contact">aquí</a>.</td>
             <td>
               <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
             </td>
