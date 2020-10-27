@@ -286,7 +286,7 @@
   </div>
 </div></div>
     </div>
-    <footer class="bg-secondary da-section">
+    <footer class="bg-primary da-section">
       <div class="container text-white">
         <div class="row">
           <div class="col-md-4">
