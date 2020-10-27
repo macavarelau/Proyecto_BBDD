@@ -68,8 +68,7 @@
   <div class="da-contact-detail" data-aos="zoom-in" data-aos-duration="1000">
     <div class="container">
       <div class="card py-4 px-4">
-        <div class="h4 pb-4">Contact Us</div>
-          <div class="col-md-7 col-sm-12 mb-3">
+        <div class="h4 pb-4">Regístrate</div>
             <div class="da-contact-message">
               <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
               <table class='table table-hover table-bordered table-center'>
