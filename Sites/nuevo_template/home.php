@@ -22,12 +22,12 @@
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Selecciona el item que quieras revisar.</p>
     <div class="row">
       <div class="col-md-4">
-        <div class="card mb-3" data-aos="flip-left">
+        <a href="perfil/perfil.php"><div class="card mb-3" data-aos="flip-left">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
-            <div class="h4 pb-3" href="perfil/perfil.php"><a href="perfil/perfil.php">Ver mi perfil</a></div>
+            <div class="h4 pb-3" href="perfil/perfil.php">Ver mi perfil</div>
             <p>En esta sección podrás ver tu perfil y tu información de usuario. además si es que eres Jefe de alguna instalación o Capitán de buque, podras fer tu información asociada.</p>
           </div>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-4">
         <div class="card mb-3" data-aos="zoom-in-up">
