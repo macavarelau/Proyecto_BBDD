@@ -32,8 +32,8 @@
       <div class="da-home-page-text" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
           <div class="col-md-10 col-sm-12 px-0 mx-0">
-            <h2 class="display-3" style="margin-left:-6px;">Digital Creative Agency</h2>
-            <h3 class="h5 mt-3">Let us handle your Graphic Design and Web Design Needs</h3><a class="smooth-scroll btn btn-outline-light mt-4" href="#learn">Learn More</a>
+            <h2 class="display-3" style="margin-left:-6px;">Buquepedia</h2>
+            <h3 class="h5 mt-3">Inicia sesión para navegar en el este paraiso digital</h3><a class="smooth-scroll btn btn-outline-light mt-4" href="#learn">Learn More</a>
           </div>
         </div>
       </div>
