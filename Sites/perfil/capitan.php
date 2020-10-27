@@ -7,4 +7,3 @@
 <div class="container">
 <h1>ESTE ES CAPITAN</h1>
 
-<?php?>

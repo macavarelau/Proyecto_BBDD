@@ -30,10 +30,7 @@
   $info_jefes = $result_jefe -> fetchAll();
   
   $cargo = 0; # 0 si no es nada, 1 si es cap y 2 si es jefe;
-  echo $query_cap;
-  echo $query_jefe;
-  echo $info_caps[0];
-  echo $info_jefes[0];
+  
   if ($info_caps[0]){
     $cargo = 1;
     echo "es capitan";
