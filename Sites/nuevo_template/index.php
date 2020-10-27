@@ -16,11 +16,13 @@
   <body id="top">
     <header>
       <div class="container pt-4">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0"><a class="text-white navbar-brand" href="#">Digital Agency</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0"><a class="text-white navbar-brand" href="#">@codd.ing.puc.cl</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#da-navbarNav" aria-controls="da-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse text-uppercase" id="da-navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#learn">Log in</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Sign up</a></li>
             </ul>
           </div>
         </nav>
@@ -353,7 +355,7 @@
         }
      }         
   }
-  
+
   if(isset($_POST['signin']))
   {
     $user_name = $_POST["user_name"];
