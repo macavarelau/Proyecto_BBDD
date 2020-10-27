@@ -57,8 +57,8 @@
               <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
             </td>
           </tr>
-          <a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
-        </table>
+          
+        </table><a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
       </form>
 
       </div>
