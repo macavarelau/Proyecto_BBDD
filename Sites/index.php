@@ -74,3 +74,11 @@ echo '
      }         
   }
 ?>
+
+<form action="nuevo_template/index.php" method="get">
+    <!--input type="submit" value="Volver"-->
+    <button type="submit" class="btn btn-secondary" align= "center" >OTRO</button>
+    <br>
+<br><br>
+<br>
+</form>
