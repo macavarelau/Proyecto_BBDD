@@ -8,7 +8,7 @@ DECLARE
   t_curs2 cursor for (SELECT permisos.permiso_id as pid, permisos.atraque as fecha, permisos.instalacion_id as iid, 
                       instalaciones.capacidad as cap FROM permisos, instalaciones, puertos WHERE 
                       permisos.instalacion_id = instalaciones.instalacion_id AND instalaciones.puerto_id = puertos.puerto_id 
-                      AND puertos.puerto_id = idpuerto) as permisos_puerto(pid int, fecha timestamp, iid int, cap int);
+                      AND puertos.puerto_id = idpuerto);
   t_row2 permisos_puerto%rowtype;
 BEGIN
   CREATE TABLE CANTIDAD(instalacion int, dia timestamp);
