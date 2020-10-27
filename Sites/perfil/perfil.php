@@ -24,10 +24,10 @@
   $result_cap = $db36 -> prepare($query_cap);
   $result_cap -> execute();
   $info_caps = $result_cap -> fetchAll();
-  #$query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
-  #$result_jefe = $db85 -> prepare($query_jefe);
-  #$result_jefe -> execute();
-  #$info_jefes = $result_jefe -> fetchAll();
+  $query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
+  $result_jefe = $db85 -> prepare($query_jefe);
+  $result_jefe -> execute();
+  $info_jefes = $result_jefe -> fetchAll();
   
   $cargo = 0; # 0 si no es nada, 1 si es cap y 2 si es jefe;
   echo $query_cap;
@@ -51,20 +51,6 @@
   }
 
 ?>
-<table class="table table-striped table-hover">
-    <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>N° astilleros</th>
-    </tr>
-  
-      <?php
-        foreach ($info_caps as $info_cap) {
-          echo "<tr><td>$info_cap[0]</td><td>$info_cap[1]</td><td>$info_cap[2]</td></td></tr>";
-      }
-      ?>
-      
-      </table>
 </div>
 </body>
 
