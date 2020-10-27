@@ -48,7 +48,7 @@
       <form class="px-5 pb-5 text-center text-whiteaction=" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
             <tr>
-                <td>Número de pasaporte</td>
+                <td class="px-5 pb-5 text-center text-white">Número de pasaporte</td>
                 <td><input type='text' name='user_passport' class='form-control' /></td>
             </tr>
             <tr>
