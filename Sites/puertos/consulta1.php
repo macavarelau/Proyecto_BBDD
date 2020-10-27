@@ -8,8 +8,8 @@
   $inicio = $_POST["inicio"];
   $termino = $_POST["termino"];
   
-  $query = "SELECT instalaciones.instalacion_id, permisos.atraque from permisos, instalaciones where instalaciones.instalacion_id = permisos.instalacion_id and permisos.atraque between '$inicio' and '$termino' and instalaciones.puerto_id = $puerto_id group by instalaciones.instalacion_id, permisos.atraque having count(permisos.permiso_id) < instalaciones.capacidad order by instalaciones.instalacion_id;";
-  $result = $db85 -> prepare($query);
+  $query = "SELECT * from capacidad_instalacion('$inicio', '$termino', $puerto_id) order by instalacion_id;";
+  $result = $db36 -> prepare($query);
   $result -> execute();
   $dias = $result -> fetchAll();
 ?>
