@@ -40,6 +40,7 @@
   <div class="container">
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
     <div class="row" data-aos="flip-left">
+      <div class="card py-4 px-4">
       <form aling="center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
           <tr>
@@ -59,6 +60,7 @@
         </table>
       </form>
 
+      </div>
     </div>
   </div>
 </div>
