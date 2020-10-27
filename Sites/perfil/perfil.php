@@ -13,6 +13,25 @@
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
   </head>
+
+  <?php 
+  session_start();
+  include('../templates/header.html');
+  $user_passport = $_SESSION['user_passport'];   ?>
+  
+<body>
+<div class="container">
+
+<?php
+
+  $query = "SELECT nombre, edad, sexo, pasaporte, nacionalidad from usuarios where pasaporte = '$user_passport';";
+  require("../config/conexion.php");
+  
+  $result = $db36 -> prepare($query);
+  $result -> execute();
+  $user = $result -> fetchAll();
+
+  ?>
   <body id="top">
     <div class="page-content">
       <div>
@@ -22,28 +41,19 @@
     <p class="px-5 pb-5 text-white" data-aos="fade-up">Toda la info importante:</p>
     <div class="row">
       <div class="col-md-4">
-        <a href="perfil/perfil.php"><div class="card mb-3" data-aos="flip-left">
-          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
-            <div class="h4 pb-3" >Ver mi perfil</div>
-            <p class="text-secondary">En esta sección podrás ver tu perfil y tu información de usuario.</p>
-          </div>
-        </div></a>
-      </div>
-      <div class="col-md-4">
-      <a href="navieras/index.php"><div class="card mb-3" data-aos="zoom-in-up">
-          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
-            <div class="h4 pb-3">Navieras</div>
-            <p class="text-secondary">En esta sección podras ver todas las navieras y sus respectivos buques.</p>
-          </div>
-        </div></a>
-      </div>
-      <div class="col-md-4">
-      <a href="puertos/index.php"><div class="card mb-3" data-aos="flip-right">
-          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-trophy fa-3x"></i>
-            <div class="h4 pb-3">Puertos</div>
-            <p class="text-secondary">Aqui podras vecr toda la info relativa a los puertos, instalaciones o atraques.</p>
-          </div>
-        </div></a>
+        <div class="card mb-3" data-aos="flip-left">
+          <table class="table">
+              <thead>
+                <tr>
+                  <?php
+                  foreach ($user as $u) {
+                      echo "Nombre: $u[0]<br>Edad: $u[1]<br>Sexo: $u[2]<br>Pasaporte: $u[3]<br>Nacionalidad: $u[4]<br><br>";
+                  }
+                  ?>
+                </tr>
+              </thead>
+              <tbody>
+            </table>
       </div>
     </div>
   </div>
@@ -83,4 +93,33 @@
     <script src="js/ekko-lightbox.min.js"></script>
     <script src="scripts/main.js"></script>
   </body>
+  <?php
+  $query_cap = "SELECT distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport';";
+  $result_cap = $db36 -> prepare($query_cap);
+  $result_cap -> execute();
+  $info_caps = $result_cap -> fetchAll();
+  $query_jefe = "SELECT trabajaen.trut, trabajaen.instalacion_id from trabajaen where trabajaen.trut = '$user_passport' and trabajaen.jefe = '1';";
+  $result_jefe = $db85 -> prepare($query_jefe);
+  $result_jefe -> execute();
+  $info_jefes = $result_jefe -> fetchAll();
+  
+  $cargo = 0; # 0 si no es nada, 1 si es cap y 2 si es jefe;
+  
+  if ($info_caps[0]){
+    $cargo = 1;
+    echo "es capitan";
+    include('capitan.php');
+  }
+  if ($info_jefes[0]){
+    $cargo = 2;
+    echo "es jefe";
+    include('jefe.php');
+  }
+  if (!$info_caps[0]){
+    if (!$info_jefes[0]){
+      echo "no es ni jefe ni cap";
+    }
+  }
+
+?>
 </html>

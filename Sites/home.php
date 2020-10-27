@@ -39,7 +39,7 @@
       </div>
       <div class="col-md-4">
       <a href="puertos/index.php"><div class="card mb-3" data-aos="flip-right">
-          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-trophy fa-3x"></i>
+          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-cubes fa-3x"></i>
             <div class="h4 pb-3">Puertos</div>
             <p class="text-secondary">Aqui podras vecr toda la info relativa a los puertos, instalaciones o atraques.</p>
           </div>
