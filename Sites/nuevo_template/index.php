@@ -39,7 +39,7 @@
 <div class="da-section da-work bg-secondary" id="learn">
   <div class="container">
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
-    <div class="row" data-aos="flip-left">
+    <div class="center" data-aos="flip-left">
       <div class="card py-4 px-4">
       <form aling="center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
@@ -57,6 +57,7 @@
               <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
             </td>
           </tr>
+          <a class="smooth-scroll btn btn-outline-light mt-4" href="#contact">GO!</a>
         </table>
       </form>
 
