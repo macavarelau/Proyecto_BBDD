@@ -33,7 +33,7 @@
         <div class="container">
           <div class="col-md-10 col-sm-12 px-0 mx-0">
             <h2 class="display-3" style="margin-left:-6px;">Buquepedia</h2>
-            <h3 class="h5 mt-3">Inicia sesión para navegar en el este paraiso digital</h3><a class="smooth-scroll btn btn-outline-light mt-4" href="#learn">Learn More</a>
+            <h3 class="h5 mt-3">Inicia sesión para navegar en el este paraiso digital</h3><a class="smooth-scroll btn btn-outline-light mt-4" href="#learn">GO!</a>
           </div>
         </div>
       </div>
@@ -42,9 +42,28 @@
       <div>
 <div class="da-section da-work bg-secondary" id="learn">
   <div class="container">
-    <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Why Work With Us?</div>
+    <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     <div class="row">
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+        <table class='table table-hover table-bordered table-center'>
+            <tr>
+                <td>Número de pasaporte</td>
+                <td><input type='text' name='user_passport' class='form-control' /></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><input type='password' name='password' class='form-control' /></td>
+            </tr>
+            <tr>
+                <td>¿No tienes una cuenta? Regístrate <a href= "sign_in.php">aquí</a>.</td>
+                <td>
+                    <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
+                    <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
+                </td>
+            </tr>
+        </table>
+      </form>
       <div class="col-md-4">
         <div class="card mb-3" data-aos="flip-left">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
