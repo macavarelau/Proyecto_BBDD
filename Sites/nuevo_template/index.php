@@ -45,7 +45,7 @@
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     <div class="row" data-aos="flip-left">
-      <form aling="center" class="px-5 pb-5 text-center text-whiteaction=" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+      <form aling="center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
             <tr>
                 <td class="px-5 pb-5 text-center text-white">Número de pasaporte</td>
@@ -59,7 +59,6 @@
                 <td class="px-5 pb-5 text-center text-white">¿No tienes una cuenta? Regístrate <a href= "../sign_in.php">aquí</a>.</td>
                 <td>
                     <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
-                    <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
                 </td>
             </tr>
         </table>
