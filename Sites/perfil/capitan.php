@@ -14,7 +14,7 @@
     $result_buque -> execute();
     $buques = $result_buque -> fetchAll();
 
-    $query_itinerario = "SELECT distinct prox_itinerario.bid, prox_itinerario.puerto, prox_itinerario.llegada from prox_itinerario, (select distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport') as foo where prox_itinerario.bid = foo.id_buque order by llegada limit 1;";
+    $query_itinerario = "SELECT distinct prox_itinerario.puerto, puertos.pnombre, prox_itinerario.llegada from prox_itinerario, puertos, (select distinct buques.bid as id_buque, buques.patente as patente_buque, buques.nombre as nombre_buque, buques.giro as tipo_buque, navieras.nombre as nombre_naviera from buques, navieras, tiene, posee, personal, usuarios where buques.bid = posee.bid and posee.bid = tiene.bid and posee.nid = navieras.nid and personal.pid = tiene.pid and lower(personal.cargo) like '%cap%' and personal.pasaporte = '$user_passport') as foo where prox_itinerario.bid = foo.id_buque and prox_itinerario.puerto = puertos.ptid order by llegada limit 1;";
     $result_itinerario = $db36 -> prepare($query_itinerario);
     $result_itinerario -> execute();
     $itinerarios = $result_itinerario -> fetchAll();
