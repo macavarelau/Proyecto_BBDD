@@ -47,23 +47,23 @@
     <div class="row" data-aos="flip-left">
       <form aling="center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <table class='table table-hover table-bordered table-center'>
-            <tr>
-                <td class="px-5 pb-5 text-center text-white">Número de pasaporte</td>
-                <td><input type='text' name='user_passport' class='form-control' /></td>
-            </tr>
-            <tr>
-                <td class="px-5 pb-5 text-center text-white">Contraseña</td>
-                <td><input type='password' name='password' class='form-control' /></td>
-            </tr>
-            <tr>
-                <td class="px-5 pb-5 text-center text-white">¿No tienes una cuenta? Regístrate <a href= "../sign_in.php">aquí</a>.</td>
-                <td>
-                    <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
-                </td>
-            </tr>
+          <tr>
+            <td class="px-5 pb-5 text-center text-white">Número de pasaporte</td>
+            <td><input type='text' name='user_passport' class='form-control' /></td>
+          </tr>
+          <tr>
+            <td class="px-5 pb-5 text-center text-white">Contraseña</td>
+            <td><input type='password' name='password' class='form-control' /></td>
+          </tr>
+          <tr>
+            <td class="px-5 pb-5 text-center text-white">¿No tienes una cuenta? Regístrate <a href= "../sign_in.php">aquí</a>.</td>
+            <td>
+              <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
+            </td>
+          </tr>
         </table>
       </form>
-      
+
     </div>
   </div>
 </div>
@@ -161,7 +161,7 @@
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("config/conexion.php");
-
+  echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa";
   if(isset($_POST['login']))
   {
     $user_passport = $_POST["user_passport"];
