@@ -14,7 +14,7 @@
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body id="top">
-    <headera>
+    <header class="background-color black">
       <div class="container pt-4">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0"><a class="text-white navbar-brand" href="#">@codd.ing.puc.cl</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#da-navbarNav" aria-controls="da-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-    </headera>
+    </header>
     <div class="page-content">
       <div>
 <div class="da-section da-work bg-secondary" id="learn">
