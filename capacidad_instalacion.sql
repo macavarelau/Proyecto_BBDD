@@ -10,17 +10,17 @@ DECLARE
   t_data2 record;
 BEGIN
   CREATE TABLE CANTIDAD(instalacion int, dia timestamp);
-  FOR t_data in t_curs LOOP
-    contador := 0
-    FOR t_data2 in t_curs2 LOOP
-      IF t_data2.fecha = t_data.day THEN
-        contador := contador + 1
-      END IF
-      IF contador < t_data2.cap THEN
-        INSERT INTO CANTIDAD VALUES(t_data2.iid, t_data2.fecha)
-      END IF;
-      RETURN QUERY SELECT * FROM CANTIDAD;
-      DROP TABLE CANTIDAD;
-      RETURN;
+    FOR t_data in t_curs LOOP
+      contador := 0
+      FOR t_data2 in t_curs2 LOOP
+        IF t_data2.fecha = t_data.day THEN
+          contador := contador + 1
+        END IF
+        IF contador < t_data2.cap THEN
+          INSERT INTO CANTIDAD VALUES(t_data2.iid, t_data2.fecha)
+        END IF;
+        RETURN QUERY SELECT * FROM CANTIDAD;
+        DROP TABLE CANTIDAD;
+        RETURN;
 END;
 $$ language plpgsql;
