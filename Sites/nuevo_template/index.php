@@ -305,7 +305,7 @@
           </div>
           <div class="col-md-4">
             <div class="h6 pb-2">Copyright</div>
-            <p>&copy; 2018 Digital Agency. All rights reserved.</p>
+            <p>&copy; Grupo 38&85 Co. All rights reserved.</p>
             <p>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
           </div>
         </div>
