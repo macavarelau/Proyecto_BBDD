@@ -3,7 +3,7 @@ capacidad_instalacion (f_inicio timestamp, f_termino timestamp, idpuerto int)
 RETURNS TABLE (instalacion_id text, fecha_atraques timestamp) AS $$
 DECLARE 
   contador INT;
-  t_curs cursor for SELECT t.day::date FROM tabla_dias AS t(day);
+  t_curs cursor for SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') AS t(day);
   t_row t_curs%rowtype;
   t_curs2 cursor for (SELECT permisos.permiso_id as pid, permisos.atraque as fecha, permisos.instalacion_id as iid, 
                       instalaciones.capacidad as cap FROM permisos, instalaciones, puertos WHERE 
