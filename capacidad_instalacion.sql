@@ -2,9 +2,11 @@ CREATE or REPLACE FUNCTION
 capacidad_instalacion (f_inicio timestamp, f_termino timestamp, idpuerto int)
 RETURNS TABLE (instalacion_id text, fecha_atraques timestamp) AS $$
 DECLARE 
+  @tabla_dias TABLE(fechas DATE);
+  INSERT INTO @tabla_dias SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') AS t(day);
   contador INT;
-  t_curs cursor for SELECT t.day::date FROM generate_series(f_inicio, f_termino, interval '1 day') AS t(day);
-  t_row t_curs%rowtype;
+  t_curs cursor for SELECT * FROM @tabla_dias;
+  t_row @tabla_dias%rowtype;
   t_curs2 cursor for (SELECT permisos.permiso_id as pid, permisos.atraque as fecha, permisos.instalacion_id as iid, 
                       instalaciones.capacidad as cap FROM permisos, instalaciones, puertos WHERE 
                       permisos.instalacion_id = instalaciones.instalacion_id AND instalaciones.puerto_id = puertos.puerto_id 
