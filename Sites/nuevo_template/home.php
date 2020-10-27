@@ -33,7 +33,7 @@
       <a href="../navieras/index.php"><div class="card mb-3" data-aos="zoom-in-up">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
             <div class="h4 pb-3">Navieras</div>
-            <p>En esta sección podras ver todas las navieras y sus respectivos buques.</p>
+            <p class="text-secondary">En esta sección podras ver todas las navieras y sus respectivos buques.</p>
           </div>
         </div></a>
       </div>
@@ -41,7 +41,7 @@
       <a href="../puertos/index.php"><div class="card mb-3" data-aos="flip-right">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-trophy fa-3x"></i>
             <div class="h4 pb-3">Puertos</div>
-            <p>Aqui podras vecr toda la info relativa a los puertos, instalaciones o atraques.</p>
+            <p class="text-secondary">Aqui podras vecr toda la info relativa a los puertos, instalaciones o atraques.</p>
           </div>
         </div></a>
       </div>
