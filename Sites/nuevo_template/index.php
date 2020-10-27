@@ -1,6 +1,7 @@
 <?php
   session_start();
 ?>
+<!--
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -16,6 +17,7 @@
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
   </head>
+-->
   <body id="top">
     <header>
       <div class="container pt-4">
