@@ -346,7 +346,7 @@
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
-            echo '<script type="text/javascript">location.href = "../home.php";</script>';
+            echo '<script type="text/javascript">location.href = "home.php";</script>';
             exit();
          }
         if($usuarios_2[0][6] != $user_password){
