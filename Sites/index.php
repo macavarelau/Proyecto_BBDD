@@ -1,7 +1,7 @@
 <?php
   session_start();
   include('nuevo_template/index.php');
-  #include('templates/header.html');
+  include('templates/header.html');
 ?>
 
 <body>
