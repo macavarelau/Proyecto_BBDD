@@ -128,7 +128,7 @@ header {
 
 /*Contact Style*/
 .da-contact {
-  background: url("../images/staticmap.png") no-repeat center center;
+  background-color: #26b7a0;
   position: relative;
   min-height: 700px;
   background-size: cover;
