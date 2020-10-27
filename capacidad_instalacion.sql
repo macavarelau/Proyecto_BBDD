@@ -5,7 +5,7 @@ DECLARE
   rec1 RECORD;
   contador INT := 0;
   t_curs1 cursor for SELECT DISTINCT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT instalaciones.instalacion_id, capacidad FROM instalaciones where puerto_id = idpuerto') AS f1(instalacion_id int, capacidad int);
-  t_row1 dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT * FROM instalaciones')%rowtype;
+  t_row1 select distinct * from dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT * FROM instalaciones')%rowtype;
   t_curs2 cursor for SELECT DISTINCT * FROM dblink('host=localhost user=grupo85 dbname=grupo85e3 password=pieza312 port=5432', 'SELECT permiso_id, atraque, permisos.instalacion_id FROM permisos') AS f2(permiso_id int, atraque date, instalacion_id int);
   t_row2 permisos%rowtype;
 BEGIN
