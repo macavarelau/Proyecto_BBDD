@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -286,7 +289,7 @@
   </div>
 </div></div>
     </div>
-    <footer class="bg-secondary da-section">
+    <footer class="bg-primary da-section">
       <div class="container text-white">
         <div class="row">
           <div class="col-md-4">
@@ -346,7 +349,7 @@
         $usuarios_2 = $result_2 -> fetchAll();
         if($usuarios_2[0][6] == $user_password){
             echo '<script type="text/javascript"> alert("¡Bienvenido/a!")</script>';
-            echo '<script type="text/javascript">location.href = "../home.php";</script>';
+            echo '<script type="text/javascript">location.href = "home.php";</script>';
             exit();
          }
         if($usuarios_2[0][6] != $user_password){
