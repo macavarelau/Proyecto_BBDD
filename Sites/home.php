@@ -8,7 +8,7 @@
 
 <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Ver mi perfil</a>
+    <a class="nav-link active" href="perfil/perfil.php">Ver mi perfil</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="navieras/index.php">Navieras</a>
