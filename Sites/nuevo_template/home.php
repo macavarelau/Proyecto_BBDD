@@ -25,13 +25,13 @@
         <a href="perfil/perfil.php"><div class="card mb-3" data-aos="flip-left">
           <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
             <div class="h4 pb-3" href="perfil/perfil.php">Ver mi perfil</div>
-            <p>En esta sección podrás ver tu perfil y tu información de usuario. además si es que eres Jefe de alguna instalación o Capitán de buque, podras fer tu información asociada.</p>
+            <p class="text-secondary">En esta sección podrás ver tu perfil y tu información de usuario. además si es que eres Jefe de alguna instalación o Capitán de buque, podras fer tu información asociada.</p>
           </div>
         </div></a>
       </div>
       <div class="col-md-4">
         <div class="card mb-3" data-aos="zoom-in-up">
-          <div class="card-body mt-4 mb-1 text-center text-primary"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
+          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
             <div class="h4 pb-3">Flexibility</div>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
           </div>
