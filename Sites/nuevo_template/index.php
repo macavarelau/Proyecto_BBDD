@@ -69,7 +69,6 @@
     <div class="container">
       <div class="card py-4 px-4">
         <div class="h4 pb-4">Contact Us</div>
-        <div class="row">
           <div class="col-md-7 col-sm-12 mb-3">
             <div class="da-contact-message">
               <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
