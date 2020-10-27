@@ -45,7 +45,25 @@
     <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Logéate</div>
     <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     <div class="row">
-      
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+        <table class='table table-hover table-bordered table-center'>
+            <tr>
+                <td>Número de pasaporte</td>
+                <td><input type='text' name='user_passport' class='form-control' /></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><input type='password' name='password' class='form-control' /></td>
+            </tr>
+            <tr>
+                <td>¿No tienes una cuenta? Regístrate <a href= "sign_in.php">aquí</a>.</td>
+                <td>
+                    <input type='submit' value='Iniciar Sesión' name='login' class='btn btn-primary' />
+                    <!-- <a href='index.php' class='btn btn-danger'>Back to read products</a> -->
+                </td>
+            </tr>
+        </table>
+      </form>
       
     </div>
   </div>
