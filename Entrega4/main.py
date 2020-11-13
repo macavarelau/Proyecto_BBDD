@@ -18,6 +18,9 @@ db = client["grupo36"]
 # Seleccionamos la collección de usuarios
 usuarios = db.usuarios
 
+# Seleccionamos la collección de usuarios
+mensajes = db.mensajes
+
 # Iniciamos la aplicación de flask
 app = Flask(__name__)
 
@@ -43,7 +46,7 @@ def get_users():
 @app.route("/users/<int:uid>")
 def get_user(uid):
     '''
-    Obtiene el usuario de id entregada
+    que entregue todos los atributos de todos los usuarios en la base de datos.
     '''
     user = list(usuarios.find({"uid": uid}, {"_id": 0}))
 
@@ -77,17 +80,24 @@ def delete_user():
 
 
 @app.route("/messages")
-def get_message():
+def get_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
+
     '''
+    messages = list(mensajes.find({}, {"_id": 0}))
+
+    return json.jsonify(messages)
 
 
-@app.route("/messages/<int:uid>")
-def get_message():
+@app.route("/messages/<int:mid>")
+def get_message(mid):
     '''
-    que al recibir el id de un mensaje, obtenga toda la informa ción asociada a ese mensaje. El id es un identificador numérico entero, distinto al id alfanumérico que utiliza Mongo
+    que al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje. El id es un identificador numérico entero, distinto al id alfanumérico que utiliza Mongo
     '''
+    message = list(mensajes.find({"mid": mid}, {"_id": 0}))
+
+    return json.jsonify(message)
 
 
 if __name__ == "__main__":
