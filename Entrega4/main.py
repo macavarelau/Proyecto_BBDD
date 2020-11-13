@@ -83,5 +83,12 @@ def get_message():
     '''
 
 
+@app.route("/messages/<int:uid>")
+def get_message():
+    '''
+    que al recibir el id de un mensaje, obtenga toda la informa ción asociada a ese mensaje. El id es un identificador numérico entero, distinto al id alfanumérico que utiliza Mongo
+    '''
+
+
 if __name__ == "__main__":
     app.run(debug=True)
