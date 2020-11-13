@@ -76,5 +76,12 @@ def delete_user():
     return json.jsonify({"success": True})
 
 
+@app.route("/messages")
+def get_message():
+    '''
+    entregue todos los atributos de todos los mensajes en la base de datos.
+    '''
+
+
 if __name__ == "__main__":
     app.run(debug=True)
