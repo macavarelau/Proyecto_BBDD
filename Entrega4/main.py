@@ -36,7 +36,7 @@ def home():
 @app.route("/users")
 def get_users():
     '''
-    Obtiene todos los usuarios
+    Entrega todos los atributos de todos los usuarios en la base de datos.
     '''
     users = list(usuarios.find({}, {"_id": 0}))
 
@@ -46,11 +46,14 @@ def get_users():
 @app.route("/users/<int:uid>")
 def get_user(uid):
     '''
-    que entregue todos los atributos de todos los usuarios en la base de datos.
+    Al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje
     '''
     user = list(usuarios.find({"uid": uid}, {"_id": 0}))
+    mensajes_user = list(mensajes.find({"sender": uid}, {"_id": 0}))
 
-    return json.jsonify(user)
+    result = user + mensajes_user
+
+    return json.jsonify(result)
 
 
 @app.route("/users", methods=['POST'])
@@ -85,7 +88,17 @@ def get_messages():
     entregue todos los atributos de todos los mensajes en la base de datos.
 
     '''
-    messages = list(mensajes.find({}, {"_id": 0}))
+    id1  = request.args.get('id1', None)
+    id2  = request.args.get('id2', None)
+
+    if id1 == None:
+        messages = list(mensajes.find({}, {"_id": 0}))
+    
+    else:
+        messages1 = list(mensajes.find({"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
+        messages2 = list(mensajes.find({"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
+        messages = messages1 + messages2
+
 
     return json.jsonify(messages)
 
@@ -98,6 +111,7 @@ def get_message(mid):
     message = list(mensajes.find({"mid": mid}, {"_id": 0}))
 
     return json.jsonify(message)
+
 
 
 if __name__ == "__main__":
