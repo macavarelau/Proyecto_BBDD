@@ -152,43 +152,49 @@ def post_messages():
 @app.route("/text-search")
 def text_search():
 
-    requestx = request.get_json()
+    try:
+        requestx = request.get_json()
+        if requestx != {}:
 
-    deseado = ""
-    prohibido = ""
-    requerido = ""
+            deseado = ""
+            prohibido = ""
+            requerido = ""
 
-    if "desired" in requestx:
-        desired = requestx["desired"]
-        deseado = ""
-        for elem in desired:
-            deseado = deseado + " " + elem
+            if "desired" in requestx:
+                desired = requestx["desired"]
+                deseado = ""
+                for elem in desired:
+                    deseado = deseado + " " + elem
 
-    if "required" in requestx: 
-        required = requestx["required"]
-        requerido = ""
-        for elem in required:
-            requerido = requerido + ' ' + '\"' + elem + '\"'
+            if "required" in requestx: 
+                required = requestx["required"]
+                requerido = ""
+                for elem in required:
+                    requerido = requerido + ' ' + '"' + elem + '"'
 
-    if "forbidden" in requestx:
-        forbidden = requestx["forbidden"]
-        prohibido = ""
-        for elem in forbidden:
-            prohibido = prohibido + " " + "-" + elem
+            if "forbidden" in requestx:
+                forbidden = requestx["forbidden"]
+                prohibido = ""
+                for elem in forbidden:
+                    prohibido = prohibido + " " + "-" + elem
 
-    consulta =  str(deseado + requerido + prohibido)
+            consulta =  str(deseado + requerido + prohibido)
 
-    #return consulta
+            #return consulta
 
-    if "userId" in requestx:
-        if consulta == "":
-            message = list(mensajes.find({"sender": requestx["userId"]}, {"_id": 0}))
+            if "userId" in requestx:
+                if consulta == "":
+                    message = list(mensajes.find({"sender": requestx["userId"]}, {"_id": 0}))
+                else:
+                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
+            else:
+                message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
         else:
-            message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id":0}))
-    else:
-        message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id":0}))
-
-    return json.jsonify(message)
+            message = list(mensajes.find({}, {"_id": 0}))
+    except:
+        message = list(mensajes.find({}, {"_id": 0}))
+    finally:
+        return json.jsonify(message)
 
 
     
