@@ -30,7 +30,7 @@ def home():
     '''
     Página de inicio
     '''
-    return "<h1>¡Hola!</h1>"
+    return "<h1>¡Hola!</h1><h2>Bienvenido a SuperAPI</h2>"
 
 
 @app.route("/users")
@@ -88,17 +88,18 @@ def get_messages():
     entregue todos los atributos de todos los mensajes en la base de datos.
 
     '''
-    id1  = request.args.get('id1', None)
-    id2  = request.args.get('id2', None)
+    id1 = request.args.get('id1', None)
+    id2 = request.args.get('id2', None)
 
     if id1 == None:
         messages = list(mensajes.find({}, {"_id": 0}))
-    
-    else:
-        messages1 = list(mensajes.find({"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
-        messages2 = list(mensajes.find({"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
-        messages = messages1 + messages2
 
+    else:
+        messages1 = list(mensajes.find(
+            {"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
+        messages2 = list(mensajes.find(
+            {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
+        messages = messages1 + messages2
 
     return json.jsonify(messages)
 
@@ -111,7 +112,6 @@ def get_message(mid):
     message = list(mensajes.find({"mid": mid}, {"_id": 0}))
 
     return json.jsonify(message)
-
 
 
 if __name__ == "__main__":
