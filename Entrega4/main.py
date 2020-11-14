@@ -114,6 +114,46 @@ def get_message(mid):
 
     return json.jsonify(message)
 
+@app.route("/text-search")
+def text_search(request):
+    request = dict(request)
+
+    if request["desired"] == []:
+        deseado = ""
+
+    elif request["desired"] != []:
+        desired = request["desired"]
+        deseado = ""
+        for elem in desired:
+            deseado = deseado + " " + elem
+
+    if request["required"] == []:
+        requerido = ""
+
+    elif request["required"] != []:
+        required = request["required"]
+        requerido = ""
+        for elem in required:
+            requerido = requerido + ' ' + '\\"' + elem + '\\"'
+    
+    if request["forbidden"] == []:
+        prohibido = ""
+
+    elif request["forbidden"] != []:
+        forbidden = request["forbidden"]
+        prohibido = ""
+        for elem in forbidden:
+            prohibido = prohibido + " " + "-" + elem
+
+    consulta = deseado + " " + requerido + " " + prohibido
+
+    if request["userId"] != None:
+        message = list(mensajes.find({"$text": {"$search": consulta}, "uid": request["userId"]}, {"_id":0}))
+    else:
+        message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id":0}))
+
+    return json.jsonify(message)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
