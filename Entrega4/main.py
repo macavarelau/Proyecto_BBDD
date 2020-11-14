@@ -10,8 +10,7 @@ URL = f"mongodb://{USER}:{PASS}@gray.ing.puc.cl/{DATABASE}?authSource=admin"
 client = MongoClient(URL)
 
 # revisar esto
-USER_KEYS = ['uid', 'name', 'last_name',
-             'occupation', 'follows', 'age']
+USER_KEYS = ['uid', 'name', 'description', 'age']
 
 # Base de datos del grupo
 db = client["grupo36"]
