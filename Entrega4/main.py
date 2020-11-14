@@ -11,6 +11,7 @@ client = MongoClient(URL)
 
 # revisar esto
 USER_KEYS = ['uid', 'name', 'description', 'age']
+MESSAGE_KEYS = ['mid', 'date', 'lat', 'long', 'message', 'receptant', 'sender']
 
 # Base de datos del grupo
 db = client["grupo36"]
@@ -113,6 +114,22 @@ def get_message(mid):
     message = list(mensajes.find({"mid": mid}, {"_id": 0}))
 
     return json.jsonify(message)
+
+
+@app.route("/messages", methods=['POST'])
+def post_messages():
+    '''
+    entregue todos los atributos de todos los mensajes en la base de datos.
+    '''
+
+    data = {key: request.json[key] for key in MESSAGE_KEYS}
+
+    # El valor de result nos puede ayudar a revisar
+    # si el usuario fue insertado con éxito
+    result = usuarios.insert_one(data)
+
+    return json.jsonify({"success": True})
+
 
 @app.route("/text-search")
 def text_search(request):
