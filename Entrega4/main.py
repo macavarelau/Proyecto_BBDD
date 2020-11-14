@@ -11,6 +11,7 @@ client = MongoClient(URL)
 
 # revisar esto
 USER_KEYS = ['uid', 'name', 'description', 'age']
+MESSAGE_KEYS = ['date', 'lat', 'long', 'message', 'receptant', 'sender']
 
 # Base de datos del grupo
 db = client["grupo36"]
@@ -114,10 +115,45 @@ def get_message(mid):
 
     return json.jsonify(message)
 
+
+@app.route("/messages", methods=['POST'])
+def post_messages():
+    '''
+    entregue todos los atributos de todos los mensajes en la base de datos.
+    '''
+
+    mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
+    print(mids)
+    idd = 0
+    for mid in mids:
+        print(mid)
+        print(type(mid))
+        valor = mid['mid']
+        print(type(valor))
+        print(valor)
+        if idd < valor:
+            idd = valor
+            print("idd: ", idd)
+    idd += 1
+
+    #data = {"mid": request.json[key] for key in MESSAGE_KEYS}
+    print("\n")
+    data = {key: request.json[key] for key in MESSAGE_KEYS}
+    data["mid"] = idd
+
+    print(data)
+
+    # El valor de result nos puede ayudar a revisar
+    # si el usuario fue insertado con éxito
+    result = mensajes.insert_one(data)
+
+    return json.jsonify({"success": True})
+
 @app.route("/text-search")
 def text_search():
 
     requestx = request.get_json()
+
     deseado = ""
     prohibido = ""
     requerido = ""
@@ -132,7 +168,7 @@ def text_search():
         required = requestx["required"]
         requerido = ""
         for elem in required:
-            requerido = requerido + ' ' + '\\"' + elem + '\\"'
+            requerido = requerido + ' ' + '\"' + elem + '\"'
 
     if "forbidden" in requestx:
         forbidden = requestx["forbidden"]
@@ -140,12 +176,15 @@ def text_search():
         for elem in forbidden:
             prohibido = prohibido + " " + "-" + elem
 
-    consulta = '"' + deseado + " " + requerido + " " + prohibido + '"'
+    consulta =  str(deseado + requerido + prohibido)
 
     #return consulta
 
     if "userId" in requestx:
-        message = list(mensajes.find({"$text": {"$search": consulta}, "uid": requestx["userId"]}, {"_id":0}))
+        if consulta == "":
+            message = list(mensajes.find({"sender": requestx["userId"]}, {"_id": 0}))
+        else:
+            message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id":0}))
     else:
         message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id":0}))
 
