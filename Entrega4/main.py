@@ -9,6 +9,7 @@ DATABASE = "grupo36"
 URL = f"mongodb://{USER}:{PASS}@gray.ing.puc.cl/{DATABASE}?authSource=admin"
 client = MongoClient(URL)
 
+# revisar esto
 USER_KEYS = ['uid', 'name', 'last_name',
              'occupation', 'follows', 'age']
 
@@ -49,7 +50,8 @@ def get_user(uid):
     Al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje
     '''
     user = list(usuarios.find({"uid": uid}, {"_id": 0}))
-    mensajes_user = list(mensajes.find({"sender": uid}, {"_id": 0}))
+    mensajes_user = list(mensajes.find(
+        {"sender": uid}, {"_id": 0}))
 
     result = user + mensajes_user
 
