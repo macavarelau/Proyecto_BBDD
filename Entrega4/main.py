@@ -154,7 +154,19 @@ def text_search():
 
     try:
         requestx = request.get_json()
-        if requestx != {}:
+        if requestx == {}:
+            message = list(mensajes.find({}, {"_id": 0}))
+
+        ##Esta parte no está funcionando, hay que arreglarla
+        elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
+            lista_forbidden = []
+            for elem in requestx["forbidden"]:
+                nuevo = "/" + elem + "/"
+                lista_forbidden.append(nuevo)
+
+            message = list(mensajes.find({"message": {"$nin": lista_forbidden}}, {"_id": 0}))
+
+        else:
 
             deseado = ""
             prohibido = ""
@@ -189,8 +201,7 @@ def text_search():
                     message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
             else:
                 message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
-        else:
-            message = list(mensajes.find({}, {"_id": 0}))
+
     except:
         message = list(mensajes.find({}, {"_id": 0}))
     finally:
