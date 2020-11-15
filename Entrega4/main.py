@@ -1,5 +1,6 @@
 from flask import Flask, json, request
 from pymongo import MongoClient
+from datetime import datetime
 
 
 USER = "grupo36"
@@ -78,6 +79,7 @@ def create_user():
 def delete_user():
     '''
     Elimina el usuario de id entregada
+    {"uid": 999}
     '''
     uid = request.json['uid']
     usuarios.remove({"uid": uid})
@@ -121,33 +123,83 @@ def post_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
     '''
-
+    # consultamos todos los mid de la BDD
     mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
-    print(mids)
-    idd = 0
+    # inicializamos un contador
+    contador = 0
+    # recorremos toda la lista de mids
     for mid in mids:
-        print(mid)
-        print(type(mid))
         valor = mid['mid']
-        print(type(valor))
-        print(valor)
-        if idd < valor:
-            idd = valor
-            print("idd: ", idd)
-    idd += 1
+        # si el contador es menor al mid, actualizamos el contador
+        if contador < valor:
+            contador = valor
 
-    #data = {"mid": request.json[key] for key in MESSAGE_KEYS}
-    print("\n")
+    # dejamos al contador como el nuevo mid más alto
+    contador += 1
+    # creamos un dict a partir de los datos entregados en la request de la consulta
+    llaves_request = request.json.keys()
+    # revisamos que estén todas las llaves del request
+    for llave in MESSAGE_KEYS:
+        if llave not in llaves_request:
+            return json.jsonify({"unsuccesful": "parameter {} missig".format(llave)})
+    # revisamos que no sobren llaves del request
+    for key in llaves_request:
+        if key not in MESSAGE_KEYS:
+            return json.jsonify({"unsuccesful": "parameter {} not valid".format(key)})
+
+    # consultamos los ids de los usuarios
+    uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
+
+    sender_id = request.json["sender"]
+    if sender_id not in uids:
+        return json.jsonify({"unsuccesful": "sender with id {} does not exist or is not valid".format(sender_id)})
+
+    receptant_id = request.json["receptant"]
+    if receptant_id not in uids:
+        return json.jsonify({"unsuccesful": "receptant with id {} does not exist or is not valid".format(receptant_id)})
+
+    msg = request.json["message"]
+    if len(msg) == 0:
+        return json.jsonify({"unsuccesful": "Message is empty"})
+
+    lat = request.json["lat"]
+    lon = request.json["long"]
+    if type(lat) != float:
+        return json.jsonify({"unsuccesful": "latitude invalid"})
+    
+    if type(lon) != float:
+        return json.jsonify({"unsuccesful": "longitude invalid"})
+    
+    # para revistar que la fecha esté correcta
+    fecha = request.json["date"]
+    try:
+        datetime.strptime(fecha, '%Y-%m-%d')
+    except ValueError:
+        return json.jsonify({"unsuccesful": "date not valid"})
+
     data = {key: request.json[key] for key in MESSAGE_KEYS}
-    data["mid"] = idd
 
-    print(data)
+    #ACA REVISAMOS TODOS LOS DATOS
 
-    # El valor de result nos puede ayudar a revisar
-    # si el usuario fue insertado con éxito
+
+    # agregamos el mid al dict
+    data["mid"] = contador
+
+    # insertamos el ditc en la base de datos
     result = mensajes.insert_one(data)
 
     return json.jsonify({"success": True})
+
+@app.route("/message/<int:mid>", methods=['DELETE'])
+def delete_message(mid):
+    '''
+    Elimina el mensaje de id entregado
+    '''
+    #message = list(mensajes.find({"mid": mid}, {"_id": 0}))
+    #mid = request.json['mid']
+    mensajes.remove({"mid": mid})
+    return json.jsonify({"success": True})
+
 
 @app.route("/text-search")
 def text_search():
@@ -159,13 +211,16 @@ def text_search():
 
         ##Esta parte no está funcionando, hay que arreglarla
         elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
-            lista_forbidden = []
+            str_forbidden = "x"
             for elem in requestx["forbidden"]:
-                nuevo = "-" + elem
-                lista_forbidden.append(nuevo)
+                nuevo = " -" + elem
+                str_forbidden = str_forbidden + nuevo
+            #str_forbidden = '"' + str_forbidden + '"'
             
-            print(lista_forbidden)
-            message = list(mensajes.find({"$text": {"$search": lista_forbidden}}, {"_id": 0}))
+            print(str_forbidden)
+            message = list(mensajes.find({"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
+            #message = list(mensajes.find({"message": {"$not": {"$in": str_forbioden}}}, {"_id": 0}))
+            #message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
 
         else:
 
