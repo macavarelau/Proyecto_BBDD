@@ -161,10 +161,11 @@ def text_search():
         elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
             lista_forbidden = []
             for elem in requestx["forbidden"]:
-                nuevo = "/" + elem + "/"
+                nuevo = "-" + elem
                 lista_forbidden.append(nuevo)
-
-            message = list(mensajes.find({"message": {"$nin": lista_forbidden}}, {"_id": 0}))
+            
+            print(lista_forbidden)
+            message = list(mensajes.find({"$text": {"$search": lista_forbidden}}, {"_id": 0}))
 
         else:
 
