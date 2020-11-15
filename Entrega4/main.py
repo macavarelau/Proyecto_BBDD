@@ -151,11 +151,24 @@ def post_messages():
     uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
 
     sender_id = request.json["sender"]
-    if sender_id not in uids:
+    receptant_id = request.json["receptant"]
+    
+    # si ids de sender y receptant existen
+    sender_esta = False
+    for uid in uids:
+        if uid['uid'] == sender_id:
+            sender_esta = True
+
+    receptant_esta = False
+    for uid in uids:
+        if uid['uid'] == receptant_id:
+            receptant_esta = True
+
+    # si id de sender o receptant no existe, se da mensaje de error
+    if not sender_esta:
         return json.jsonify({"unsuccesful": "sender with id {} does not exist or is not valid".format(sender_id)})
 
-    receptant_id = request.json["receptant"]
-    if receptant_id not in uids:
+    if not receptant_esta:
         return json.jsonify({"unsuccesful": "receptant with id {} does not exist or is not valid".format(receptant_id)})
 
     msg = request.json["message"]
@@ -184,6 +197,7 @@ def post_messages():
 
     # agregamos el mid al dict
     data["mid"] = contador
+    data["dummy"] = "x"
 
     # insertamos el ditc en la base de datos
     result = mensajes.insert_one(data)
