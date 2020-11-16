@@ -121,22 +121,34 @@ def get_messages():
     id1 = request.args.get('id1', None)
     id2 = request.args.get('id2', None)
 
-    mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
+    uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
     id1_existe = False
     if str(id1).isnumeric():
-        for msg_id in mids:
-            if int(msg_id['mid']) == int(id1):
+        for user_id in uids:
+            if int(user_id['uid']) == int(id1):
                 id1_existe = True
-    else:
+    elif id1 != None:
         return json.jsonify({"Unsuccesful": "not numeric id"})
+    else:
+        if id1 == None:
+            messages = list(mensajes.find({}, {"_id": 0}))
+        else:
+            messages1 = list(mensajes.find(
+                {"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
+            messages2 = list(mensajes.find(
+                {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
+            messages = messages1 + messages2
+        return json.jsonify(messages)
+
 
     if str(id2).isnumeric():
         id2_existe = False
-        for msg_id in mids:
-            if int(msg_id['mid']) == int(id2):
+        for user_id in uids:
+            if int(user_id['uid']) == int(id2):
                 id2_existe = True
-    else:
+    elif id2 != None:
         return json.jsonify({"Unsuccesful": "not numeric id"})
+
 
     print("id1" , id1)
     print("id2" , id2)
