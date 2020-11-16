@@ -304,6 +304,8 @@ def delete_message(mid):
 @app.route("/text-search")
 def text_search():
 
+    message = ""
+
     try:
         requestx = request.get_json()
         if requestx == {}:
@@ -347,13 +349,26 @@ def text_search():
 
             consulta = str(deseado + requerido + prohibido)
 
+            users = list(usuarios.find({}, {"_id": 0, "uid": 1}))
+            user_exist = False
+
             if "userId" in requestx:
-                if consulta == "":
-                    message = list(mensajes.find(
-                        {"sender": requestx["userId"]}, {"_id": 0}))
+                if str(requestx["userId"]).isnumeric(): 
+                    for user in users:
+                        if int(user['uid']) == int(requestx["userId"]):
+                            user_exist = True
+                    if user_exist:
+                        if consulta == "":
+                            message = list(mensajes.find(
+                                {"sender": requestx["userId"]}, {"_id": 0}))
+                        else:
+                            message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
+                                        "sender": requestx["userId"]}]}, {"_id": 0}))
+                    else:
+                        message = [{"Unsuccesful": "user with id {} does not exist".format(requestx["userId"])}]
                 else:
-                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
-                                   "sender": requestx["userId"]}]}, {"_id": 0}))
+                    message = [{"Unsuccesful": "user is not an integer."}]
+                    
             else:
                 if consulta == "":
                     message = list(mensajes.find({}, {"_id": 0}))
@@ -362,6 +377,7 @@ def text_search():
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
+        print(message)
     finally:
         return json.jsonify(message)
 
