@@ -44,6 +44,7 @@ def get_users():
 
     return json.jsonify(users)
 
+
 @app.route("/users/<int:uid>")
 def get_user(uid):
     '''
@@ -117,7 +118,7 @@ def get_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
     '''
-    
+
     id1 = request.args.get('id1', None)
     id2 = request.args.get('id2', None)
 
@@ -140,7 +141,6 @@ def get_messages():
             messages = messages1 + messages2
         return json.jsonify(messages)
 
-
     if str(id2).isnumeric():
         id2_existe = False
         for user_id in uids:
@@ -149,9 +149,8 @@ def get_messages():
     elif id2 != None:
         return json.jsonify({"Unsuccesful": "not numeric id"})
 
-
-    print("id1" , id1)
-    print("id2" , id2)
+    print("id1", id1)
+    print("id2", id2)
 
     if id1_existe:
         if id2_existe:
@@ -163,6 +162,8 @@ def get_messages():
                 messages2 = list(mensajes.find(
                     {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
                 messages = messages1 + messages2
+                if not messages:
+                    return json.jsonify({"Unsuccesful": "There are no messages between these users"})
             return json.jsonify(messages)
         else:
             return json.jsonify({"Unsuccesful": "User with id {} does not exist".format(id2)})
@@ -214,7 +215,7 @@ def post_messages():
     # revisamos que estén todas las llaves del request
     for llave in MESSAGE_KEYS:
         if llave not in llaves_request:
-            return json.jsonify({"unsuccesful": "parameter {} missig".format(llave)})
+            return json.jsonify({"unsuccesful": "parameter {} missing".format(llave)})
     # revisamos que no sobren llaves del request
     for key in llaves_request:
         if key not in MESSAGE_KEYS:
@@ -225,7 +226,7 @@ def post_messages():
 
     sender_id = request.json["sender"]
     receptant_id = request.json["receptant"]
-    
+
     # si ids de sender y receptant existen
     sender_esta = False
     for uid in uids:
@@ -252,10 +253,10 @@ def post_messages():
     lon = request.json["long"]
     if type(lat) != float:
         return json.jsonify({"unsuccesful": "latitude invalid"})
-    
+
     if type(lon) != float:
         return json.jsonify({"unsuccesful": "longitude invalid"})
-    
+
     # para revistar que la fecha esté correcta
     fecha = request.json["date"]
     try:
@@ -265,8 +266,7 @@ def post_messages():
 
     data = {key: request.json[key] for key in MESSAGE_KEYS}
 
-    #ACA REVISAMOS TODOS LOS DATOS
-
+    # ACA REVISAMOS TODOS LOS DATOS
 
     # agregamos el mid al dict
     data["mid"] = contador
@@ -309,16 +309,17 @@ def text_search():
         if requestx == {}:
             message = list(mensajes.find({}, {"_id": 0}))
 
-        ##Esta parte no está funcionando, hay que arreglarla
+        # Esta parte no está funcionando, hay que arreglarla
         elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
             str_forbidden = "x"
             for elem in requestx["forbidden"]:
                 nuevo = " -" + elem
                 str_forbidden = str_forbidden + nuevo
             #str_forbidden = '"' + str_forbidden + '"'
-            
+
             print(str_forbidden)
-            message = list(mensajes.find({"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
+            message = list(mensajes.find(
+                {"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
             #message = list(mensajes.find({"message": {"$not": {"$in": str_forbioden}}}, {"_id": 0}))
             #message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
 
@@ -334,7 +335,7 @@ def text_search():
                 for elem in desired:
                     deseado = deseado + " " + elem
 
-            if "required" in requestx: 
+            if "required" in requestx:
                 required = requestx["required"]
                 requerido = ""
                 for elem in required:
@@ -346,25 +347,25 @@ def text_search():
                 for elem in forbidden:
                     prohibido = prohibido + " " + "-" + elem
 
-            consulta =  str(deseado + requerido + prohibido)
+            consulta = str(deseado + requerido + prohibido)
 
-            #return consulta
+            # return consulta
 
             if "userId" in requestx:
                 if consulta == "":
-                    message = list(mensajes.find({"sender": requestx["userId"]}, {"_id": 0}))
+                    message = list(mensajes.find(
+                        {"sender": requestx["userId"]}, {"_id": 0}))
                 else:
-                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
+                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
+                                   "sender": requestx["userId"]}]}, {"_id": 0}))
             else:
-                message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
+                message = list(mensajes.find(
+                    {"$text": {"$search": consulta}}, {"_id": 0}))
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
     finally:
         return json.jsonify(message)
-
-
-    
 
 
 if __name__ == "__main__":
