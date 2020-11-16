@@ -309,19 +309,17 @@ def text_search():
         if requestx == {}:
             message = list(mensajes.find({}, {"_id": 0}))
 
-        # Esta parte no está funcionando, hay que arreglarla
         elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
             str_forbidden = "x"
             for elem in requestx["forbidden"]:
                 nuevo = " -" + elem
                 str_forbidden = str_forbidden + nuevo
-            #str_forbidden = '"' + str_forbidden + '"'
 
-            print(str_forbidden)
-            message = list(mensajes.find(
-                {"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
-            #message = list(mensajes.find({"message": {"$not": {"$in": str_forbioden}}}, {"_id": 0}))
-            #message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
+            if "userId" in requestx:
+                print(str_forbidden)
+                message = list(mensajes.find({"$and": [{"$text": {"$search": str_forbidden}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
+            else:                
+                message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
 
         else:
 
@@ -349,8 +347,6 @@ def text_search():
 
             consulta = str(deseado + requerido + prohibido)
 
-            # return consulta
-
             if "userId" in requestx:
                 if consulta == "":
                     message = list(mensajes.find(
@@ -359,8 +355,10 @@ def text_search():
                     message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
                                    "sender": requestx["userId"]}]}, {"_id": 0}))
             else:
-                message = list(mensajes.find(
-                    {"$text": {"$search": consulta}}, {"_id": 0}))
+                if consulta == "":
+                    message = list(mensajes.find({}, {"_id": 0}))
+                else:
+                    message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
