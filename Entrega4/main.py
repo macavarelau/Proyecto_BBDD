@@ -50,13 +50,26 @@ def get_user(uid):
     '''
     Al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje
     '''
-    user = list(usuarios.find({"uid": uid}, {"_id": 0}))
-    mensajes_user = list(mensajes.find(
-        {"sender": uid}, {"_id": 0}))
+    uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
 
-    result = user + mensajes_user
+    if str(uid).isnumeric():
+        id_existe = False
+        for user_id in uids:
+            if int(user_id['uid']) == int(uid):
+                id_existe = True
+    else:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
 
-    return json.jsonify(result)
+    if id_existe:
+        user = list(usuarios.find({"uid": uid}, {"_id": 0}))
+        mensajes_user = list(mensajes.find(
+            {"sender": uid}, {"_id": 0}))
+
+        result = user + mensajes_user
+
+        return json.jsonify(result)
+    else:
+        return json.jsonify({"unsuccesful": "User with id {} does not exist".format(uid)})
 
 
 @app.route("/users", methods=['POST'])
@@ -82,30 +95,80 @@ def delete_user():
     {"uid": 999}
     '''
     uid = request.json['uid']
-    usuarios.remove({"uid": uid})
-    return json.jsonify({"success": True})
+
+    uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
+
+    id_existe = False
+    if str(uid).isnumeric():
+        for user_id in uids:
+            if int(user_id['uid']) == int(uid):
+                id_existe = True
+    else:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
+
+    if id_existe:
+        usuarios.remove({"uid": uid})
+        return json.jsonify({"success": True})
+    else:
+        return json.jsonify({"unsuccesful": "User with id {} does not exist".format(uid)})
 
 
 @app.route("/messages")
 def get_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
-
     '''
+
     id1 = request.args.get('id1', None)
     id2 = request.args.get('id2', None)
 
-    if id1 == None:
-        messages = list(mensajes.find({}, {"_id": 0}))
-
+    uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
+    id1_existe = False
+    if str(id1).isnumeric():
+        for user_id in uids:
+            if int(user_id['uid']) == int(id1):
+                id1_existe = True
+    elif id1 != None:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
     else:
-        messages1 = list(mensajes.find(
-            {"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
-        messages2 = list(mensajes.find(
-            {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
-        messages = messages1 + messages2
+        if id1 == None:
+            messages = list(mensajes.find({}, {"_id": 0}))
+        else:
+            messages1 = list(mensajes.find(
+                {"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
+            messages2 = list(mensajes.find(
+                {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
+            messages = messages1 + messages2
+        return json.jsonify(messages)
 
-    return json.jsonify(messages)
+    if str(id2).isnumeric():
+        id2_existe = False
+        for user_id in uids:
+            if int(user_id['uid']) == int(id2):
+                id2_existe = True
+    elif id2 != None:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
+
+    print("id1", id1)
+    print("id2", id2)
+
+    if id1_existe:
+        if id2_existe:
+            if id1 == None:
+                messages = list(mensajes.find({}, {"_id": 0}))
+            else:
+                messages1 = list(mensajes.find(
+                    {"$and": [{"sender": int(id1)}, {"receptant": int(id2)}]}, {"_id": 0}))
+                messages2 = list(mensajes.find(
+                    {"$and": [{"sender": int(id2)}, {"receptant": int(id1)}]}, {"_id": 0}))
+                messages = messages1 + messages2
+                if not messages:
+                    return json.jsonify({"Unsuccesful": "There are no messages between these users"})
+            return json.jsonify(messages)
+        else:
+            return json.jsonify({"Unsuccesful": "User with id {} does not exist".format(id2)})
+    else:
+        return json.jsonify({"Unsuccesful": "User with id {} does not exist".format(id1)})
 
 
 @app.route("/messages/<int:mid>")
@@ -113,9 +176,20 @@ def get_message(mid):
     '''
     que al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje. El id es un identificador numérico entero, distinto al id alfanumérico que utiliza Mongo
     '''
-    message = list(mensajes.find({"mid": mid}, {"_id": 0}))
+    mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
+    id_existe = False
+    if str(mid).isnumeric():
+        for msg_id in mids:
+            if int(msg_id['mid']) == int(mid):
+                id_existe = True
+    else:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
 
-    return json.jsonify(message)
+    if id_existe:
+        message = list(mensajes.find({"mid": mid}, {"_id": 0}))
+        return json.jsonify(message)
+    else:
+        return json.jsonify({"Unsuccesful": "Message with id {} does not exist".format(mid)})
 
 
 @app.route("/messages", methods=['POST'])
@@ -141,7 +215,7 @@ def post_messages():
     # revisamos que estén todas las llaves del request
     for llave in MESSAGE_KEYS:
         if llave not in llaves_request:
-            return json.jsonify({"unsuccesful": "parameter {} missig".format(llave)})
+            return json.jsonify({"unsuccesful": "parameter {} missing".format(llave)})
     # revisamos que no sobren llaves del request
     for key in llaves_request:
         if key not in MESSAGE_KEYS:
@@ -151,11 +225,24 @@ def post_messages():
     uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
 
     sender_id = request.json["sender"]
-    if sender_id not in uids:
+    receptant_id = request.json["receptant"]
+
+    # si ids de sender y receptant existen
+    sender_esta = False
+    for uid in uids:
+        if uid['uid'] == sender_id:
+            sender_esta = True
+
+    receptant_esta = False
+    for uid in uids:
+        if uid['uid'] == receptant_id:
+            receptant_esta = True
+
+    # si id de sender o receptant no existe, se da mensaje de error
+    if not sender_esta:
         return json.jsonify({"unsuccesful": "sender with id {} does not exist or is not valid".format(sender_id)})
 
-    receptant_id = request.json["receptant"]
-    if receptant_id not in uids:
+    if not receptant_esta:
         return json.jsonify({"unsuccesful": "receptant with id {} does not exist or is not valid".format(receptant_id)})
 
     msg = request.json["message"]
@@ -166,10 +253,10 @@ def post_messages():
     lon = request.json["long"]
     if type(lat) != float:
         return json.jsonify({"unsuccesful": "latitude invalid"})
-    
+
     if type(lon) != float:
         return json.jsonify({"unsuccesful": "longitude invalid"})
-    
+
     # para revistar que la fecha esté correcta
     fecha = request.json["date"]
     try:
@@ -179,16 +266,17 @@ def post_messages():
 
     data = {key: request.json[key] for key in MESSAGE_KEYS}
 
-    #ACA REVISAMOS TODOS LOS DATOS
-
+    # ACA REVISAMOS TODOS LOS DATOS
 
     # agregamos el mid al dict
     data["mid"] = contador
+    data["dummy"] = "x"
 
     # insertamos el ditc en la base de datos
     result = mensajes.insert_one(data)
 
     return json.jsonify({"success": True})
+
 
 @app.route("/message/<int:mid>", methods=['DELETE'])
 def delete_message(mid):
@@ -197,8 +285,20 @@ def delete_message(mid):
     '''
     #message = list(mensajes.find({"mid": mid}, {"_id": 0}))
     #mid = request.json['mid']
-    mensajes.remove({"mid": mid})
-    return json.jsonify({"success": True})
+    mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
+    id_existe = False
+    if str(mid).isnumeric():
+        for msg_id in mids:
+            if int(msg_id['mid']) == int(mid):
+                id_existe = True
+    else:
+        return json.jsonify({"Unsuccesful": "not numeric id"})
+
+    if id_existe:
+        mensajes.remove({"mid": mid})
+        return json.jsonify({"success": True})
+    else:
+        return json.jsonify({"Unsuccesful": "Message with id {} does not exist".format(mid)})
 
 
 @app.route("/text-search")
@@ -209,16 +309,17 @@ def text_search():
         if requestx == {}:
             message = list(mensajes.find({}, {"_id": 0}))
 
-        ##Esta parte no está funcionando, hay que arreglarla
+        # Esta parte no está funcionando, hay que arreglarla
         elif "forbidden" in requestx and "desired" not in requestx and "required" not in requestx:
             str_forbidden = "x"
             for elem in requestx["forbidden"]:
                 nuevo = " -" + elem
                 str_forbidden = str_forbidden + nuevo
             #str_forbidden = '"' + str_forbidden + '"'
-            
+
             print(str_forbidden)
-            message = list(mensajes.find({"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
+            message = list(mensajes.find(
+                {"$text": {"$search": "x -Mensaje -Gracias"}}, {"_id": 0}))
             #message = list(mensajes.find({"message": {"$not": {"$in": str_forbioden}}}, {"_id": 0}))
             #message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
 
@@ -234,7 +335,7 @@ def text_search():
                 for elem in desired:
                     deseado = deseado + " " + elem
 
-            if "required" in requestx: 
+            if "required" in requestx:
                 required = requestx["required"]
                 requerido = ""
                 for elem in required:
@@ -246,25 +347,25 @@ def text_search():
                 for elem in forbidden:
                     prohibido = prohibido + " " + "-" + elem
 
-            consulta =  str(deseado + requerido + prohibido)
+            consulta = str(deseado + requerido + prohibido)
 
-            #return consulta
+            # return consulta
 
             if "userId" in requestx:
                 if consulta == "":
-                    message = list(mensajes.find({"sender": requestx["userId"]}, {"_id": 0}))
+                    message = list(mensajes.find(
+                        {"sender": requestx["userId"]}, {"_id": 0}))
                 else:
-                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
+                    message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
+                                   "sender": requestx["userId"]}]}, {"_id": 0}))
             else:
-                message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
+                message = list(mensajes.find(
+                    {"$text": {"$search": consulta}}, {"_id": 0}))
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
     finally:
         return json.jsonify(message)
-
-
-    
 
 
 if __name__ == "__main__":
