@@ -377,7 +377,6 @@ def text_search():
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
-        print(message)
     finally:
         return json.jsonify(message)
 
