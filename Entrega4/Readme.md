@@ -22,10 +22,10 @@
 
         Por último, para evitar las "stop words", usamos el siguiente link: https://stackoverflow.com/questions/49171693/disable-stop-word-filtering-in-a-mongodb-text-search.  Donde lo que hicimos fue que al crear el index, pusimos como default-language: None.
 
-    * POST: Implementado en su totalidad.
+    * POST: Implementado en su totalidad. :heavy_check_mark:
 
-    * DELETE: Implementado en su totalidad.
-
+    * DELETE: Implementado en su totalidad. :heavy_check_mark:
+ 
 ---
 ## Ejecución :computer:  :abc:
 
