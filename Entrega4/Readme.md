@@ -29,7 +29,7 @@
 ---
 ## Ejecución :computer:  :abc:
 
-El módulo a ejecutar es  ```main.py```. 
+En primer lugar debes descomprimir el archivo `.zip`. Luego, módulo a ejecutar es  ```main.py```. 
 Notar que antes de correr la aplicación, es necesario estar en el entorno virtual (mediante ```pipenv install``` y luego ```pipenv shell``` en la terminal, estando parado en la misma carpeta: Entrega 4).
 
 ---
