@@ -64,7 +64,7 @@ def home():
         </ul>
         <hr>
         <h2 id="ejecuci-n">Ejecución</h2>
-        <p>En primer lugar, debes descomprimir el archivo <code>.zip</code>. Luego, módulo a ejecutar es  <code>main.py</code>. 
+        <p>En primer lugar, debes descomprimir el archivo <code>API.zip</code>. Luego, módulo a ejecutar es  <code>main.py</code>. 
         Notar que antes de correr la aplicación, es necesario estar en el entorno virtual (mediante <code>pipenv install</code> y luego <code>pipenv shell</code> en la terminal, estando parado en la misma carpeta: Entrega 4).</p>
         <hr>
         <h2 id="librer-as-externas-ocupadas">Librerías externas ocupadas</h2>
