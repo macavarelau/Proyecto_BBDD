@@ -32,10 +32,51 @@ def home():
     '''
     Página de inicio
     '''
-    return "<h1>¡Hola!</h1><h2>Bienvenido a SuperAPI</h2>"
+
+    return """<h1 id="entrega-4-grupos-36-y-85-">Entrega 4 (grupos 36 y 85) :)</h1>
+        <h2 id="consideraciones-generales">Consideraciones generales</h2>
+        <hr>
+        <h3 id="cosas-implementadas-y-no-implementadas-">Cosas implementadas y no implementadas:</h3>
+        <ul>
+        <li><p>GET básico:</p>
+        <ul>
+        <li><code>/messages</code>: Implementado en su totalidad. :)</li>
+        <li><code>/users</code>: Implementado en su totalidad. :)</li>
+        <li><code>/messages/:id</code>: Implementado en su totalidad. :)</li>
+        <li><code>/users/:id</code>: Implementado en su totalidad. :)</li>
+        <li><code>/messages?id1=x&amp;id2=y</code>: Implementado en su totalidad. :) 
+        Para acceder a los id&#39;s entregados en la ruta, nos basamos en el código del siguiente link: <a href="https://stackoverflow.com/questions/15182696/multiple-parameters-in-in-flask-approute">https://stackoverflow.com/questions/15182696/multiple-parameters-in-in-flask-approute</a>.</li>
+        </ul>
+        </li>
+        <li><p>GET búsqueda de texto: </p>
+        <ul>
+        <li><p>Implementado en su totalidad. :)</p>
+        <p>Para nuetra <strong>API</strong> funcione correctamente al entregar solo palabras prohibidas (forbidden), nos basamos en el siguiente link: <a href="https://stackoverflow.com/questions/59574062/mongodb-text-search-with-only-negated-terms">https://stackoverflow.com/questions/59574062/mongodb-text-search-with-only-negated-terms</a>.  </p>
+        <p>Además, agregamos un campo llamado &quot;dummy&quot; que por default siempre tiene como valor un string &quot;x&quot;. Luego creamos un indice text para &quot;dummy&quot; y para &quot;message&quot;. Esto nos ayuda a tomar todos los mensajes excepto los que contengan las palabras que vienen en el campo &quot;forbidden&quot; del body del request.</p>
+        <p>  Por último, para evitar las &quot;stop words&quot;, usamos el siguiente link: <a href="https://stackoverflow.com/questions/49171693/disable-stop-word-filtering-in-a-mongodb-text-search">https://stackoverflow.com/questions/49171693/disable-stop-word-filtering-in-a-mongodb-text-search</a>.  Donde lo que hicimos fue que al crear el index, pusimos como default-language: None.</p>
+        </li>
+        <li><p>POST: Implementado en su totalidad. :)</p>
+        </li>
+        <li><p>DELETE: Implementado en su totalidad. :)</p>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        <hr>
+        <h2 id="ejecuci-n">Ejecución</h2>
+        <p>En primer lugar, debes descomprimir el archivo <code>.zip</code>. Luego, módulo a ejecutar es  <code>main.py</code>. 
+        Notar que antes de correr la aplicación, es necesario estar en el entorno virtual (mediante <code>pipenv install</code> y luego <code>pipenv shell</code> en la terminal, estando parado en la misma carpeta: Entrega 4).</p>
+        <hr>
+        <h2 id="librer-as-externas-ocupadas">Librerías externas ocupadas</h2>
+        <ul>
+        <li>datetime </li>
+        <li>flask</li>
+        <li>pymongo</li>
+        </ul>
+        """
 
 
-@app.route("/users")
+@ app.route("/users")
 def get_users():
     '''
     Entrega todos los atributos de todos los usuarios en la base de datos.
@@ -45,7 +86,7 @@ def get_users():
     return json.jsonify(users)
 
 
-@app.route("/users/<int:uid>")
+@ app.route("/users/<int:uid>")
 def get_user(uid):
     '''
     Al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje
@@ -72,7 +113,7 @@ def get_user(uid):
         return json.jsonify({"unsuccesful": "User with id {} does not exist".format(uid)})
 
 
-@app.route("/users", methods=['POST'])
+@ app.route("/users", methods=['POST'])
 def create_user():
     '''
     Crea un nuevo usuario en la base de datos
@@ -88,7 +129,7 @@ def create_user():
     return json.jsonify({"success": True})
 
 
-@app.route("/users", methods=['DELETE'])
+@ app.route("/users", methods=['DELETE'])
 def delete_user():
     '''
     Elimina el usuario de id entregada
@@ -113,7 +154,7 @@ def delete_user():
         return json.jsonify({"unsuccesful": "User with id {} does not exist".format(uid)})
 
 
-@app.route("/messages")
+@ app.route("/messages")
 def get_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
@@ -171,7 +212,7 @@ def get_messages():
         return json.jsonify({"Unsuccesful": "User with id {} does not exist".format(id1)})
 
 
-@app.route("/messages/<int:mid>")
+@ app.route("/messages/<int:mid>")
 def get_message(mid):
     '''
     que al recibir el id de un mensaje, obtenga toda la información asociada a ese mensaje. El id es un identificador numérico entero, distinto al id alfanumérico que utiliza Mongo
@@ -192,7 +233,7 @@ def get_message(mid):
         return json.jsonify({"Unsuccesful": "Message with id {} does not exist".format(mid)})
 
 
-@app.route("/messages", methods=['POST'])
+@ app.route("/messages", methods=['POST'])
 def post_messages():
     '''
     entregue todos los atributos de todos los mensajes en la base de datos.
@@ -280,13 +321,13 @@ def post_messages():
     return json.jsonify({"success": True})
 
 
-@app.route("/message/<int:mid>", methods=['DELETE'])
+@ app.route("/message/<int:mid>", methods=['DELETE'])
 def delete_message(mid):
     '''
     Elimina el mensaje de id entregado
     '''
-    #message = list(mensajes.find({"mid": mid}, {"_id": 0}))
-    #mid = request.json['mid']
+    # message = list(mensajes.find({"mid": mid}, {"_id": 0}))
+    # mid = request.json['mid']
     mids = list(mensajes.find({}, {"_id": 0, "mid": 1}))
     id_existe = False
     if str(mid).isnumeric():
@@ -303,7 +344,7 @@ def delete_message(mid):
         return json.jsonify({"Unsuccesful": "Message with id {} does not exist".format(mid)})
 
 
-@app.route("/text-search")
+@ app.route("/text-search")
 def text_search():
 
     message = ""
@@ -322,7 +363,7 @@ def text_search():
             if "userId" in requestx:
                 print(str_forbidden)
                 message = list(mensajes.find({"$and": [{"$text": {"$search": str_forbidden}}, {
-                               "sender": requestx["userId"]}]}, {"_id": 0}))
+                    "sender": requestx["userId"]}]}, {"_id": 0}))
             else:
                 message = list(mensajes.find(
                     {"$text": {"$search": str_forbidden}}, {"_id": 0}))
