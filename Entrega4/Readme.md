@@ -36,6 +36,6 @@ Notar que antes de correr la aplicación, es necesario estar en el entorno virtu
 
 ## Librerías externas ocupadas :book:
 
-* datetime
-* flask
-* pymongo
+* datetime :date: :alarm_clock:
+* flask :postal_horn: :gun:
+* pymongo :snake::seedling:
