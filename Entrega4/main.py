@@ -211,15 +211,18 @@ def post_messages():
     # dejamos al contador como el nuevo mid más alto
     contador += 1
     # creamos un dict a partir de los datos entregados en la request de la consulta
-    llaves_request = request.json.keys()
+    try:
+        llaves_request = request.json.keys()
+    except:
+        return json.jsonify({"unsuccesful": "400 bad request"})
     # revisamos que estén todas las llaves del request
     for llave in MESSAGE_KEYS:
         if llave not in llaves_request:
-            return json.jsonify({"unsuccesful": "parameter {} missing".format(llave)})
+            return json.jsonify({"unsuccesful": "parameter '{}' missing".format(llave)})
     # revisamos que no sobren llaves del request
     for key in llaves_request:
         if key not in MESSAGE_KEYS:
-            return json.jsonify({"unsuccesful": "parameter {} not valid".format(key)})
+            return json.jsonify({"unsuccesful": "parameter '{}' not valid".format(key)})
 
     # consultamos los ids de los usuarios
     uids = list(usuarios.find({}, {"_id": 0, "uid": 1}))
@@ -274,7 +277,6 @@ def post_messages():
 
     # insertamos el ditc en la base de datos
     result = mensajes.insert_one(data)
-
     return json.jsonify({"success": True})
 
 
@@ -319,9 +321,11 @@ def text_search():
 
             if "userId" in requestx:
                 print(str_forbidden)
-                message = list(mensajes.find({"$and": [{"$text": {"$search": str_forbidden}}, {"sender": requestx["userId"]}]}, {"_id": 0}))
-            else:                
-                message = list(mensajes.find({"$text": {"$search": str_forbidden}}, {"_id": 0}))
+                message = list(mensajes.find({"$and": [{"$text": {"$search": str_forbidden}}, {
+                               "sender": requestx["userId"]}]}, {"_id": 0}))
+            else:
+                message = list(mensajes.find(
+                    {"$text": {"$search": str_forbidden}}, {"_id": 0}))
 
         else:
 
@@ -353,7 +357,7 @@ def text_search():
             user_exist = False
 
             if "userId" in requestx:
-                if str(requestx["userId"]).isnumeric(): 
+                if str(requestx["userId"]).isnumeric():
                     for user in users:
                         if int(user['uid']) == int(requestx["userId"]):
                             user_exist = True
@@ -363,17 +367,19 @@ def text_search():
                                 {"sender": requestx["userId"]}, {"_id": 0}))
                         else:
                             message = list(mensajes.find({"$and": [{"$text": {"$search": consulta}}, {
-                                        "sender": requestx["userId"]}]}, {"_id": 0}))
+                                "sender": requestx["userId"]}]}, {"_id": 0}))
                     else:
-                        message = [{"Unsuccesful": "user with id {} does not exist".format(requestx["userId"])}]
+                        message = [
+                            {"Unsuccesful": "user with id {} does not exist".format(requestx["userId"])}]
                 else:
                     message = [{"Unsuccesful": "user is not an integer."}]
-                    
+
             else:
                 if consulta == "":
                     message = list(mensajes.find({}, {"_id": 0}))
                 else:
-                    message = list(mensajes.find({"$text": {"$search": consulta}}, {"_id": 0}))
+                    message = list(mensajes.find(
+                        {"$text": {"$search": consulta}}, {"_id": 0}))
 
     except:
         message = list(mensajes.find({}, {"_id": 0}))
