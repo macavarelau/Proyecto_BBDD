@@ -1,6 +1,7 @@
 from flask import Flask, json, request
 from pymongo import MongoClient
 from datetime import datetime
+import subprocess
 
 
 USER = "grupo36"
@@ -29,6 +30,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+
+    
+    subprocess.call("php mapa.php")    
+
     '''
     Página de inicio
     '''
