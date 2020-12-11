@@ -8,6 +8,7 @@ numpy = "*"
 flask = "*"
 pymongo = "*"
 datetime = "*"
+gunicorn = "*"
 
 [dev-packages]
 pylint = "*"
