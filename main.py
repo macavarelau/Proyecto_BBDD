@@ -31,10 +31,13 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    proc = subprocess.Popen("php mapa.php", shell=True, stdout=subprocess.PIPE)
-    script_response = proc.stdout.read()
+    '''
+    Página de inicio
+    '''
 
-    return script_response
+    return """<h1>Entrega 5 (grupos 36 y 85) :)</h1>
+    
+        """
 
 
 @ app.route("/users")
